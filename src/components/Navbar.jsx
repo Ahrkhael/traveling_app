@@ -1,10 +1,12 @@
 export default function Navbar() {
   return (
-    <nav>
-      <img />
-      <a href="/">Home</a>
-      <a href="/events">Events</a>
-      <a href="/about-us">About us</a>
-    </nav>
+    <header>
+      <nav>
+        <img />
+        <a href="/">Home</a>
+        <a href="/cities">Cities</a>
+        <a href="/about-us">About us</a>
+      </nav>
+    </header>
   );
 }
