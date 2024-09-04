@@ -1,17 +1,18 @@
 //import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import citiesData from "../../data/data.json";
 
-const cities = ["Madrid", "Barcelona", "Sevilla", "Valencia"];
+const cities = citiesData.Cities;
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <ul>
+      <ul className={styles.list}>
         {cities.map((city) => (
-          <li key={city}>
-            <Link href={`/${city}`}>
-              <h2>{city}</h2>
+          <li key={city.city}>
+            <Link href={`/${city.city}`}>
+              <h2>{city.city}</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
