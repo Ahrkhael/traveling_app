@@ -34,6 +34,10 @@
   border-radius: var(--border-radius);
 }
 
+.list {
+  list-style-type: none;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -51,7 +55,9 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+  transition:
+    background 200ms,
+    border 200ms;
 }
 
 .card span {

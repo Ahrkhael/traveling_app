@@ -1,0 +1,64 @@
+{
+  "Cities": [
+    {
+      "city": "Madrid",
+      "monuments": [
+        {
+          "monument": "Palacio real",
+          "description": "Este es el palacio real"
+        },
+        {
+          "monument": "Parque del retiro",
+          "description": "Este es el parque del retiro"
+        }
+      ]
+    },
+    {
+      "city": "Barcelona",
+      "monuments": [
+        {
+          "monument": "Sagrada familia",
+          "description": "Esta es la Sagrada Familia"
+        },
+        {
+          "monument": "Catedral de Barcelona",
+          "description": "Esta es la Catedral de Barcelona"
+        },
+        {
+          "monument": "Liceu",
+          "description": "Este es el Liceu"
+        }
+      ]
+    },
+    {
+      "city": "Sevilla",
+      "monuments": [
+        {
+          "monument": "Giralda",
+          "description": "Esta es la Giralda"
+        },
+        {
+          "monument": "Alcázar",
+          "description": "Este es el Alcázar de Sevilla"
+        },
+        {
+          "monument": "Plaza de España",
+          "description": "Esta es la Plaza de España de Sevilla"
+        }
+      ]
+    },
+    {
+      "city": "Valencia",
+      "monuments": [
+        {
+          "monument": "Ciudad de las Artes",
+          "description": "Esta es la Ciudad de las Artes"
+        },
+        {
+          "monument": "Lonja de la Seda",
+          "description": "Esta es la Lonja de la Seda"
+        }
+      ]
+    }
+  ]
+}
