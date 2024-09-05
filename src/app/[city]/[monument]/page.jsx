@@ -1,27 +1,41 @@
-const validMonuments = {
-  Sevilla: ["Giralda", "Alcázar", "Plaza de España"],
-  Valencia: ["Ciudad de las Artes", "Lonja de la Seda"],
-  Madrid: ["Palacio Real", "Parque del Retiro"],
-  Barcelona: ["Sagrada Familia", "Catedral de Barcelona", "Liceu"],
-};
+// src/[city]/[monument]/page.jsx
+"use client";
 
-export default function MonumentPage({ params }) {
-  const { city, monument } = params;
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
-  // Validar si el monumento pertenece a la ciudad
-  /*const isValidMonument = validMonuments[city]?.includes(monument) || false;
+const MonumentPage = () => {
+  const [monumentData, setMonumentData] = useState(null);
+  const router = useRouter();
+  const { city, monument } = router.query;
 
-  if (!isValidMonument) {
-    // Mostrar mensaje o redirigir si el monumento no pertenece a la ciudad
-    return <div>No se encontró el monumento en {city}.</div>;
-  }*/
+  useEffect(() => {
+    if (city && monument) {
+      fetch("/api/cities")
+        .then((res) => res.json())
+        .then((data) => {
+          const cityInfo = data.Cities.find(
+            (c) => c.city.toLowerCase() === city.toLowerCase()
+          );
+          const monumentInfo = cityInfo?.monuments.find(
+            (m) => m.monument.toLowerCase() === monument.toLowerCase()
+          );
+          setMonumentData(monumentInfo);
+        })
+        .catch((error) =>
+          console.error("Error fetching monument data:", error)
+        );
+    }
+  }, [city, monument]);
+
+  if (!monumentData) return <div>Monumento no encontrado.</div>;
 
   return (
     <div>
-      <h1>
-        {monument} en {city}
-      </h1>
-      <p>Detalles sobre {monument}...</p>
+      <h1>{monumentData.monument}</h1>
+      <p>{monumentData.description}</p>
     </div>
   );
-}
+};
+
+export default MonumentPage;
