@@ -1,27 +1,39 @@
-const validMonuments = {
-  Sevilla: ["Giralda", "Alcázar", "Plaza de España"],
-  Valencia: ["Ciudad de las Artes", "Lonja de la Seda"],
-  Madrid: ["Palacio Real", "Parque del Retiro"],
-  Barcelona: ["Sagrada Familia", "Catedral de Barcelona", "Liceu"],
-};
+import monumentsData from "../../../../data/data.json";
 
 export default function MonumentPage({ params }) {
   const { city, monument } = params;
 
-  // Validar si el monumento pertenece a la ciudad
-  /*const isValidMonument = validMonuments[city]?.includes(monument) || false;
+  // Decodificar los parámetros para manejar los espacios y caracteres especiales
+  const decodedCity = decodeURIComponent(city).toLowerCase();
+  const decodedMonument = decodeURIComponent(monument).toLowerCase();
 
-  if (!isValidMonument) {
-    // Mostrar mensaje o redirigir si el monumento no pertenece a la ciudad
-    return <div>No se encontró el monumento en {city}.</div>;
-  }*/
+  // Buscar la ciudad dentro del array Cities
+  const cityData = monumentsData.Cities.find(
+    (item) => item.city.toLowerCase() === decodedCity
+  );
+
+  // Si se encuentra la ciudad, buscar el monumento dentro de los monumentos de esa ciudad
+  const monumentData = cityData
+    ? cityData.monuments.find(
+        (item) => item.monument.toLowerCase() === decodedMonument
+      )
+    : null;
+
+  // Si no se encuentra el monumento o la ciudad, mostrar un mensaje de error
+  if (!monumentData) {
+    return (
+      <div>
+        No se encontró el monumento {decodedMonument} en {decodedCity}.
+      </div>
+    );
+  }
 
   return (
     <div>
       <h1>
-        {monument} en {city}
+        {monumentData.monument} en {cityData.city}
       </h1>
-      <p>Detalles sobre {monument}...</p>
+      <p>{monumentData.description}</p>
     </div>
   );
 }
