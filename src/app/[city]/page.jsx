@@ -1,40 +1,26 @@
-// src/[city]/page.jsx
-"use client";
+import monumentsData from "../../../data/data.json";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
+export default function CityPage({ params }) {
+  const { city } = params;
 
-const CityPage = () => {
-  const [cityData, setCityData] = useState(null);
-  const router = useRouter();
-  const { city } = router.query;
+  // Decodificar los parámetros para manejar los espacios y caracteres especiales
+  const decodedCity = decodeURIComponent(city).toLowerCase();
 
-  useEffect(() => {
-    if (city) {
-      fetch("/api/cities")
-        .then((res) => res.json())
-        .then((data) => {
-          const cityInfo = data.Cities.find(
-            (c) => c.city.toLowerCase() === city.toLowerCase()
-          );
-          setCityData(cityInfo);
-        })
-        .catch((error) => console.error("Error fetching city data:", error));
-    }
-  }, [city]);
+  // Buscar la ciudad dentro del array Cities
+  const cityData = monumentsData.Cities.find(
+    (item) => item.city.toLowerCase() === decodedCity
+  );
 
-  if (!cityData) return <div>Loading...</div>;
+  // Si se encuentra la ciudad, obtener sus monumentos; si no, usar un array vacío
+  const monuments = cityData ? cityData.monuments : [];
 
   return (
     <div>
       <h1>Monumentos en {cityData.city}</h1>
       <ul>
-        {cityData.monuments.map((monument) => (
+        {monuments.map((monument) => (
           <li key={monument.monument}>
-            <Link href={`/${cityData.city}/${monument.monument}`}>
-              {monument.monument}
-            </Link>
+            <a href={`/${city}/${monument.monument}`}>{monument.monument}</a>{" "}
           </li>
         ))}
       </ul>

@@ -1,38 +1,38 @@
-// src/[city]/[monument]/page.jsx
-"use client";
+import monumentsData from "../../../../data/data.json";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+export default function MonumentPage({ params }) {
+  const { city, monument } = params;
 
-const MonumentPage = () => {
-  const [monumentData, setMonumentData] = useState(null);
-  const router = useRouter();
-  const { city, monument } = router.query;
+  // Decodificar los parámetros para manejar los espacios y caracteres especiales
+  const decodedCity = decodeURIComponent(city).toLowerCase();
+  const decodedMonument = decodeURIComponent(monument).toLowerCase();
 
-  useEffect(() => {
-    if (city && monument) {
-      fetch("/api/cities")
-        .then((res) => res.json())
-        .then((data) => {
-          const cityInfo = data.Cities.find(
-            (c) => c.city.toLowerCase() === city.toLowerCase()
-          );
-          const monumentInfo = cityInfo?.monuments.find(
-            (m) => m.monument.toLowerCase() === monument.toLowerCase()
-          );
-          setMonumentData(monumentInfo);
-        })
-        .catch((error) =>
-          console.error("Error fetching monument data:", error)
-        );
-    }
-  }, [city, monument]);
+  // Buscar la ciudad dentro del array Cities
+  const cityData = monumentsData.Cities.find(
+    (item) => item.city.toLowerCase() === decodedCity
+  );
 
-  if (!monumentData) return <div>Monumento no encontrado.</div>;
+  // Si se encuentra la ciudad, buscar el monumento dentro de los monumentos de esa ciudad
+  const monumentData = cityData
+    ? cityData.monuments.find(
+        (item) => item.monument.toLowerCase() === decodedMonument
+      )
+    : null;
+
+  // Si no se encuentra el monumento o la ciudad, mostrar un mensaje de error
+  if (!monumentData) {
+    return (
+      <div>
+        No se encontró el monumento {decodedMonument} en {decodedCity}.
+      </div>
+    );
+  }
 
   return (
     <div>
-      <h1>{monumentData.monument}</h1>
+      <h1>
+        {monumentData.monument} en {cityData.city}
+      </h1>
       <p>{monumentData.description}</p>
     </div>
   );
