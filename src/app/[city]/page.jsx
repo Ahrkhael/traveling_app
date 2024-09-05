@@ -26,6 +26,4 @@ export default function CityPage({ params }) {
       </ul>
     </div>
   );
-};
-
-export default CityPage;
+}

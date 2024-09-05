@@ -36,6 +36,4 @@ export default function MonumentPage({ params }) {
       <p>{monumentData.description}</p>
     </div>
   );
-};
-
-export default MonumentPage;
+}
