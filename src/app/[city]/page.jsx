@@ -1,4 +1,5 @@
 import monumentsData from "../../../data/data.json";
+import Link from "next/link";
 
 export default function CityPage({ params }) {
   const { city } = params;
@@ -20,7 +21,9 @@ export default function CityPage({ params }) {
       <ul>
         {monuments.map((monument) => (
           <li key={monument.monument}>
-            <a href={`/${city}/${monument.monument}`}>{monument.monument}</a>{" "}
+            <Link href={`/${city}/${monument.monument}`}>
+              {monument.monument}
+            </Link>{" "}
           </li>
         ))}
       </ul>

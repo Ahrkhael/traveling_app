@@ -1,13 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <header>
       <nav>
-        <img />
+        <Image />
         <Link href="/">Home</Link>
-        <a href="/cities">Cities</a>
-        <a href="/about-us">About us</a>
+        <Link href="/cities">Cities</Link>
+        <Link href="/about-us">About us</Link>
       </nav>
     </header>
   );
