@@ -1,15 +1,31 @@
 // src/app/cities/page.jsx
 import Link from "next/link";
-import path from "path";
-import { promises as fs } from "fs";
 
-// Esta función ahora se ejecuta como parte del componente del servidor
+// Función asíncrona para obtener los datos de las ciudades desde la API
+async function fetchCities() {
+  try {
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/cities`
+    );
+
+    // Verificar que la respuesta es exitosa y con el tipo correcto
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    // Asegurarse de que la respuesta sea JSON
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching cities:", error);
+    // Retorna un arreglo vacío o maneja el error de otra forma
+    return [];
+  }
+}
+
 export default async function Cities() {
-  // Leer el archivo data.json desde el sistema de archivos
-  const filePath = path.join(process.cwd(), "data", "data.json");
-  const jsonData = await fs.readFile(filePath, "utf8");
-  const data = JSON.parse(jsonData);
-  const cities = data.Cities;
+  // Llamar a la función para obtener los datos
+  const cities = await fetchCities();
 
   return (
     <div>
