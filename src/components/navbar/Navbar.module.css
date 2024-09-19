@@ -1,0 +1,27 @@
+/* Navbar.module.css */
+.header {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px; /* Espaciado entre los elementos del nav */
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.img {
+  border-radius: 50%; /* Ejemplo: transforma la imagen en un círculo */
+}
+
+.link {
+  text-decoration: none;
+  color: #0070f3;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #40f5ff; /* Cambia el color al pasar el cursor */
+}
