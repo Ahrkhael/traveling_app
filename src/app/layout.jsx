@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/airplane.jpg" type="image/jpeg" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}

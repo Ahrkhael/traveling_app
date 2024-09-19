@@ -1,21 +1,29 @@
-const monumentsData = {
-  Sevilla: ["Giralda", "Alcázar", "Plaza de España"],
-  Valencia: ["Ciudad de las Artes", "Lonja de la Seda"],
-  Madrid: ["Palacio Real", "Parque del Retiro"],
-  Barcelona: ["Sagrada Familia", "Catedral de Barcelona", "Liceu"],
-};
+import monumentsData from "../../../data/data.json";
+import Link from "next/link";
 
 export default function CityPage({ params }) {
   const { city } = params;
-  const monuments = monumentsData[city] || [];
+
+  // Decodificar los parámetros para manejar los espacios y caracteres especiales
+  const decodedCity = decodeURIComponent(city).toLowerCase();
+
+  // Buscar la ciudad dentro del array Cities
+  const cityData = monumentsData.Cities.find(
+    (item) => item.city.toLowerCase() === decodedCity
+  );
+
+  // Si se encuentra la ciudad, obtener sus monumentos; si no, usar un array vacío
+  const monuments = cityData ? cityData.monuments : [];
 
   return (
     <div>
       <h1>Monumentos en {city}</h1>
       <ul>
         {monuments.map((monument) => (
-          <li key={monument}>
-            <a href={`/${city}/${monument}`}>{monument}</a>{" "}
+          <li key={monument.monument}>
+            <Link href={`/${city}/${monument.monument}`}>
+              {monument.monument}
+            </Link>{" "}
           </li>
         ))}
       </ul>
