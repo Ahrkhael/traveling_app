@@ -14,13 +14,13 @@ export default function Navbar() {
           className={styles.img}
         />
         <Link href="/" className={styles.link}>
-          Home
+          Inicio
         </Link>
         <Link href="/cities" className={styles.link}>
-          Cities
+          Ciudades
         </Link>
         <Link href="/about-us" className={styles.link}>
-          About us
+          ¿Quiénes somos?
         </Link>
       </nav>
     </header>
