@@ -2,6 +2,7 @@
   "Cities": [
     {
       "city": "Madrid",
+      "image": "/madrid.jpg",
       "monuments": [
         {
           "monument": "Palacio real",
@@ -15,6 +16,7 @@
     },
     {
       "city": "Barcelona",
+      "image": "/sagrada-familia.jpg",
       "monuments": [
         {
           "monument": "Sagrada familia",
@@ -32,6 +34,7 @@
     },
     {
       "city": "Sevilla",
+      "image": "/plaza-espana.jpg",
       "monuments": [
         {
           "monument": "Giralda",
@@ -49,6 +52,7 @@
     },
     {
       "city": "Valencia",
+      "image": "/valencia.jpg",
       "monuments": [
         {
           "monument": "Ciudad de las Artes",
