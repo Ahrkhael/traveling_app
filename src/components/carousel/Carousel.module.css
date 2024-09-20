@@ -1,0 +1,104 @@
+/* Contenedor del carousel con título */
+.carouselContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.carouselTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--font-color-primary);
+}
+
+.carouselTitleDescription {
+  display: inherit;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 1rem;
+  color: var(--font-color-secondary);
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+}
+
+.carousel {
+  position: relative; /* El contenedor del carrusel es relativo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%; /* Ajusta el ancho al contenedor padre */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Lista de elementos del carousel */
+.carouselList {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Elementos individuales del carousel */
+.carouselItem {
+  flex: 0 0 300px; /* Cada item ocupa 300px de ancho */
+  text-align: center;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cityTitle {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+  color: #444;
+}
+
+.cityDescription {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Flechas del carousel */
+.carouselArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+
+.carouselArrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carouselArrowLeft {
+  left: 10px;
+}
+
+.carouselArrowRight {
+  right: 10px;
+}
+
+.carouselArrow svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+/* Aseguramos que las flechas estén dentro del contenedor del carrusel */
+.carouselContainer {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
