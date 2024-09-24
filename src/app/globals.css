@@ -102,6 +102,14 @@ a {
   text-decoration: none;
 }
 
+.title {
+  color: var(--font-color-primary);
+}
+
+.description {
+  color: var(--font-color-secondary);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

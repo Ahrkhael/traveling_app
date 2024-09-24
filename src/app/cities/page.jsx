@@ -8,7 +8,7 @@ const Cities = () => {
 
   return (
     <main className={styles.main}>
-      <h1>Cities page</h1>
+      <h1 className="title">Cities page</h1>
       <ul className={styles.list}>
         {cities.map((city) => (
           <li key={city.city}>
@@ -20,8 +20,8 @@ const Cities = () => {
                 alt={`Foto de la ciudad de ${city.city}`}
                 className={styles.img}
               />
-              <h2>{city.city}</h2>
-              <p>
+              <h2 className="title">{city.city}</h2>
+              <p className="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
