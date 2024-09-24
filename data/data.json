@@ -3,6 +3,7 @@
     {
       "city": "Madrid",
       "image": "/madrid.jpg",
+      "description": "Capital de España",
       "monuments": [
         {
           "monument": "Palacio real",
@@ -17,6 +18,7 @@
     {
       "city": "Barcelona",
       "image": "/sagrada-familia.jpg",
+      "description": "Una gran ciudad para visitar, muy diversa",
       "monuments": [
         {
           "monument": "Sagrada familia",
@@ -35,6 +37,7 @@
     {
       "city": "Sevilla",
       "image": "/plaza-espana.jpg",
+      "description": "Capital de Andalucía",
       "monuments": [
         {
           "monument": "Giralda",
@@ -53,6 +56,7 @@
     {
       "city": "Valencia",
       "image": "/valencia.jpg",
+      "description": "Tiene un bonito oceanográfico",
       "monuments": [
         {
           "monument": "Ciudad de las Artes",

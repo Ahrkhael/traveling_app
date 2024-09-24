@@ -1,7 +1,7 @@
-/* Contenedor del carousel con título */
 .carouselContainer {
   text-align: center;
   margin: 20px 0;
+  padding: 0 40px;
 }
 
 .carouselTitle {
@@ -11,12 +11,11 @@
 }
 
 .carouselTitleDescription {
-  display: inherit;
+  display: flex;
   justify-content: center;
   align-items: inherit;
   font-size: 1rem;
   color: var(--font-color-secondary);
-  max-width: var(--max-width);
   width: 100%;
   z-index: 2;
 }
@@ -27,44 +26,41 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%; /* Ajusta el ancho al contenedor padre */
-  max-width: 1000px;
+  width: 85%; /* Ajusta el ancho al contenedor padre */
   margin: 0 auto;
 }
 
-/* Lista de elementos del carousel */
 .carouselList {
   display: flex;
+  width: 100%;
   transition: transform 0.5s ease-in-out;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* Elementos individuales del carousel */
 .carouselItem {
   flex: 0 0 300px; /* Cada item ocupa 300px de ancho */
   text-align: center;
   padding: 20px;
   background-color: inherit;
   border-radius: 10px;
-  margin: 0 10px;
+  margin: 0 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cityTitle {
   font-size: 1.5rem;
   margin: 10px 0 5px;
-  color: #444;
+  color: var(--font-color-primary);
 }
 
 .cityDescription {
   font-size: 1rem;
-  color: #777;
+  color: var(--font-color-secondary);
   margin-top: 5px;
 }
 
-/* Flechas del carousel */
 .carouselArrow {
   position: absolute;
   top: 50%;
@@ -83,22 +79,15 @@
 }
 
 .carouselArrowLeft {
-  left: 10px;
+  left: 0px;
 }
 
 .carouselArrowRight {
-  right: 10px;
+  right: 0px;
 }
 
 .carouselArrow svg {
   width: 24px;
   height: 24px;
   fill: white;
-}
-
-/* Aseguramos que las flechas estén dentro del contenedor del carrusel */
-.carouselContainer {
-  position: relative;
-  max-width: 1000px;
-  margin: 0 auto;
 }

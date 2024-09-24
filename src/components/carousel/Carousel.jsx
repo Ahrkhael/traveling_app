@@ -9,12 +9,12 @@ export default function Carousel({ cities }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevClick = () => {
-    const newIndex = currentIndex === 0 ? cities.length - 1 : currentIndex - 1;
+    const newIndex = currentIndex === 0 ? cities.length - 3 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
   const handleNextClick = () => {
-    const newIndex = currentIndex === cities.length - 1 ? 0 : currentIndex + 1;
+    const newIndex = currentIndex === cities.length - 3 ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
 
@@ -25,9 +25,24 @@ export default function Carousel({ cities }) {
         Permítenos sugerirte algunas ciudades
       </p>
       <div className={styles.carousel}>
+        <button
+          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
+          onClick={handlePrevClick}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="white"
+            width="24px"
+            height="24px"
+          >
+            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          </svg>
+        </button>
+
         <ul
           className={styles.carouselList}
-          style={{ transform: `translateX(-${currentIndex * 300}px)` }} // 300px es el ancho de cada item
+          style={{ transform: `translateX(-${currentIndex * 300}px)` }}
         >
           {cities.map((city) => (
             <li key={city.city} className={styles.carouselItem}>
@@ -47,21 +62,6 @@ export default function Carousel({ cities }) {
             </li>
           ))}
         </ul>
-
-        <button
-          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
-          onClick={handlePrevClick}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="white"
-            width="24px"
-            height="24px"
-          >
-            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-          </svg>
-        </button>
 
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
