@@ -1,30 +1,9 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  padding: 2rem;
-  min-height: 100vh;
-}
-
 .div {
   display: grid;
   margin-bottom: 10%;
 }
 
-.title {
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--font-color-primary);
-}
-
 .description {
-  display: inherit;
-  justify-content: center;
-  align-items: inherit;
-  font-size: 1rem;
-  color: var(--font-color-secondary);
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -215,10 +194,6 @@
     );
     z-index: 1;
   }
-
-  .carouselItem {
-    flex: 0 0 80%;
-  }
 }
 
 /* Tablet and Smaller Desktop */
@@ -229,10 +204,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
   .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
