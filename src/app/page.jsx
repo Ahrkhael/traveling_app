@@ -6,12 +6,14 @@ const cities = citiesData.Cities;
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <div className={styles.div}>
-        <h2 className={styles.title}>
+        <h2 className="title">
           Bienvenidos a la web de Viajeros sin fronteras
         </h2>
-        <p className={styles.description}>Tu web de viajes de confianza</p>
+        <p className={`description ${styles.description}`}>
+          Tu web de viajes de confianza
+        </p>
       </div>
 
       <Carousel cities={cities} />

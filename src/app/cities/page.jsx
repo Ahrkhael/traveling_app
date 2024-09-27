@@ -7,7 +7,7 @@ const Cities = () => {
   const cities = citiesData.Cities;
 
   return (
-    <main className={styles.main}>
+    <main className="main">
       <h1 className="title">Cities page</h1>
       <ul className={styles.list}>
         {cities.map((city) => (
