@@ -3,13 +3,16 @@
     {
       "city": "Madrid",
       "image": "/madrid.jpg",
+      "description": "Capital de España",
       "monuments": [
         {
           "monument": "Palacio real",
+          "image": "/palacio-real.jpg",
           "description": "Este es el palacio real"
         },
         {
           "monument": "Parque del retiro",
+          "image": "/parque-retiro.jpg",
           "description": "Este es el parque del retiro"
         }
       ]
@@ -17,17 +20,21 @@
     {
       "city": "Barcelona",
       "image": "/sagrada-familia.jpg",
+      "description": "Una gran ciudad para visitar, muy diversa",
       "monuments": [
         {
           "monument": "Sagrada familia",
+          "image": "/sagrada-familia.jpg",
           "description": "Esta es la Sagrada Familia"
         },
         {
           "monument": "Catedral de Barcelona",
+          "image": "/catedral-barcelona.jpg",
           "description": "Esta es la Catedral de Barcelona"
         },
         {
           "monument": "Liceu",
+          "image": "/liceu.jpg",
           "description": "Este es el Liceu"
         }
       ]
@@ -35,32 +42,64 @@
     {
       "city": "Sevilla",
       "image": "/plaza-espana.jpg",
+      "description": "Capital de Andalucía",
       "monuments": [
         {
           "monument": "Giralda",
+          "image": "/giralda.jpg",
           "description": "Esta es la Giralda"
         },
         {
           "monument": "Alcázar",
+          "image": "/alcazar.jpg",
           "description": "Este es el Alcázar de Sevilla"
         },
         {
           "monument": "Plaza de España",
+          "image": "/plaza-espana.jpg",
           "description": "Esta es la Plaza de España de Sevilla"
+        },
+        {
+          "monument": "Barrio de Triana",
+          "image": "/triana.jpg",
+          "description": "Este es el famoso barrio de Triana de Sevilla"
         }
       ]
     },
     {
       "city": "Valencia",
       "image": "/valencia.jpg",
+      "description": "Tiene un bonito oceanográfico",
       "monuments": [
         {
           "monument": "Ciudad de las Artes",
+          "image": "/valencia.jpg",
           "description": "Esta es la Ciudad de las Artes"
         },
         {
           "monument": "Lonja de la Seda",
+          "image": "/lonja-de-la-seda.jpg",
           "description": "Esta es la Lonja de la Seda"
+        },
+        {
+          "monument": "Torres de Serranos",
+          "image": "/torres-de-serranos.jpg",
+          "description": "Estas son las Torres de Serranos"
+        },
+        {
+          "monument": "Torres de Quart",
+          "image": "/torres-de-quart.jpg",
+          "description": "Estas son las Torres de Quart"
+        },
+        {
+          "monument": "El Miguelete",
+          "image": "/miguelete.jpg",
+          "description": "Este es el Miguelete"
+        },
+        {
+          "monument": "Mercado Central",
+          "image": "/mercado-central.jpg",
+          "description": "Este es el Mercado Central"
         }
       ]
     }

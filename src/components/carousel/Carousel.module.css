@@ -1,0 +1,93 @@
+.carouselContainer {
+  text-align: center;
+  margin: 20px 0;
+  padding: 0 40px;
+}
+
+.carouselTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--font-color-primary);
+}
+
+.carouselTitleDescription {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 1rem;
+  color: var(--font-color-secondary);
+  width: 100%;
+  z-index: 2;
+}
+
+.carousel {
+  position: relative; /* El contenedor del carrusel es relativo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 85%; /* Ajusta el ancho al contenedor padre */
+  margin: 0 auto;
+}
+
+.carouselList {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carouselItem {
+  flex: 0 0 300px; /* Cada item ocupa 300px de ancho */
+  text-align: center;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: 10px;
+  margin: 0 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cityTitle {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+  color: var(--font-color-primary);
+}
+
+.cityDescription {
+  font-size: 1rem;
+  color: var(--font-color-secondary);
+  margin-top: 5px;
+}
+
+.carouselArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+
+.carouselArrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carouselArrowLeft {
+  left: 0px;
+}
+
+.carouselArrowRight {
+  right: 0px;
+}
+
+.carouselArrow svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}

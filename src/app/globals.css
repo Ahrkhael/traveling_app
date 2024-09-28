@@ -102,6 +102,30 @@ a {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--font-color-primary);
+}
+
+.description {
+  display: inherit;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 1rem;
+  color: var(--font-color-secondary);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

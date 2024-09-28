@@ -1,7 +1,13 @@
 /* Navbar.module.css */
 .header {
-  display: flex;
-  justify-content: center; /* Centra el contenido horizontalmente */
+  position: fixed; /* Se fija en la parte superior */
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: grid;
+  justify-content: center;
+  background-color: rgb(35, 34, 31);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
