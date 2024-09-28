@@ -58,6 +58,11 @@
           "monument": "Plaza de España",
           "image": "/plaza-espana.jpg",
           "description": "Esta es la Plaza de España de Sevilla"
+        },
+        {
+          "monument": "Barrio de Triana",
+          "image": "/triana.jpg",
+          "description": "Este es el famoso barrio de Triana de Sevilla"
         }
       ]
     },
@@ -75,6 +80,26 @@
           "monument": "Lonja de la Seda",
           "image": "/lonja-de-la-seda.jpg",
           "description": "Esta es la Lonja de la Seda"
+        },
+        {
+          "monument": "Torres de Serranos",
+          "image": "/torres-de-serranos.jpg",
+          "description": "Estas son las Torres de Serranos"
+        },
+        {
+          "monument": "Torres de Quart",
+          "image": "/torres-de-quart.jpg",
+          "description": "Estas son las Torres de Quart"
+        },
+        {
+          "monument": "El Miguelete",
+          "image": "/miguelete.jpg",
+          "description": "Este es el Miguelete"
+        },
+        {
+          "monument": "Mercado Central",
+          "image": "/mercado-central.jpg",
+          "description": "Este es el Mercado Central"
         }
       ]
     }
