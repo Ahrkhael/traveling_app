@@ -1,4 +1,6 @@
 import monumentsData from "../../../../data/data.json";
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function MonumentPage({ params }) {
   const { city, monument } = params;
@@ -22,18 +24,25 @@ export default function MonumentPage({ params }) {
   // Si no se encuentra el monumento o la ciudad, mostrar un mensaje de error
   if (!monumentData) {
     return (
-      <div>
+      <main className="main">
         No se encontró el monumento {decodedMonument} en {decodedCity}.
-      </div>
+      </main>
     );
   }
 
   return (
-    <div>
-      <h1>
+    <main className={`main ${styles.main}`}>
+      <Image
+        src={monumentData.image}
+        width={200}
+        height={200}
+        alt={`Foto del monumento ${monumentData.monument}`}
+        className={styles.img}
+      />
+      <h1 className="title">
         {monumentData.monument} en {cityData.city}
       </h1>
-      <p>{monumentData.description}</p>
-    </div>
+      <p className="description">{monumentData.description}</p>
+    </main>
   );
 }

@@ -1,0 +1,8 @@
+.main {
+  justify-content: flex-start;
+}
+
+.img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
