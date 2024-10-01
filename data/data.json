@@ -36,6 +36,21 @@
           "monument": "Liceu",
           "image": "/liceu.jpg",
           "description": "Este es el Liceu"
+        },
+        {
+          "monument": "Parc Guell",
+          "image": "/parc-guell.jpg",
+          "description": "Este es el Parc Guell"
+        },
+        {
+          "monument": "Casa Batllo",
+          "image": "/casa-batllo.jpg",
+          "description": "Esta es la Casa de Batllo"
+        },
+        {
+          "monument": "Parc Montjuic",
+          "image": "/parc-montjuic.jpg",
+          "description": "Este es el Parc Montjuic"
         }
       ]
     },
