@@ -1,24 +1,24 @@
-/* Navbar.module.css */
 .header {
-  position: fixed; /* Se fija en la parte superior */
+  position: fixed;
   top: 0;
   width: 100%;
+  height: 7%;
+  min-height: 20px;
   z-index: 100;
   display: grid;
   justify-content: center;
   background-color: rgb(35, 34, 31);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
 }
 
 .nav {
   display: flex;
-  gap: 20px; /* Espaciado entre los elementos del nav */
-  align-items: center; /* Alinea verticalmente los elementos */
+  gap: 20px;
+  align-items: center;
 }
 
 .img {
-  border-radius: 50%; /* Ejemplo: transforma la imagen en un círculo */
+  border-radius: 50%;
 }
 
 .link {
@@ -29,5 +29,5 @@
 }
 
 .link:hover {
-  color: #40f5ff; /* Cambia el color al pasar el cursor */
+  color: #40f5ff;
 }

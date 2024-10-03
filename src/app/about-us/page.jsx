@@ -1,8 +1,8 @@
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
-    <div>
-      <h1>About us page</h1>
-      <p>
+    <main className="main">
+      <h1 className="title">¿Quiénes somos?</h1>
+      <p className="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -11,8 +11,8 @@ const AboutUs = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-    </div>
+    </main>
   );
 };
 
-export default AboutUs;
+export default AboutUsPage;

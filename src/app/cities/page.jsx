@@ -3,7 +3,7 @@ import Link from "next/link";
 import citiesData from "../../../data/data.json";
 import styles from "./page.module.css";
 
-const Cities = () => {
+const CitiesPage = () => {
   const cities = citiesData.Cities;
 
   return (
@@ -38,4 +38,4 @@ const Cities = () => {
   );
 };
 
-export default Cities;
+export default CitiesPage;
