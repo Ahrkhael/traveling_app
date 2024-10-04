@@ -42,7 +42,7 @@ export default function Carousel({ cities }) {
 
         <ul
           className={styles.carouselList}
-          style={{ transform: `translateX(-${currentIndex * 300}px)` }}
+          style={{ transform: `translateX(-${currentIndex * 450}px)` }}
         >
           {cities.map((city) => (
             <li key={city.city} className={styles.carouselItem}>
@@ -56,7 +56,8 @@ export default function Carousel({ cities }) {
                 />
                 <h3 className={styles.cityTitle}>{city.city}</h3>
                 <p className={styles.cityDescription}>
-                  {city.description || "Una ciudad maravillosa para visitar."}
+                  {city.shortDescription ||
+                    "Una ciudad maravillosa para visitar."}
                 </p>
               </Link>{" "}
             </li>

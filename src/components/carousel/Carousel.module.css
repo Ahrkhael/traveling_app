@@ -1,5 +1,6 @@
 .carouselContainer {
   text-align: center;
+  width: 100%;
   margin: 20px 0;
   padding: 0 40px;
 }
@@ -26,7 +27,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 85%; /* Ajusta el ancho al contenedor padre */
+  width: 100%; /* Ajusta el ancho al contenedor padre */
   margin: 0 auto;
 }
 
@@ -36,16 +37,16 @@
   transition: transform 0.5s ease-in-out;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 3% 0;
 }
 
 .carouselItem {
-  flex: 0 0 300px; /* Cada item ocupa 300px de ancho */
+  flex: 0 0 350px; /* Cada item ocupa 350px de ancho */
   text-align: center;
-  padding: 20px;
   background-color: inherit;
   border-radius: 10px;
-  margin: 0 20px;
+  flex-basis: 28%;
+  margin: 0 40px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
