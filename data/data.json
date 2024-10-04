@@ -3,7 +3,8 @@
     {
       "city": "Madrid",
       "image": "/madrid.jpg",
-      "description": "Capital de España",
+      "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
+      "longDescription": "Capital de España",
       "monuments": [
         {
           "monument": "Palacio real",
@@ -20,7 +21,8 @@
     {
       "city": "Barcelona",
       "image": "/sagrada-familia.jpg",
-      "description": "Una gran ciudad para visitar, muy diversa",
+      "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
+      "longDescription": "asda",
       "monuments": [
         {
           "monument": "Sagrada familia",
@@ -57,7 +59,8 @@
     {
       "city": "Sevilla",
       "image": "/plaza-espana.jpg",
-      "description": "Capital de Andalucía",
+      "shortDescription": "\"Sevilla tiene un color especial\" o eso dicen Los Del Río, ciudad culturalmente muy rica por ser un centro histórico musulmán y cristiano, con unos monumentos que son un claro reflejo de ello.",
+      "longDescription": "asda",
       "monuments": [
         {
           "monument": "Giralda",
@@ -84,7 +87,8 @@
     {
       "city": "Valencia",
       "image": "/valencia.jpg",
-      "description": "Tiene un bonito oceanográfico",
+      "shortDescription": "Históricamente conocida como \"La ciudad del Cid\", aún podemos visitar sus amplio patrimonio histórico y cultural medieval y moderno.",
+      "longDescription": "asda",
       "monuments": [
         {
           "monument": "Ciudad de las Artes",
