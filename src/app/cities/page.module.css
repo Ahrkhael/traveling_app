@@ -6,7 +6,7 @@
   max-width: 1200px;
 }
 
-.list li {
+.listItem {
   display: flex;
   flex-direction: column;
   align-items: center;

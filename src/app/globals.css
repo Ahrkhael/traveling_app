@@ -118,6 +118,7 @@ a {
 }
 
 .title {
+  text-align: center;
   font-size: 40px;
   font-weight: bold;
   color: var(--font-color-primary);
@@ -134,5 +135,20 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .main {
+    margin-top: 10%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    display: none;
   }
 }
