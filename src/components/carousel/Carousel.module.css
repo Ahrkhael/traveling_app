@@ -92,3 +92,26 @@
   height: 24px;
   fill: white;
 }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .carouselTitle {
+    font-size: 28px;
+  }
+
+  .carouselTitleDescription {
+    font-size: 0.9rem;
+  }
+
+  .img {
+    border-radius: 50%;
+  }
+
+  .cityTitle {
+    font-size: 1.2rem;
+  }
+
+  .cityDescription {
+    font-size: 0.9rem;
+  }
+}

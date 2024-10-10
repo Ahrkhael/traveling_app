@@ -1,20 +1,49 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import { useState, useEffect } from "react";
+import CityList from "../cityList/CityList";
 import styles from "./Carousel.module.css";
 
 export default function Carousel({ cities }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemDisplacement, setItemDisplacement] = useState(450); // Desplazamiento inicial
+
+  useEffect(() => {
+    const updateItemWidth = () => {
+      if (window.innerWidth <= 768) {
+        setItemDisplacement(280); // En móviles, establece un desplazamiento más pequeño
+      } else {
+        setItemDisplacement(450); // En pantallas grandes, el desplazamiento normal
+      }
+    };
+
+    // Detecta el tamaño inicial
+    updateItemWidth();
+
+    // Escucha cuando cambia el tamaño de la pantalla
+    window.addEventListener("resize", updateItemWidth);
+
+    // Limpia el evento cuando el componente se desmonte
+    return () => window.removeEventListener("resize", updateItemWidth);
+  }, []);
 
   const handlePrevClick = () => {
-    const newIndex = currentIndex === 0 ? cities.length - 3 : currentIndex - 1;
+    let newIndex;
+    if (window.innerWidth <= 768) {
+      newIndex = currentIndex === 0 ? cities.length - 1 : currentIndex - 1;
+    } else {
+      newIndex = currentIndex === 0 ? cities.length - 3 : currentIndex - 1;
+    }
     setCurrentIndex(newIndex);
   };
 
   const handleNextClick = () => {
-    const newIndex = currentIndex === cities.length - 3 ? 0 : currentIndex + 1;
+    let newIndex;
+    if (window.innerWidth <= 768) {
+      newIndex = currentIndex === cities.length - 1 ? 0 : currentIndex + 1;
+    } else {
+      newIndex = currentIndex === cities.length - 3 ? 0 : currentIndex + 1;
+    }
     setCurrentIndex(newIndex);
   };
 
@@ -40,30 +69,21 @@ export default function Carousel({ cities }) {
           </svg>
         </button>
 
-        <ul
+        <div
           className={styles.carouselList}
-          style={{ transform: `translateX(-${currentIndex * 450}px)` }}
+          style={{
+            transform: `translateX(-${currentIndex * itemDisplacement}px)`,
+          }}
         >
-          {cities.map((city) => (
-            <li key={city.city} className={styles.carouselItem}>
-              <Link href={`/${city.city}`}>
-                <Image
-                  src={city.image}
-                  width={200}
-                  height={200}
-                  alt={`Foto de la ciudad de ${city.city}`}
-                  className={styles.img}
-                />
-                <h3 className={styles.cityTitle}>{city.city}</h3>
-                <p className={styles.cityDescription}>
-                  {city.shortDescription ||
-                    "Una ciudad maravillosa para visitar."}
-                </p>
-              </Link>{" "}
-            </li>
-          ))}
-        </ul>
-
+          <CityList
+            cities={cities}
+            listStyles={styles.carouselList}
+            listItemStyles={styles.carouselItem}
+            imgStyles={styles.img}
+            titleStyles={styles.cityTitle}
+            descriptionStyles={styles.cityDescription}
+          />
+        </div>
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
           onClick={handleNextClick}
