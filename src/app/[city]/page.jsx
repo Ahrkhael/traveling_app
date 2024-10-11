@@ -25,7 +25,7 @@ export default function CityPage({ params }) {
         listStyles={styles.list}
         imgStyles={styles.img}
         titleStyles={"title"}
-        descriptionStyles={"description"}
+        descriptionStyles={`description ${styles.monumentDescription}`}
       ></MonumentList>
     </main>
   );
