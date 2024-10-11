@@ -25,6 +25,10 @@
   margin-bottom: 15px;
 }
 
+.monumentDescription {
+  height: 120px;
+}
+
 @media (max-width: 600px) {
   .list {
     grid-template-columns: 1fr;

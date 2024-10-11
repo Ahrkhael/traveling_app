@@ -27,32 +27,32 @@
         {
           "monument": "Sagrada familia",
           "image": "/sagrada-familia.jpg",
-          "shortDescription": "Esta es la Sagrada Familia"
+          "shortDescription": "Basílica católica diseñada por el arquitecto Antoni Gaudí, cuya construcción se inició en 1882 y, a día de hoy, sigue en proceso. Es considerada una obra maestra y un exponente de la arquitectura modernista catalana."
         },
         {
           "monument": "Catedral de Barcelona",
           "image": "/catedral-barcelona.jpg",
-          "shortDescription": "Esta es la Catedral de Barcelona"
+          "shortDescription": "Catedral de estilo gótico sede de la archidiócesis de Barcelona, dedicada a la Santa Cruz y a Santa Eulalia, patrona de la ciudad de Barcelona y que cuenta con un claustro en el que viven trece ocas blancas."
         },
         {
           "monument": "Liceu",
           "image": "/liceu.jpg",
-          "shortDescription": "Este es el Liceu"
+          "shortDescription": "Situado en La Rambla, es el teatro de opera en activo más antiguo de la ciudad y desde 1847 hasta 1989 ha sido el más grande de Europa por capacidad."
         },
         {
           "monument": "Parc Guell",
           "image": "/parc-guell.jpg",
-          "shortDescription": "Este es el Parc Guell"
+          "shortDescription": "Parque público con jardines y elementos arquitectónicos situado en la parte superior de la ciudad, en las estribaciones de la sierra de Collserola."
         },
         {
           "monument": "Casa Batllo",
           "image": "/casa-batllo.jpg",
-          "shortDescription": "Esta es la Casa de Batllo"
+          "shortDescription": "Obra del arquitecto Antoni Gaudí, se trata de una remodelación integral de un edificio previamente existente en el Solar. Reflejo de la plenitud artística de su autor, ofrece nuevas soluciones estructurales de la geometría reglada."
         },
         {
           "monument": "Parc Montjuic",
           "image": "/parc-montjuic.jpg",
-          "shortDescription": "Este es el Parc Montjuic"
+          "shortDescription": "Parque situado en la montaña de Montjuic, con una superficie de 5,2 hectáreas, cuenta con diversas zonas de juegos infantiles y equipación lúdica, así como una variada colección de esculturas repartidas entre sus terrenos."
         }
       ]
     },
@@ -65,12 +65,12 @@
         {
           "monument": "Giralda",
           "image": "/giralda.jpg",
-          "shortDescription": "Esta es la Giralda"
+          "shortDescription": "Siendo la torre campanario de la catedral de Sevilla, es uno de los monumentos más emblemáticos de la ciudad. La parte inferior corresponde al alminar de la antigua mezquita y la superior pertenece a una construcción sobrepuesta de época cristiana, siendo así una mezcla entre ambas religiones y culturas que es representativo del espíritu de la ciudad."
         },
         {
           "monument": "Alcázar",
           "image": "/alcazar.jpg",
-          "shortDescription": "Este es el Alcázar de Sevilla"
+          "shortDescription": "Conjunto palaciego amurallado contruido en diferentes etapas históricas, combinando arte islámico, mudéjar, gótico, renacentista, manierista y barroco. Es la residencia de la familia real española cuando visitan Sevilla, siendo así, el palacio real en uso más antiguo de Europa y uno de los monumentos más visitados de la ciudad."
         },
         {
           "monument": "Plaza de España",
