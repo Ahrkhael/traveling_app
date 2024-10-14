@@ -93,32 +93,32 @@
         {
           "monument": "Ciudad de las Artes",
           "image": "/valencia.jpg",
-          "shortDescription": "Esta es la Ciudad de las Artes"
+          "shortDescription": "Complejo arquitectónico, cultural y de entretenimiento de la ciudad, cuenta con una gran variedad de edificios entre los que cabe destacar el Hemisfèric, el Museu de les Ciències y el Oceanográfico, cada uno con una arquitectura peculiar y en cuyo interior os espera una gran cantidad de conocimiento."
         },
         {
           "monument": "Lonja de la Seda",
           "image": "/lonja-de-la-seda.jpg",
-          "shortDescription": "Esta es la Lonja de la Seda"
+          "shortDescription": "Situada en el centro histórico de la ciudad, es una obra del gótico civil valenciano, declarada en 1996 por la UNESCO como Patromonio de la Humanidad."
         },
         {
           "monument": "Torres de Serranos",
           "image": "/torres-de-serranos.jpg",
-          "shortDescription": "Estas son las Torres de Serranos"
+          "shortDescription": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres poligonales unidas por un cuerpo central, donde se abre la puerta propiamente dicha y rematada en arco de medio punto."
         },
         {
           "monument": "Torres de Quart",
           "image": "/torres-de-quart.jpg",
-          "shortDescription": "Estas son las Torres de Quart"
+          "shortDescription": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres semicilíndricas unidas por un cuerpo central, donde se abre la puerta propiamente dicha, con forma de arco de medio punto."
         },
         {
           "monument": "El Miguelete",
           "image": "/miguelete.jpg",
-          "shortDescription": "Este es el Miguelete"
+          "shortDescription": "De estilo gótico valenciano, el Miguelete (o Torre del Micalet en valenciano), es la torre campanario de la catedral de Valencia. Tiene 51 metros de altura hasta la terraza, que son los mismos metros que tiene de perímetro y 63 metros de altura en total."
         },
         {
           "monument": "Mercado Central",
           "image": "/mercado-central.jpg",
-          "shortDescription": "Este es el Mercado Central"
+          "shortDescription": "Ubicado en la plaza Ciudad de Brujas, está considerado como una de las obras maestras del modernismo valenciano. Cuenta con 1200 puestos alimenticios y lleva abasteciendo a la población valenciana desde hace casi un siglo."
         }
       ]
     }
