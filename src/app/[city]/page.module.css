@@ -1,3 +1,13 @@
+.divCity {
+  width: 70vw;
+  height: 50vh;
+  padding: 5vh 10vw;
+}
+
+.divMonuments {
+  margin: 5vh 0;
+}
+
 .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

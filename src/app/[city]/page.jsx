@@ -18,15 +18,23 @@ export default function CityPage({ params }) {
 
   return (
     <main className="main">
-      <h1 className="title">Monumentos en {city}</h1>
-      <MonumentList
-        city={city}
-        monuments={monuments}
-        listStyles={styles.list}
-        imgStyles={styles.img}
-        titleStyles={"title"}
-        descriptionStyles={`description ${styles.monumentDescription}`}
-      ></MonumentList>
+      <div className={styles.divCity}>
+        <h1 className="title">{city}</h1>
+        <h2 className={`description ${styles.cityLongDescription}`}>
+          {cityData.longDescription}
+        </h2>
+      </div>
+      <div className={styles.divMonuments}>
+        <h1 className="title">Monumentos en {city}</h1>
+        <MonumentList
+          city={city}
+          monuments={monuments}
+          listStyles={styles.list}
+          imgStyles={styles.img}
+          titleStyles={"title"}
+          descriptionStyles={`description ${styles.monumentDescription}`}
+        ></MonumentList>
+      </div>
     </main>
   );
 }

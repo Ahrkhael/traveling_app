@@ -4,17 +4,37 @@
       "city": "Madrid",
       "image": "/madrid.jpg",
       "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
-      "longDescription": "Capital de España",
+      "longDescription": "Madrid, la vibrante capital de España, es una ciudad que combina una rica historia con una vida moderna y cosmopolita. Sus majestuosas avenidas y plazas, como la icónica Puerta del Sol y la Plaza Mayor, están rodeadas de arquitectura impresionante, cafés acogedores y una energía contagiosa. Los amantes del arte disfrutarán de tesoros culturales como el Museo del Prado, el Reina Sofía y el Thyssen-Bornemisza, que albergan algunas de las mejores colecciones de arte del mundo. Además, Madrid es famosa por su vida nocturna, su deliciosa gastronomía (desde tapas tradicionales hasta alta cocina) y sus hermosos parques, como el Retiro, un oasis en el corazón de la ciudad. Madrid es, sin duda, un destino que no te dejará indiferente.",
       "monuments": [
         {
           "monument": "Palacio real",
           "image": "/palacio-real.jpg",
-          "shortDescription": "Residencia oficial del Rey de España y utlizado para ceremonias de Estado y actos solemnes, es el palacio real más grande de Europa Occidental y uno de los más grandes del mundo"
+          "shortDescription": "Residencia oficial del Rey de España y utlizado para ceremonias de Estado y actos solemnes, es el palacio real más grande de Europa Occidental y uno de los más grandes del mundo."
         },
         {
           "monument": "Parque del retiro",
           "image": "/parque-retiro.jpg",
-          "shortDescription": "Jardín histórico considerado una de las principales atracciones turísitcas de la ciudad por sus figuras arquitectónicas y paisajísticas desde el Siglo XVII al Siglo XXI"
+          "shortDescription": "Jardín histórico considerado una de las principales atracciones turísitcas de la ciudad por sus figuras arquitectónicas y paisajísticas desde el Siglo XVII al Siglo XXI."
+        },
+        {
+          "monument": "Puerta del Sol",
+          "image": "/puerta-del-sol.jpg",
+          "shortDescription": "La Puerta del Sol es el corazón de Madrid y uno de los puntos más emblemáticos de la ciudad, famosa por albergar el \"kilómetro 0\" de las carreteras españolas."
+        },
+        {
+          "monument": "La plaza Mayor",
+          "image": "/plaza-mayor.jpg",
+          "shortDescription": "La Plaza Mayor es una de las plazas más históricas de Madrid, conocida por su arquitectura de estilo herreriano y por haber sido escenario de importantes eventos a lo largo de los siglos."
+        },
+        {
+          "monument": "Museo del Prado",
+          "image": "/museo-prado.jpg",
+          "shortDescription": "El Museo del Prado es uno de los museos más importantes del mundo, conocido por su vasta colección de arte europeo, que incluye obras maestras de Goya, Velázquez y El Greco."
+        },
+        {
+          "monument": "La Gran Vía",
+          "image": "/gran-via.jpg",
+          "shortDescription": "La Gran Vía es una de las principales avenidas comerciales y de ocio de Madrid, conocida por su animada vida nocturna, teatros y tiendas."
         }
       ]
     },
@@ -22,7 +42,7 @@
       "city": "Barcelona",
       "image": "/sagrada-familia.jpg",
       "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
-      "longDescription": "asda",
+      "longDescription": "Barcelona es una ciudad que cautiva con su mezcla única de cultura, arte y mar. Situada a orillas del Mediterráneo, esta joya catalana es mundialmente conocida por la obra del arquitecto Antoni Gaudí, especialmente la inconfundible Sagrada Familia y el colorido Parque Güell. Las calles de Barcelona invitan a pasear, desde Las Ramblas, siempre animada y llena de vida, hasta el barrio gótico con sus estrechas callejuelas medievales y sus plazas llenas de encanto. La ciudad también cuenta con una vibrante escena culinaria, que va desde mercados locales como La Boquería hasta restaurantes galardonados con estrellas Michelin. Y para aquellos que buscan relajarse, las playas urbanas y el cálido clima mediterráneo hacen de Barcelona un destino ideal para todo tipo de viajeros.",
       "monuments": [
         {
           "monument": "Sagrada familia",
@@ -60,7 +80,7 @@
       "city": "Sevilla",
       "image": "/plaza-espana.jpg",
       "shortDescription": "\"Sevilla tiene un color especial\" o eso dicen Los Del Río, ciudad culturalmente muy rica por ser un centro histórico musulmán y cristiano, con unos monumentos que son un claro reflejo de ello.",
-      "longDescription": "asda",
+      "longDescription": "Sevilla, la capital de Andalucía, es una ciudad que rebosa encanto y tradición. Conocida por su impresionante arquitectura, como la majestuosa Catedral de Sevilla, que alberga la famosa Giralda, y el encantador Real Alcázar, esta ciudad está impregnada de historia y cultura. Sevilla es también el hogar del flamenco, y no hay mejor lugar para disfrutar de una auténtica actuación que en uno de sus muchos tablaos. Pasear por el barrio de Santa Cruz, con sus estrechas calles empedradas y patios llenos de flores, es como viajar en el tiempo. Los viajeros pueden disfrutar de la calidez del sol sevillano casi todo el año y de su deliciosa gastronomía, con platos típicos como el gazpacho y el pescaíto frito. Sevilla es un destino lleno de vida y tradición, que conquista a todo aquel que la visita.",
       "monuments": [
         {
           "monument": "Giralda",
@@ -75,12 +95,12 @@
         {
           "monument": "Plaza de España",
           "image": "/plaza-espana.jpg",
-          "shortDescription": "Esta es la Plaza de España de Sevilla"
+          "shortDescription": "Ubicado en el precioso parque de María Luisa, este conjunto arquitectónico es la construcción más grande de la exposición Iberoamericana de 1929 y está decorada con cuarenta y ocho bancos dedicados a las provincias españolas."
         },
         {
           "monument": "Barrio de Triana",
           "image": "/triana.jpg",
-          "shortDescription": "Este es el famoso barrio de Triana de Sevilla"
+          "shortDescription": "Según la mitología, la diosa Astarté, huyendo de la persecución amorosa de Hércules, fundador mitológico de la ciudad de Sevilla, fue a refugiarse a la orilla occidental del Guadalquivir fundando así, este famoso barrio."
         }
       ]
     },
@@ -88,7 +108,7 @@
       "city": "Valencia",
       "image": "/valencia.jpg",
       "shortDescription": "Históricamente conocida como \"La ciudad del Cid\", aún podemos visitar sus amplio patrimonio histórico y cultural medieval y moderno.",
-      "longDescription": "asda",
+      "longDescription": "Valencia, ubicada en la costa este de España, es una ciudad que sorprende con su mezcla de tradición e innovación. Famosa por ser la cuna de la paella, esta ciudad también ofrece una rica oferta cultural y una arquitectura que fusiona lo antiguo con lo moderno. Desde su encantador casco histórico, donde se encuentra la Catedral de Valencia y el Mercado Central, hasta la futurista Ciudad de las Artes y las Ciencias, Valencia ofrece una experiencia única. La ciudad es ideal para los amantes de la naturaleza, con amplias zonas verdes como el Jardín del Turia, y para quienes disfrutan del mar, gracias a sus extensas playas de arena dorada. Con un clima templado durante todo el año, Valencia es el destino perfecto para quienes buscan disfrutar del Mediterráneo en su máxima expresión.",
       "monuments": [
         {
           "monument": "Ciudad de las Artes",
