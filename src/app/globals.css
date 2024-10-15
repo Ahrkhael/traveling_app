@@ -122,14 +122,18 @@ a {
   font-size: 40px;
   font-weight: bold;
   color: var(--font-color-primary);
+  padding: 10px;
+  user-select: none;
 }
 
 .description {
   display: inherit;
   justify-content: center;
   align-items: inherit;
+  text-align: center;
   font-size: 1rem;
   color: var(--font-color-secondary);
+  user-select: none;
 }
 
 @media (prefers-color-scheme: dark) {
