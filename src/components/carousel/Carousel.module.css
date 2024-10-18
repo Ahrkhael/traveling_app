@@ -18,16 +18,17 @@
   font-size: 1rem;
   color: var(--font-color-secondary);
   width: 100%;
+  margin-top: 10px;
   z-index: 2;
 }
 
 .carousel {
-  position: relative; /* El contenedor del carrusel es relativo */
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 100%; /* Ajusta el ancho al contenedor padre */
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -37,7 +38,7 @@
   transition: transform 0.5s ease-in-out;
   list-style-type: none;
   padding: 0;
-  margin: 3% 0;
+  margin: 20px 0;
 }
 
 .carouselItem {
