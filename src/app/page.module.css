@@ -9,6 +9,10 @@
   z-index: 2;
 }
 
+.boldText {
+  font-weight: bold;
+}
+
 .description a {
   display: flex;
   justify-content: center;
