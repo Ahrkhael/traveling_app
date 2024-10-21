@@ -142,5 +142,37 @@
         }
       ]
     }
+  ],
+  "Testimonies": [
+    {
+      "author": "María González",
+      "testimony": "Viajeros Sin Fronteras me ayudó a planificar el viaje de mis sueños a Madrid. Las recomendaciones de lugares para visitar y los monumentos fueron precisas, y pude aprovechar al máximo mi tiempo en la ciudad. ¡Definitivamente usaré esta web para mi próximo viaje!",
+      "score": 5
+    },
+    {
+      "author": "Carlos Martínez",
+      "testimony": "Gracias a esta plataforma, descubrí lugares únicos en Valencia que ni siquiera sabía que existían. La información sobre cada destino es detallada y las guías son fáciles de seguir. Sin duda, es una herramienta imprescindible para cualquier viajero.",
+      "score": 4
+    },
+    {
+      "author": "Lucía Fernández",
+      "testimony": "Me encantó la experiencia de usar Viajeros Sin Fronteras para mi viaje a Barcelona. Aunque algunas atracciones estaban cerradas, la información sobre las alternativas fue de gran ayuda. Un recurso muy útil para cualquier viajero.",
+      "score": 4
+    },
+    {
+      "author": "Juan Pérez",
+      "testimony": "¡Increíble plataforma! Pude planificar mi viaje a Sevilla fácilmente y las recomendaciones fueron fantásticas. Las reseñas de otros viajeros también fueron muy útiles para decidir qué lugares visitar. ¡Totalmente recomendable!",
+      "score": 5
+    },
+    {
+      "author": "Ana López",
+      "testimony": "Viajeros Sin Fronteras tiene una interfaz sencilla y la información es muy clara. Me ayudó a planificar un viaje a Madrid y todo salió perfecto. Sin embargo, creo que podrían mejorar la sección de fotos.",
+      "score": 3
+    },
+    {
+      "author": "Pedro Ramírez",
+      "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
+      "score": 5
+    }
   ]
 }

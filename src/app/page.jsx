@@ -1,8 +1,10 @@
 import styles from "./page.module.css";
-import citiesData from "../../data/data.json";
+import data from "../../data/data.json";
 import Carousel from "../components/carousel/Carousel";
+import TestimonyList from "../components/testimonyList/TestimonyList";
 
-const cities = citiesData.Cities;
+const cities = data.Cities;
+const testimonies = data.Testimonies;
 
 export default function Home() {
   return (
@@ -23,6 +25,17 @@ export default function Home() {
       </div>
 
       <Carousel cities={cities} />
+
+      <div className={styles.div}>
+        <h1 className="title">Testimonios de otros viajeros como tú</h1>
+        <TestimonyList
+          testimonies={testimonies}
+          listStyles={styles.list}
+          listItemStyles={styles.listItem}
+          titleStyles={"title"}
+          descriptionStyles={"description"}
+        />
+      </div>
     </main>
   );
 }
