@@ -11,9 +11,9 @@ export default function Carousel({ cities }) {
   useEffect(() => {
     const updateItemWidth = () => {
       if (window.innerWidth <= 768) {
-        setItemDisplacement(280); // En móviles, establece un desplazamiento más pequeño
+        setItemDisplacement(280); // En móviles
       } else {
-        setItemDisplacement(450); // En pantallas grandes, el desplazamiento normal
+        setItemDisplacement(450); // En pantallas grandes
       }
     };
 
@@ -49,8 +49,10 @@ export default function Carousel({ cities }) {
 
   return (
     <div className={styles.carouselContainer}>
-      <h2 className={styles.carouselTitle}>¿No sabes qué destino elegir?</h2>
-      <p className={styles.carouselTitleDescription}>
+      <h2 className={`title ${styles.carouselTitle}`}>
+        ¿No sabes qué destino elegir?
+      </h2>
+      <p className={`description ${styles.carouselTitleDescription}`}>
         Permítenos sugerirte algunas ciudades
       </p>
       <div className={styles.carousel}>
