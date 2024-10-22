@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "../components/navbar/Navbar";
 import ScrollToTop from "../hooks/ScrollToTop";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "Travel App",
