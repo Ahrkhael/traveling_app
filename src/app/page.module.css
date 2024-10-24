@@ -1,6 +1,6 @@
 .div {
   display: grid;
-  margin-bottom: 10%;
+  margin: 5% 0;
 }
 
 .description {
@@ -31,6 +31,16 @@
 
 .logo {
   position: relative;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  list-style: none;
+}
+
+.listItem {
+  margin: 5% 10%;
 }
 
 /* Enable hover only on non-touch devices */
@@ -101,6 +111,10 @@
       rgb(var(--background-end-rgb)) 40%
     );
     z-index: 1;
+  }
+
+  .list {
+    grid-template-columns: repeat(1, 6fr);
   }
 }
 
