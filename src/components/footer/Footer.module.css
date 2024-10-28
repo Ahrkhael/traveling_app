@@ -1,0 +1,62 @@
+.footer {
+  background-color: rgb(35, 34, 31);
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+  margin: 1rem;
+}
+
+.section h4 {
+  color: var(--font-color-primary);
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+
+.section p {
+  color: var(--font-color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 0.3rem;
+}
+
+.section ul li a {
+  color: var(--font-color-secondary);
+}
+
+.section ul li a:hover {
+  text-decoration: underline;
+}
+
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribeForm input {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subscribeForm button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
