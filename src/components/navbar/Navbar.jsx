@@ -21,9 +21,6 @@ export default function Navbar() {
         <Link href="/cities" className={styles.link}>
           Ciudades
         </Link>
-        <Link href="/testimonies" className={styles.link}>
-          Testimonios
-        </Link>
         <Link href="/about-us" className={styles.link}>
           ¿Quiénes somos?
         </Link>
