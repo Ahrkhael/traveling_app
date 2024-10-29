@@ -16,6 +16,13 @@ export default function CityPage({ params }) {
   // Si se encuentra la ciudad, obtener sus monumentos; si no, usar un array vacío
   const monuments = cityData ? cityData.monuments : [];
 
+  // Si no se encuentran los monumentos o la ciudad, mostrar un mensaje de error
+  if (cityData === undefined) {
+    return (
+      <main className="main">No se encontró la ciudad {decodedCity}.</main>
+    );
+  }
+
   return (
     <main className="main">
       <div className={styles.divCity}>

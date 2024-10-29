@@ -127,7 +127,7 @@ a {
 }
 
 .description {
-  display: inline;
+  display: inline-block;
   justify-content: center;
   align-items: inherit;
   text-align: center;
