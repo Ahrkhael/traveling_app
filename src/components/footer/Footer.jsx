@@ -47,7 +47,7 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>Suscríbete</h4>
           <form className={styles.subscribeForm}>
-            <input type="email" placeholder="Tu correo electrónico" />
+            <input type="email" placeholder="example@mail.com" />
             <button type="submit">Suscribirse</button>
           </form>
         </div>
