@@ -54,9 +54,14 @@
 }
 
 .subscribeForm button {
-  background-color: #ff6600;
+  background-color: #0a6eac;
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
+}
+
+.subscribeForm button:hover {
+  background-color: #0a9cac;
+  color: #fff;
 }
