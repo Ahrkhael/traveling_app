@@ -42,7 +42,7 @@ export default function MonumentPage({ params }) {
       <h1 className="title">
         {monumentData.monument} en {cityData.city}
       </h1>
-      <p className="description">{monumentData.description}</p>
+      <p className="description">{monumentData.longDescription}</p>
     </main>
   );
 }
