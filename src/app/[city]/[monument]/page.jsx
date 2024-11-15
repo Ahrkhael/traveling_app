@@ -40,9 +40,11 @@ export default function MonumentPage({ params }) {
         className={styles.img}
       />
       <h1 className="title">
-        {monumentData.monument} en {cityData.city}
+        {monumentData.monument} de {cityData.city}
       </h1>
-      <p className="description">{monumentData.longDescription}</p>
+      <p className={`description ${styles.monumentDescription}`}>
+        {monumentData.longDescription}
+      </p>
     </main>
   );
 }
