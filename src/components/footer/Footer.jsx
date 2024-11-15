@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,15 +9,19 @@ export default function Footer() {
           <h4>Explora</h4>
           <ul>
             <li>
-              <a href="/">Inicio</a>
+              <Link href="/" className={styles.link}>
+                Inicio
+              </Link>
             </li>
             <li>
-              <a href="/cities">Ciudades</a>
+              <Link href="/cities" className={styles.link}>
+                Ciudades
+              </Link>
             </li>
             <li>
-              <a href="/about-us">
+              <Link href="/about-us" className={styles.link}>
                 Acerca de <br /> Nosotros
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -25,16 +30,24 @@ export default function Footer() {
           <h4>Síguenos</h4>
           <ul className={styles.socials}>
             <li>
-              <a href="https://instagram.com">Instagram</a>
+              <Link href="https://instagram.com" className={styles.link}>
+                Instagram
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com">Facebook</a>
+              <Link href="https://facebook.com" className={styles.link}>
+                Facebook
+              </Link>
             </li>
             <li>
-              <a href="https://twitter.com">Twitter</a>
+              <Link href="https://twitter.com" className={styles.link}>
+                Twitter
+              </Link>
             </li>
             <li>
-              <a href="https://youtube.com">YouTube</a>
+              <Link href="https://youtube.com" className={styles.link}>
+                YouTube
+              </Link>
             </li>
           </ul>
         </div>
@@ -55,10 +68,14 @@ export default function Footer() {
         <div className={styles.section}>
           <h4>Aviso legal</h4>
           <p>
-            <a href="/terms">Términos y Condiciones</a>
+            <Link href="/terms" className={styles.link}>
+              Términos y Condiciones
+            </Link>
           </p>
           <p>
-            <a href="/privacy">Política de Privacidad</a>
+            <Link href="/privacy" className={styles.link}>
+              Política de Privacidad
+            </Link>
           </p>
         </div>
       </div>

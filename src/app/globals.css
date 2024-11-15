@@ -6,10 +6,12 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --font-color-primary: #0070f3;
   --font-color-secondary: rgb(45, 179, 213);
+  --font-color-menu-secondary: #66ccff;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-navbar-rgb: 35, 34, 31;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -46,7 +48,8 @@
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 24, 24, 24;
+    --background-navbar-rgb: 35, 34, 31;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(

@@ -7,7 +7,7 @@
   z-index: 100;
   display: grid;
   justify-content: center;
-  background-color: rgb(35, 34, 31);
+  background-color: rgb(var(--background-navbar-rgb));
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,5 +29,5 @@
 }
 
 .link:hover {
-  color: #40f5ff;
+  color: var(--font-color-menu-secondary);
 }

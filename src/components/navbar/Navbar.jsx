@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
+import DropdownMenuCities from "../dropdownMenuCities/DropdownMenuCities";
 
 export default function Navbar() {
   return (
@@ -18,9 +19,7 @@ export default function Navbar() {
         <Link href="/" className={styles.link}>
           Inicio
         </Link>
-        <Link href="/cities" className={styles.link}>
-          Ciudades
-        </Link>
+        <DropdownMenuCities />
         <Link href="/about-us" className={styles.link}>
           ¿Quiénes somos?
         </Link>

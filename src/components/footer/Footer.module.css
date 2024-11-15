@@ -34,12 +34,13 @@
   margin-bottom: 0.3rem;
 }
 
-.section ul li a {
+.link {
   color: var(--font-color-secondary);
 }
 
-.section ul li a:hover {
+.link:hover {
   text-decoration: underline;
+  color: rgb(135, 230, 255);
 }
 
 .subscribeForm {
