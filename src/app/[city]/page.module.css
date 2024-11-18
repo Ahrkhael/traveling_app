@@ -1,6 +1,8 @@
 .divCity {
   width: 70vw;
+  min-width: 630px;
   height: 50vh;
+  min-height: 260px;
   padding: 5vh 10vw;
 }
 

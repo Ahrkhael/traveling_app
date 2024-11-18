@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   height: 7%;
-  min-height: 20px;
+  min-height: var(--navbar-min-height);
   z-index: 100;
   display: grid;
   justify-content: center;
