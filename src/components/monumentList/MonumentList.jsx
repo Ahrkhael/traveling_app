@@ -13,7 +13,7 @@ export default function MonumentList({
   return (
     <ul className={listStyles}>
       {monuments.map((monument) => (
-        <li key={monument.monument} className={listItemStyles}>
+        <li key={monument.id} className={listItemStyles}>
           <Link href={`/${city}/${monument.monument}`}>
             <Image
               src={monument.image}

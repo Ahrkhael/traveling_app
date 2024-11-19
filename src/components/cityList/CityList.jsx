@@ -12,7 +12,7 @@ const CityList = ({
   return (
     <ul className={listStyles}>
       {cities.map((city) => (
-        <li key={city.city} className={listItemStyles}>
+        <li key={city.id} className={listItemStyles}>
           <Link href={`/${city.city}`}>
             <Image
               src={city.image}
