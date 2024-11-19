@@ -11,7 +11,7 @@ export default function DropdownMenuCities() {
       <div className={styles.dropdownContent}>
         {citiesData.Cities.map((city) => (
           <Link
-            key={city.city}
+            key={city.id}
             href={`/${city.city}`}
             className={styles.dropdownLink}
           >

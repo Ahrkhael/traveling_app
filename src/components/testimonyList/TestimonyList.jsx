@@ -8,7 +8,7 @@ export default function TestimonyList({
   return (
     <ul className={listStyles}>
       {testimonies.map((testimony) => (
-        <li key={testimony.author} className={listItemStyles}>
+        <li key={testimony.id} className={listItemStyles}>
           <h2 className={titleStyles}>{testimony.author}</h2>
           <p className={descriptionStyles}>{testimony.testimony}</p>
         </li>
