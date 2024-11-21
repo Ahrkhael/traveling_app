@@ -2,8 +2,8 @@ import monumentsData from "../../../data/data.json";
 import styles from "./page.module.css";
 import MonumentList from "../../components/monumentList/MonumentList";
 
-export default function CityPage({ params }) {
-  const { city } = params;
+export default async function CityPage({ params }) {
+  const city = (await params).city;
 
   // Decodificar los parámetros para manejar los espacios y caracteres especiales
   const decodedCity = decodeURIComponent(city).toLowerCase();
@@ -19,7 +19,9 @@ export default function CityPage({ params }) {
   // Si no se encuentran los monumentos o la ciudad, mostrar un mensaje de error
   if (cityData === undefined) {
     return (
-      <main className="main">No se encontró la ciudad {decodedCity}.</main>
+      <main className="main">
+        <p className="description">No se encontró la ciudad {decodedCity}.</p>
+      </main>
     );
   }
 
