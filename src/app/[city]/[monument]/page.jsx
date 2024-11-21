@@ -2,8 +2,8 @@ import monumentsData from "../../../../data/data.json";
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function MonumentPage({ params }) {
-  const { city, monument } = params;
+export default async function MonumentPage({ params }) {
+  const { city, monument } = await params;
 
   // Decodificar los parámetros para manejar los espacios y caracteres especiales
   const decodedCity = decodeURIComponent(city).toLowerCase();
