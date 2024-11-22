@@ -1,23 +1,28 @@
-import monumentsData from "../../../data/data.json";
+import data from "../../../data/data.json";
 import styles from "./page.module.css";
 import MonumentList from "../../components/monumentList/MonumentList";
 
+export async function generateStaticParams() {
+  const data = await import("../../../data/data.json");
+
+  const staticParams = data.Cities.map((city) => ({
+    city: city.city.toLowerCase(),
+  }));
+
+  return staticParams;
+}
+
 export default async function CityPage({ params }) {
   const city = (await params).city;
-
-  // Decodificar los parámetros para manejar los espacios y caracteres especiales
   const decodedCity = decodeURIComponent(city).toLowerCase();
 
-  // Buscar la ciudad dentro del array Cities
-  const cityData = monumentsData.Cities.find(
+  const cityData = data.Cities.find(
     (item) => item.city.toLowerCase() === decodedCity
   );
 
-  // Si se encuentra la ciudad, obtener sus monumentos; si no, usar un array vacío
   const monuments = cityData ? cityData.monuments : [];
 
-  // Si no se encuentran los monumentos o la ciudad, mostrar un mensaje de error
-  if (cityData === undefined) {
+  if (!cityData) {
     return (
       <main className="main">
         <p className="description">No se encontró la ciudad {decodedCity}.</p>
