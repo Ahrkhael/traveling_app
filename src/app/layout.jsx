@@ -11,11 +11,11 @@ export const metadata = {
   description: "App made for deciding where to go the next Holidays",
 };
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/airplane.jpg" type="image/jpeg" />
+        <link rel="icon" href="/images/airplane.jpg" type="image/jpeg" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <ScrollToTop />
@@ -26,3 +26,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export default RootLayout;
