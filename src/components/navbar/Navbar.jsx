@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className={styles.nav}>
         <Link href="/">
           <Image
-            src="/airplane.jpg"
+            src="/images/airplane.jpg"
             width={20}
             height={20}
             alt="traveling_app logo"
