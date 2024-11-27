@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./Navbar.module.css";
 import DropdownMenuCities from "../dropdownMenuCities/DropdownMenuCities";
 
-export default function Navbar() {
+export default function Navbar({ translations }) {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -17,11 +17,11 @@ export default function Navbar() {
           />
         </Link>
         <Link href="/" className={styles.link}>
-          Inicio
+          {translations["Home"]}
         </Link>
         <DropdownMenuCities />
         <Link href="/about-us" className={styles.link}>
-          ¿Quiénes somos?
+          {translations["AboutUs"]}
         </Link>
       </nav>
     </header>
