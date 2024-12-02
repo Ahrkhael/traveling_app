@@ -1,4 +1,4 @@
-import TestimonyList from "../../components/testimonyList/TestimonyList";
+import TestimonyList from "../../../components/testimonyList/TestimonyList";
 import data from "../../../data/data.json";
 import styles from "./page.module.css";
 

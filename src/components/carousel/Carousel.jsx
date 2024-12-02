@@ -3,8 +3,11 @@
 import { useState, useEffect } from "react";
 import CityList from "../cityList/CityList";
 import styles from "./Carousel.module.css";
+import { useTranslations } from "next-intl";
 
 export default function Carousel({ cities }) {
+  const t = useTranslations("Cities");
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemDisplacement, setItemDisplacement] = useState(450); // Desplazamiento inicial
 
@@ -78,12 +81,12 @@ export default function Carousel({ cities }) {
           }}
         >
           <CityList
-            cities={cities}
             listStyles={styles.carouselList}
             listItemStyles={styles.carouselItem}
             imgStyles={styles.img}
             titleStyles={styles.cityTitle}
             descriptionStyles={styles.cityDescription}
+            t={t}
           />
         </div>
         <button

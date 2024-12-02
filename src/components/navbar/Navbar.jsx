@@ -1,9 +1,12 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import DropdownMenuCities from "../dropdownMenuCities/DropdownMenuCities";
+import { useTranslations } from "next-intl";
 
-export default function Navbar({ translations }) {
+export default function Navbar({}) {
+  const t = useTranslations("Navbar");
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -17,11 +20,11 @@ export default function Navbar({ translations }) {
           />
         </Link>
         <Link href="/" className={styles.link}>
-          {translations["Home"]}
+          {t("Home")}
         </Link>
-        <DropdownMenuCities />
+        <DropdownMenuCities t={t} />
         <Link href="/about-us" className={styles.link}>
-          {translations["AboutUs"]}
+          {t("AboutUs")}
         </Link>
       </nav>
     </header>

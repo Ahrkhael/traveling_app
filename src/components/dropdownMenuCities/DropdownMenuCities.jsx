@@ -1,12 +1,12 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import styles from "./DropdownMenuCities.module.css";
 import citiesData from "../../../data/data.json";
 
-export default function DropdownMenuCities() {
+export default function DropdownMenuCities({ t }) {
   return (
     <div className={styles.dropdown}>
       <Link href={"/cities"} className={styles.dropdownButton}>
-        Ciudades
+        {t("Cities")}
       </Link>
       <div className={styles.dropdownContent}>
         {citiesData.Cities.map((city) => (
