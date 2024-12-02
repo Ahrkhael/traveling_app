@@ -1,9 +1,9 @@
-import data from "../../../data/data.json";
+import data from "../../../../data/data.json";
 import styles from "./page.module.css";
-import MonumentList from "../../components/monumentList/MonumentList";
+import MonumentList from "../../../components/monumentList/MonumentList";
 
 export async function generateStaticParams() {
-  const data = await import("../../../data/data.json");
+  const data = await import("../../../../data/data.json");
 
   const staticParams = data.Cities.map((city) => ({
     city: city.city.toLowerCase(),

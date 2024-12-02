@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
-import data from "../../data/data.json";
-import Carousel from "../components/carousel/Carousel";
-import TestimonyList from "../components/testimonyList/TestimonyList";
+import data from "../../../data/data.json";
+import Carousel from "../../components/carousel/Carousel";
+import TestimonyList from "../../components/testimonyList/TestimonyList";
 
 const cities = data.Cities;
 const testimonies = data.Testimonies;
