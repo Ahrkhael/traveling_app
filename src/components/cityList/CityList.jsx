@@ -2,6 +2,7 @@ import { Link } from "@/i18n/routing";
 import Image from "next/image";
 
 const CityList = ({
+  cities,
   listStyles,
   listItemStyles,
   imgStyles,
@@ -9,23 +10,21 @@ const CityList = ({
   descriptionStyles,
   t,
 }) => {
-  const keys = ["Madrid", "Barcelona", "Sevilla", "Valencia"];
-
   return (
     <ul className={listStyles}>
-      {keys.map((key) => (
-        <li key={key} className={listItemStyles}>
-          <Link href={`/${key}`}>
+      {cities.map((city) => (
+        <li key={city.id} className={listItemStyles}>
+          <Link href={`/${city.city}`}>
             <Image
-              src={t(`${key}.image`)}
+              src={city.image}
               width={200}
               height={200}
-              alt={`Foto de la ciudad de ${key}`}
+              alt={`Foto de la ciudad de ${city.city}`}
               className={imgStyles}
             />
-            <h2 className={titleStyles}>{t(`${key}.city`)}</h2>
+            <h2 className={titleStyles}>{city.city}</h2>
             <p className={descriptionStyles}>
-              {t(`${key}.shortDescription`) ||
+              {t(`${city.city}.shortDescription`) ||
                 "Una ciudad maravillosa para visitar."}
             </p>
           </Link>
