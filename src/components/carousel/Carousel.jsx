@@ -81,6 +81,7 @@ export default function Carousel({ cities }) {
           }}
         >
           <CityList
+            cities={cities}
             listStyles={styles.carouselList}
             listItemStyles={styles.carouselItem}
             imgStyles={styles.img}

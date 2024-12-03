@@ -1,9 +1,9 @@
-import data from "../../../../data/data.json";
+import data from "../../../../../data/data.json";
 import Image from "next/image";
 import styles from "./page.module.css";
 
 export async function generateStaticParams() {
-  const data = await import("../../../../data/data.json");
+  const data = await import("../../../../../data/data.json");
 
   const staticParams = data.Cities.flatMap((city) =>
     city.monuments.map((monument) => ({

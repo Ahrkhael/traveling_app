@@ -1,5 +1,6 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function MonumentList({
   city,
@@ -10,6 +11,7 @@ export default function MonumentList({
   titleStyles,
   descriptionStyles,
 }) {
+  const t = useTranslations(`Cities.${city}.monuments`);
   return (
     <ul className={listStyles}>
       {monuments.map((monument) => (
@@ -23,7 +25,9 @@ export default function MonumentList({
               className={imgStyles}
             />
             <h2 className={titleStyles}>{monument.monument}</h2>
-            <p className={descriptionStyles}>{monument.shortDescription}</p>
+            <p className={descriptionStyles}>
+              {t(`${monument.monument}.shortDescription`)}
+            </p>
           </Link>{" "}
         </li>
       ))}
