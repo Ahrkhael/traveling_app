@@ -169,7 +169,8 @@
           "longDescription": "El Mercado Central de Valencia es mucho más que un lugar de compras; es un vibrante centro de vida social y cultural, y una de las mayores joyas modernistas de la ciudad. Inaugurado en 1928, este edificio combina funcionalidad y belleza arquitectónica, con una estructura metálica adornada con vidrieras, cerámicas y mosaicos que reflejan el estilo modernista valenciano. En su interior, el mercado alberga más de 1.200 puestos que ofrecen productos frescos y locales, desde frutas y verduras hasta pescados, carnes y especias. El bullicio y los aromas del Mercado Central crean una experiencia sensorial única, mientras que su cúpula central y sus detalles decorativos hacen que sea un placer tanto para los compradores como para los turistas. Este lugar no solo es un testimonio de la gastronomía valenciana, sino también un punto de encuentro donde se entrelazan tradición y modernidad, convirtiéndose en una visita imprescindible en cualquier recorrido por Valencia."
         }
       }
-    }
+    },
+    "NoCityFound": "No se encontró la ciudad {city}"
   },
   "Testimonies": {
     "1": {
