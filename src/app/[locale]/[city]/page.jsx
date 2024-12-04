@@ -1,6 +1,6 @@
 import data from "../../../../data/data.json";
 import styles from "./page.module.css";
-import MonumentList from "../../../components/monumentList/MonumentList";
+import CityContent from "../../../components/cityContent/CityContent";
 
 export async function generateStaticParams() {
   const data = await import("../../../../data/data.json");
@@ -12,43 +12,25 @@ export async function generateStaticParams() {
   return staticParams;
 }
 
+// Función para obtener los datos de la ciudad en el servidor
+async function fetchCityData(city) {
+  const decodedCity = decodeURIComponent(city);
+
+  const cityData = data.Cities.find((item) => item.city === decodedCity);
+
+  return { cityData, decodedCity };
+}
+
+// Componente de renderizado principal
 export default async function CityPage({ params }) {
-  const city = (await params).city;
-  const decodedCity = decodeURIComponent(city).toLowerCase();
-
-  const cityData = data.Cities.find(
-    (item) => item.city.toLowerCase() === decodedCity
-  );
-
-  const monuments = cityData ? cityData.monuments : [];
-
-  if (!cityData) {
-    return (
-      <main className="main">
-        <p className="description">No se encontró la ciudad {decodedCity}.</p>
-      </main>
-    );
-  }
+  const { city } = await params;
+  const { cityData, decodedCity } = await fetchCityData(city);
 
   return (
-    <main className="main">
-      <div className={styles.divCity}>
-        <h1 className="title">{city}</h1>
-        <h2 className={`description ${styles.cityLongDescription}`}>
-          {cityData.longDescription}
-        </h2>
-      </div>
-      <div className={styles.divMonuments}>
-        <h1 className="title">Monumentos en {city}</h1>
-        <MonumentList
-          city={city}
-          monuments={monuments}
-          listStyles={styles.list}
-          imgStyles={styles.img}
-          titleStyles={"title"}
-          descriptionStyles={`description ${styles.monumentDescription}`}
-        ></MonumentList>
-      </div>
-    </main>
+    <CityContent
+      cityData={cityData}
+      decodedCity={decodedCity}
+      styles={styles}
+    />
   );
 }
