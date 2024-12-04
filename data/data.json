@@ -4,8 +4,6 @@
       "id": 1,
       "city": "Madrid",
       "image": "/images/madrid.jpg",
-      "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
-      "longDescription": "Madrid, la vibrante capital de España, es una ciudad que combina una rica historia con una vida moderna y cosmopolita. Sus majestuosas avenidas y plazas, como la icónica Puerta del Sol y la Plaza Mayor, están rodeadas de arquitectura impresionante, cafés acogedores y una energía contagiosa. Los amantes del arte disfrutarán de tesoros culturales como el Museo del Prado, el Reina Sofía y el Thyssen-Bornemisza, que albergan algunas de las mejores colecciones de arte del mundo. Además, Madrid es famosa por su vida nocturna, su deliciosa gastronomía (desde tapas tradicionales hasta alta cocina) y sus hermosos parques, como el Retiro, un oasis en el corazón de la ciudad. Madrid es, sin duda, un destino que no te dejará indiferente.",
       "monuments": [
         {
           "id": 1,
@@ -55,8 +53,6 @@
       "id": 2,
       "city": "Barcelona",
       "image": "/images/sagrada-familia.jpg",
-      "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
-      "longDescription": "Barcelona es una ciudad que cautiva con su mezcla única de cultura, arte y mar. Situada a orillas del Mediterráneo, esta joya catalana es mundialmente conocida por la obra del arquitecto Antoni Gaudí, especialmente la inconfundible Sagrada Familia y el colorido Parque Güell. Las calles de Barcelona invitan a pasear, desde Las Ramblas, siempre animada y llena de vida, hasta el barrio gótico con sus estrechas callejuelas medievales y sus plazas llenas de encanto. La ciudad también cuenta con una vibrante escena culinaria, que va desde mercados locales como La Boquería hasta restaurantes galardonados con estrellas Michelin. Y para aquellos que buscan relajarse, las playas urbanas y el cálido clima mediterráneo hacen de Barcelona un destino ideal para todo tipo de viajeros.",
       "monuments": [
         {
           "id": 1,
