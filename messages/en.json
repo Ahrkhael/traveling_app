@@ -170,7 +170,9 @@
         }
       }
     },
-    "NoCityFound": "{city}'s city not found"
+    "NoCityFound": "{city}'s city not found",
+    "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
+    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}"
   },
   "Testimonies": {
     "1": {

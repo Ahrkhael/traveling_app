@@ -26,11 +26,5 @@ export default async function CityPage({ params }) {
   const { city } = await params;
   const { cityData, decodedCity } = await fetchCityData(city);
 
-  return (
-    <CityContent
-      cityData={cityData}
-      decodedCity={decodedCity}
-      styles={styles}
-    />
-  );
+  return <CityContent cityData={cityData} city={decodedCity} styles={styles} />;
 }

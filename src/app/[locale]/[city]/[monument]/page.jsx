@@ -1,6 +1,6 @@
 import data from "../../../../../data/data.json";
-import Image from "next/image";
 import styles from "./page.module.css";
+import MonumentContent from "../../../../components/monumentContent/monumentContent";
 
 export async function generateStaticParams() {
   const data = await import("../../../../../data/data.json");
@@ -15,44 +15,34 @@ export async function generateStaticParams() {
   return staticParams;
 }
 
-export default async function MonumentPage({ params }) {
-  const { city, monument } = await params;
-  const decodedCity = decodeURIComponent(city).toLowerCase();
-  const decodedMonument = decodeURIComponent(monument).toLowerCase();
+async function fetchMonumentData(city, monument) {
+  const decodedCity = decodeURIComponent(city);
+  const decodedMonument = decodeURIComponent(monument);
 
   const cityData = data.Cities.find(
-    (item) => item.city.toLowerCase() === decodedCity
+    (item) => item.city.toLowerCase() === decodedCity.toLowerCase()
   );
 
   const monumentData = cityData
     ? cityData.monuments.find(
-        (item) => item.monument.toLowerCase() === decodedMonument
+        (item) => item.monument.toLowerCase() === decodedMonument.toLowerCase()
       )
     : null;
 
-  if (!monumentData) {
-    return (
-      <main className="main">
-        No se encontró el monumento {decodedMonument} en {decodedCity}.
-      </main>
-    );
-  }
+  return { monumentData, decodedCity, decodedMonument };
+}
+
+export default async function MonumentPage({ params }) {
+  const { city, monument } = await params;
+  const { monumentData, decodedCity, decodedMonument } =
+    await fetchMonumentData(city, monument);
 
   return (
-    <main className={`main ${styles.main}`}>
-      <Image
-        src={monumentData.image}
-        width={200}
-        height={200}
-        alt={`Foto del monumento ${monumentData.monument}`}
-        className={styles.img}
-      />
-      <h1 className="title">
-        {monumentData.monument} de {cityData.city}
-      </h1>
-      <p className={`description ${styles.monumentDescription}`}>
-        {monumentData.longDescription}
-      </p>
-    </main>
+    <MonumentContent
+      monumentData={monumentData}
+      city={decodedCity}
+      monument={decodedMonument}
+      styles={styles}
+    />
   );
 }
