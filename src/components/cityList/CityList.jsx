@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 
 const CityList = ({
@@ -8,6 +8,7 @@ const CityList = ({
   imgStyles,
   titleStyles,
   descriptionStyles,
+  t,
 }) => {
   return (
     <ul className={listStyles}>
@@ -23,7 +24,8 @@ const CityList = ({
             />
             <h2 className={titleStyles}>{city.city}</h2>
             <p className={descriptionStyles}>
-              {city.shortDescription || "Una ciudad maravillosa para visitar."}
+              {t(`${city.city}.shortDescription`) ||
+                "Una ciudad maravillosa para visitar."}
             </p>
           </Link>
         </li>

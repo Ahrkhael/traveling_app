@@ -1,15 +1,18 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import DropdownMenuCities from "../dropdownMenuCities/DropdownMenuCities";
+import { useTranslations } from "next-intl";
 
-export default function Navbar() {
+export default function Navbar({}) {
+  const t = useTranslations("Navbar");
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href="/">
           <Image
-            src="/airplane.jpg"
+            src="/images/airplane.jpg"
             width={20}
             height={20}
             alt="traveling_app logo"
@@ -17,11 +20,11 @@ export default function Navbar() {
           />
         </Link>
         <Link href="/" className={styles.link}>
-          Inicio
+          {t("Home")}
         </Link>
-        <DropdownMenuCities />
+        <DropdownMenuCities t={t} />
         <Link href="/about-us" className={styles.link}>
-          ¿Quiénes somos?
+          {t("AboutUs")}
         </Link>
       </nav>
     </header>

@@ -1,8 +1,10 @@
 import CityList from "@/components/cityList/CityList";
-import citiesData from "../../../data/data.json";
+import citiesData from "../../../../data/data.json";
 import styles from "./page.module.css";
+import { useTranslations } from "next-intl";
 
 const CitiesPage = () => {
+  const t = useTranslations("Cities");
   const cities = citiesData.Cities;
 
   return (
@@ -15,6 +17,7 @@ const CitiesPage = () => {
         imgStyles={styles.img}
         titleStyles={"title"}
         descriptionStyles={"description"}
+        t={t}
       />
     </main>
   );
