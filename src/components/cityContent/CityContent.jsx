@@ -1,13 +1,13 @@
 import { useTranslations } from "next-intl";
 import MonumentList from "../monumentList/MonumentList";
 
-export default function CityContent({ cityData, decodedCity, styles }) {
+export default function CityContent({ cityData, city, styles }) {
   const t = useTranslations("Cities");
 
   if (!cityData) {
     return (
       <main className="main">
-        <p className="description">{t("NoCityFound", { city: decodedCity })}</p>
+        <p className="description">{t("NoCityFound", { city: city })}</p>
       </main>
     );
   }
@@ -17,15 +17,15 @@ export default function CityContent({ cityData, decodedCity, styles }) {
   return (
     <main className="main">
       <div className={styles.divCity}>
-        <h1 className="title">{decodedCity}</h1>
+        <h1 className="title">{city}</h1>
         <h2 className={`description ${styles.cityLongDescription}`}>
-          {t(`${cityData.city}.longDescription`)}
+          {t(`${city}.longDescription`)}
         </h2>
       </div>
       <div className={styles.divMonuments}>
-        <h1 className="title">{t("MonumentsInCity", { city: decodedCity })}</h1>
+        <h1 className="title">{t("MonumentsInCity", { city: city })}</h1>
         <MonumentList
-          city={decodedCity}
+          city={city}
           monuments={monuments}
           listStyles={styles.list}
           imgStyles={styles.img}

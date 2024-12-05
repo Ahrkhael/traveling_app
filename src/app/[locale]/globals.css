@@ -9,9 +9,9 @@
   --font-color-menu-secondary: #66ccff;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-  --background-navbar-rgb: 35, 34, 31;
+  --background-start-rgb: 77, 124, 133;
+  --background-end-rgb: 129, 96, 96;
+  --background-navbar-rgb: 170, 170, 180;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
