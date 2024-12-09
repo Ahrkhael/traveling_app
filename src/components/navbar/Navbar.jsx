@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./Navbar.module.css";
 import DropdownMenuCities from "../dropdownMenuCities/DropdownMenuCities";
 import { useTranslations } from "next-intl";
+import LangSelector from "../langSelector/LangSelector";
 
 export default function Navbar({}) {
   const t = useTranslations("Navbar");
@@ -26,6 +27,7 @@ export default function Navbar({}) {
         <Link href="/about-us" className={styles.link}>
           {t("AboutUs")}
         </Link>
+        <LangSelector />
       </nav>
     </header>
   );

@@ -8,16 +8,18 @@ export default function DropdownMenuCities({ t }) {
       <Link href={"/cities"} className={styles.dropdownButton}>
         {t("Cities")}
       </Link>
-      <div className={styles.dropdownContent}>
-        {citiesData.Cities.map((city) => (
-          <Link
-            key={city.id}
-            href={`/${city.city}`}
-            className={styles.dropdownLink}
-          >
-            {city.city}
-          </Link>
-        ))}
+      <div className={styles.dropdownContentWrapper}>
+        <div className={styles.dropdownContent}>
+          {citiesData.Cities.map((city) => (
+            <Link
+              key={city.id}
+              href={`/${city.city}`}
+              className={styles.dropdownLink}
+            >
+              {city.city}
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );
