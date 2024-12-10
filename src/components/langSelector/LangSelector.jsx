@@ -1,30 +1,32 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import { useState } from "react";
 import Link from "next/link";
 import styles from "./LangSelector.module.css";
+import useDropdown from "../../hooks/useDropdown";
+import { usePathname } from "next/navigation";
 
 export default function LangSelector() {
   const pathname = usePathname();
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  const {
+    isDropdownVisible,
+    handleToggleDropdown,
+    handleMouseEnter,
+    handleMouseLeave,
+  } = useDropdown();
 
   const pathSegments = pathname.split("/");
   const currentLocale = pathSegments[1];
   const nonLocalizedPath = `/${pathSegments.slice(2).join("/")}`;
 
-  // Define los idiomas soportados
+  // Supported languages
   const locales = ["en", "es"];
 
-  const handleMouseEnter = () => setDropdownVisible(true);
-  const handleMouseLeave = () => setDropdownVisible(false);
-
-  // Crea enlaces para cambiar de idioma
   return (
     <div
       className={styles.dropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={handleToggleDropdown}
     >
       <p className={styles.dropdownButton}>🌍</p>
       {isDropdownVisible && (
@@ -35,7 +37,7 @@ export default function LangSelector() {
                 key={locale}
                 href={`/${locale}${nonLocalizedPath}`}
                 locale={locale}
-                className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabled : ""}`}
+                className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
               >
                 <span
                   className={

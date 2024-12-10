@@ -25,15 +25,10 @@
 }
 
 .dropdownContent {
-  display: none;
   background-color: rgb(var(--background-navbar-rgb));
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   min-width: 20px;
   z-index: 100;
-}
-
-.dropdown:hover .dropdownContent {
-  display: block;
 }
 
 .dropdownLink {
