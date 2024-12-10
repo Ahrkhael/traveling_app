@@ -10,7 +10,7 @@
       "id": 1,
       "city": "Madrid",
       "shortDescription": "With more than 3 million inhabitants and being the capital of Spain, it is possibly one of the most popular tourist destinations for our users.",
-      "longDescription": "Madrid, la vibrante capital de España, es una ciudad que combina una rica historia con una vida moderna y cosmopolita. Sus majestuosas avenidas y plazas, como la icónica Puerta del Sol y la Plaza Mayor, están rodeadas de arquitectura impresionante, cafés acogedores y una energía contagiosa. Los amantes del arte disfrutarán de tesoros culturales como el Museo del Prado, el Reina Sofía y el Thyssen-Bornemisza, que albergan algunas de las mejores colecciones de arte del mundo. Además, Madrid es famosa por su vida nocturna, su deliciosa gastronomía (desde tapas tradicionales hasta alta cocina) y sus hermosos parques, como el Retiro, un oasis en el corazón de la ciudad. Madrid es, sin duda, un destino que no te dejará indiferente.",
+      "longDescription": "Madrid, the vibrant capital of Spain, is a city where history and modernity blend seamlessly. Known for its grand boulevards, world-class museums like the Prado and Reina Sofia, and the lively atmosphere of neighborhoods such as Malasaña and La Latina, Madrid offers a rich cultural tapestry. Visitors can enjoy traditional Spanish cuisine, admire architectural marvels like the Royal Palace, and immerse themselves in the city's energetic nightlife, making it a dynamic destination for all.",
       "monuments": {
         "Palacio real": {
           "id": 1,
@@ -54,7 +54,7 @@
       "id": 2,
       "city": "Barcelona",
       "shortDescription": "Without a doubt, one of the best destinations to visit in Summer, with very diverse cultural events and a very open-minded city.",
-      "longDescription": "Barcelona es una ciudad que cautiva con su mezcla única de cultura, arte y mar. Situada a orillas del Mediterráneo, esta joya catalana es mundialmente conocida por la obra del arquitecto Antoni Gaudí, especialmente la inconfundible Sagrada Familia y el colorido Parque Güell. Las calles de Barcelona invitan a pasear, desde Las Ramblas, siempre animada y llena de vida, hasta el barrio gótico con sus estrechas callejuelas medievales y sus plazas llenas de encanto. La ciudad también cuenta con una vibrante escena culinaria, que va desde mercados locales como La Boquería hasta restaurantes galardonados con estrellas Michelin. Y para aquellos que buscan relajarse, las playas urbanas y el cálido clima mediterráneo hacen de Barcelona un destino ideal para todo tipo de viajeros.",
+      "longDescription": "Barcelona, the jewel of Catalonia, is a city renowned for its unique blend of Gothic and modernist architecture. Home to the legendary works of Antoni Gaudí, such as the Sagrada Família and Park Güell, it captivates visitors with its artistic and historical richness. Strolling along Las Ramblas, relaxing on its golden beaches, and enjoying the vibrant culinary scene are just a few of the many experiences this Mediterranean gem offers.",
       "monuments": {
         "Sagrada familia": {
           "id": 1,
@@ -98,7 +98,7 @@
       "id": 3,
       "city": "Sevilla",
       "shortDescription": "\"Sevilla has a special color\" or so say Los Del Río, a culturally very rich city for being a Muslim and Christian historic center, with monuments that are a clear reflection of this.",
-      "longDescription": "Sevilla, la capital de Andalucía, es una ciudad que rebosa encanto y tradición. Conocida por su impresionante arquitectura, como la majestuosa Catedral de Sevilla, que alberga la famosa Giralda, y el encantador Real Alcázar, esta ciudad está impregnada de historia y cultura. Sevilla es también el hogar del flamenco, y no hay mejor lugar para disfrutar de una auténtica actuación que en uno de sus muchos tablaos. Pasear por el barrio de Santa Cruz, con sus estrechas calles empedradas y patios llenos de flores, es como viajar en el tiempo. Los viajeros pueden disfrutar de la calidez del sol sevillano casi todo el año y de su deliciosa gastronomía, con platos típicos como el gazpacho y el pescaíto frito. Sevilla es un destino lleno de vida y tradición, que conquista a todo aquel que la visita.",
+      "longDescription": "Seville, the heart of Andalusia, is a city that brims with romance, tradition, and history. Its iconic landmarks, such as the Giralda, the Alcázar, and the Plaza de España, reflect its Moorish and Renaissance influences. Seville is also the birthplace of flamenco, offering a rich cultural experience with passionate music and dance. From its lively streets to its fragrant orange blossoms, the city enchants visitors with its timeless charm.",
       "monuments": {
         "Giralda": {
           "id": 1,
@@ -130,7 +130,7 @@
       "id": 4,
       "city": "Valencia",
       "shortDescription": "Historically known as \"The City of El Cid\", we can still visit its extensive medieval and modern historical and cultural heritage.",
-      "longDescription": "Valencia, ubicada en la costa este de España, es una ciudad que sorprende con su mezcla de tradición e innovación. Famosa por ser la cuna de la paella, esta ciudad también ofrece una rica oferta cultural y una arquitectura que fusiona lo antiguo con lo moderno. Desde su encantador casco histórico, donde se encuentra la Catedral de Valencia y el Mercado Central, hasta la futurista Ciudad de las Artes y las Ciencias, Valencia ofrece una experiencia única. La ciudad es ideal para los amantes de la naturaleza, con amplias zonas verdes como el Jardín del Turia, y para quienes disfrutan del mar, gracias a sus extensas playas de arena dorada. Con un clima templado durante todo el año, Valencia es el destino perfecto para quienes buscan disfrutar del Mediterráneo en su máxima expresión.",
+      "longDescription": "Valencia, the sunny coastal city, is famed for its futuristic City of Arts and Sciences and its stunning beaches along the Mediterranean. With a history that spans over two millennia, the city offers a unique mix of ancient sites like the Silk Exchange and modern landmarks. Known as the birthplace of paella, Valencia invites visitors to savor its cuisine while enjoying the vibrant Fallas festival and its lively atmosphere.",
       "monuments": {
         "Ciudad de las Artes": {
           "id": 1,
