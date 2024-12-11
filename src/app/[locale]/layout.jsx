@@ -36,7 +36,7 @@ export default async function RootLayout({ children, params }) {
       <body className={`${inter.className} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <ScrollToTop />
-          <Navbar translations={messages} />
+          <Navbar />
           {children}
           <Footer />
         </NextIntlClientProvider>
