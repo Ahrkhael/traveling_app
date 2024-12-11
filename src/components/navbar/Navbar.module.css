@@ -2,32 +2,27 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 7%;
+  height: 7dvh;
   min-height: var(--navbar-min-height);
   z-index: 100;
-  display: grid;
+  display: flex;
   justify-content: center;
   background-color: rgb(var(--background-navbar-rgb));
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+/* Por defecto, ocultamos NavbarMobile*/
+.header > :nth-child(2) {
+  display: none;
 }
 
-.img {
-  border-radius: 50%;
-}
+/* En pantallas pequeñas */
+@media (max-width: 768px) {
+  .header > :nth-child(1) {
+    display: none; /* Oculta Navbar */
+  }
 
-.link {
-  text-decoration: none;
-  color: var(--font-color-primary);
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.link:hover {
-  color: var(--font-color-menu-secondary);
+  .header > :nth-child(2) {
+    display: block; /* Muestra MobileNavbar */
+  }
 }

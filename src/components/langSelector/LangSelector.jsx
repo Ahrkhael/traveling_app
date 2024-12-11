@@ -29,28 +29,26 @@ export default function LangSelector() {
       onClick={handleToggleDropdown}
     >
       <p className={styles.dropdownButton}>🌍</p>
-      {isDropdownVisible && (
-        <div className={styles.dropdownContentWrapper}>
-          <div className={styles.dropdownContent}>
-            {locales.map((locale) => (
-              <Link
-                key={locale}
-                href={`/${locale}${nonLocalizedPath}`}
-                locale={locale}
-                className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
-              >
-                <span
-                  className={
-                    locale === currentLocale ? styles.disabledLink : undefined
-                  }
-                >
-                  {locale.toUpperCase()}
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
+      <div
+        className={`${styles.menu} ${isDropdownVisible ? styles.menuOpen : styles.menuClosed}`}
+      >
+        {locales.map((locale) => (
+          <Link
+            key={locale}
+            href={`/${locale}${nonLocalizedPath}`}
+            locale={locale}
+            className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
+          >
+            <span
+              className={
+                locale === currentLocale ? styles.disabledLink : undefined
+              }
+            >
+              {locale.toUpperCase()}
+            </span>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }
