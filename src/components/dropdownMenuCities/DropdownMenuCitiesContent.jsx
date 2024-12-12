@@ -22,21 +22,19 @@ export default function DropdownMenuCitiesContent({ title, cities }) {
       <Link href={"/cities"} className={styles.dropdownButton}>
         {title}
       </Link>
-      {isDropdownVisible && (
-        <div className={styles.dropdownContentWrapper}>
-          <div className={styles.dropdownContent}>
-            {cities.map((city) => (
-              <Link
-                key={city.id}
-                href={`/${city.city}`}
-                className={styles.dropdownLink}
-              >
-                {city.city}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
+      <div
+        className={`${styles.menu} ${isDropdownVisible ? styles.menuOpen : styles.menuClosed}`}
+      >
+        {cities.map((city) => (
+          <Link
+            key={city.id}
+            href={`/${city.city}`}
+            className={styles.dropdownLink}
+          >
+            {city.city}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Suspense } from "react";
 
 export default function MonumentContent({
   monumentData,
@@ -27,16 +28,18 @@ export default function MonumentContent({
 
   return (
     <main className={`main ${styles.main}`}>
-      <Image
-        src={monumentData.image}
-        width={200}
-        height={200}
-        alt={tGlobal("MonumentImageAlt", {
-          monument: monument,
-          city: city,
-        })}
-        className={styles.img}
-      />
+      <Suspense>
+        <Image
+          src={monumentData.image}
+          width={200}
+          height={200}
+          alt={tGlobal("MonumentImageAlt", {
+            monument: monument,
+            city: city,
+          })}
+          className={styles.img}
+        />
+      </Suspense>
       <h1 className="title">{tMonument("monument")}</h1>
       <p className={`description ${styles.monumentDescription}`}>
         {tMonument("longDescription")}

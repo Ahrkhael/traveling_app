@@ -29,4 +29,8 @@
   .list {
     grid-template-columns: 1fr;
   }
+
+  .img {
+    border-radius: 50%;
+  }
 }
