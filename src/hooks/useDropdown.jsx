@@ -1,20 +1,32 @@
 "use client";
+
 import { useState, useEffect } from "react";
 
 export default function useDropdown() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
-  // Detectar si el dispositivo es táctil
   useEffect(() => {
-    setIsTouchDevice("ontouchstart" in window || navigator.maxTouchPoints > 0);
+    // Detectar si hay soporte para eventos táctiles
+    const checkTouchDevice = () => {
+      setIsTouchDevice(
+        "ontouchstart" in window || navigator.maxTouchPoints > 0
+      );
+    };
+
+    checkTouchDevice();
+
+    // Escuchar cambios en la orientación para detectar dispositivos híbridos
+    window.addEventListener("resize", checkTouchDevice);
+
+    return () => {
+      window.removeEventListener("resize", checkTouchDevice);
+    };
   }, []);
 
   // Alterna la visibilidad en dispositivos táctiles
   const handleToggleDropdown = () => {
-    if (isTouchDevice) {
-      setDropdownVisible((prev) => !prev);
-    }
+    setDropdownVisible((prev) => !prev);
   };
 
   // Manejo de visibilidad para escritorio

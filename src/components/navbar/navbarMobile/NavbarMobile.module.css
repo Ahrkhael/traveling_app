@@ -1,23 +1,23 @@
-.dropdown {
-  display: flex;
+.nav {
+  min-height: 45px;
+  width: 100%;
   position: relative;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 84px;
 }
 
-.dropdownButton {
+.divButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.menuButton {
+  position: absolute;
+  font-size: 1.5rem;
+  color: var(--font-color-primary);
   background: none;
   border: none;
-  cursor: pointer;
-  color: var(--font-color-primary);
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.dropdownButton:hover {
-  color: var(--font-color-menu-secondary);
 }
 
 .menu {
@@ -26,8 +26,8 @@
   background-color: rgb(var(--background-navbar-rgb));
   position: absolute;
   top: 100%;
-  left: -14px;
-  min-width: 20px;
+  left: 0;
+  width: 100%;
   transform: translateY(-10%);
   opacity: 0;
   visibility: hidden;
@@ -38,7 +38,6 @@
   transform: translateY(0);
   opacity: 1;
   visibility: visible;
-  z-index: 100;
 }
 
 .menuClosed {
@@ -47,18 +46,12 @@
   visibility: hidden;
 }
 
-.dropdownLink {
-  display: block;
+.link {
   padding: 1rem;
-  font-weight: bold;
-  color: var(--font-color-primary);
-  text-align: center;
   text-decoration: none;
+  text-align: center;
+  color: var(--font-color-primary);
+  font-weight: bold;
   border: 1px solid var(--font-color-secondary);
   border-collapse: collapse;
-}
-
-.dropdownLink:hover {
-  background-color: rgb(var(--background-end-rgb));
-  color: var(--font-color-menu-secondary);
 }
