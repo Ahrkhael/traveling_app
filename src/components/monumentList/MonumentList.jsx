@@ -26,7 +26,9 @@ export default function MonumentList({
                 alt={`Foto del monumento ${monument.monument}`}
                 className={imgStyles}
               />
-              <h2 className={titleStyles}>{monument.monument}</h2>
+              <h2 className={titleStyles}>
+                {t(`${monument.monument}.monument`)}
+              </h2>
               <p className={descriptionStyles}>
                 {t(`${monument.monument}.shortDescription`)}
               </p>

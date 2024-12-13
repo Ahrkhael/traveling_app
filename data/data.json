@@ -22,7 +22,7 @@
         },
         {
           "id": 4,
-          "monument": "La plaza Mayor",
+          "monument": "Plaza Mayor",
           "image": "/images/plaza-mayor.jpg"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
           "id": 6,
-          "monument": "La Gran Vía",
+          "monument": "Gran Vía",
           "image": "/images/gran-via.jpg"
         }
       ]
