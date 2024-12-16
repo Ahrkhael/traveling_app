@@ -4,6 +4,19 @@
     "Cities": "Ciudades",
     "AboutUs": "¿Quiénes somos?"
   },
+  "Footer": {
+    "Explore": "Explora",
+    "FollowUs": "Síguenos",
+    "Contact": "Contacto",
+    "Subscribe": "Suscríbete",
+    "LegalNotice": "Aviso legal",
+    "Home": "Inicio",
+    "Cities": "Ciudades",
+    "AboutUs": "¿Quiénes somos?",
+    "SubscribeBotton": "Suscríbete",
+    "Terms&Conditions": "Términos y condiciones",
+    "PrivacyPolicy": "Política de privacidad"
+  },
   "Cities": {
     "MonumentsInCity": "Monumentos en {city}",
     "Madrid": {
