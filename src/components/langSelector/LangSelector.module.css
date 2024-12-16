@@ -1,23 +1,27 @@
 .dropdown {
-  position: relative;
   display: flex;
-  align-items: center;
 }
 
 .dropdownButton {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  margin-right: 18px;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
   background-color: rgb(var(--background-navbar-rgb));
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 60px;
   transform: translateY(-10%);
   opacity: 0;
   visibility: hidden;
@@ -39,11 +43,13 @@
 
 .dropdownLink {
   display: block;
-  padding: 8px 16px;
+  padding: 1rem;
   font-weight: bold;
   color: var(--font-color-primary);
-  border: solid 2px rgb(100, 100, 100);
+  text-align: center;
   text-decoration: none;
+  border: 1px solid var(--font-color-secondary);
+  border-collapse: collapse;
 }
 
 .dropdownLink:hover {
@@ -59,5 +65,6 @@
 @media (max-width: 768px) {
   .dropdownButton {
     cursor: default;
+    font-size: 1.5rem;
   }
 }
