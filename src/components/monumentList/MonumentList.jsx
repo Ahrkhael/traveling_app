@@ -17,7 +17,10 @@ export default function MonumentList({
     <ul className={listStyles}>
       {monuments.map((monument) => (
         <li key={monument.id} className={listItemStyles}>
-          <Link href={`/${city}/${monument.monument}`}>
+          <Link
+            href={`/${city}/${monument.monument}`}
+            style={{ height: "100%" }}
+          >
             <Suspense>
               <Image
                 src={monument.image}

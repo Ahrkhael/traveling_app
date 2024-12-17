@@ -5,7 +5,7 @@ import CityList from "../cityList/CityList";
 import styles from "./Carousel.module.css";
 import { useTranslations } from "next-intl";
 
-export default function Carousel({ cities }) {
+export default function Carousel({ title, titleDescription, cities }) {
   const t = useTranslations("Cities");
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,11 +52,9 @@ export default function Carousel({ cities }) {
 
   return (
     <div className={styles.carouselContainer}>
-      <h2 className={`title ${styles.carouselTitle}`}>
-        ¿No sabes qué destino elegir?
-      </h2>
+      <h2 className={`title ${styles.carouselTitle}`}>{title}</h2>
       <p className={`description ${styles.carouselTitleDescription}`}>
-        Permítenos sugerirte algunas ciudades
+        {titleDescription}
       </p>
       <div className={styles.carousel}>
         <button

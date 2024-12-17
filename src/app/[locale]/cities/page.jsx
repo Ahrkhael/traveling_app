@@ -9,7 +9,7 @@ const CitiesPage = () => {
 
   return (
     <main className="main">
-      <h1 className="title">Elige tu próximo destino</h1>
+      <h1 className="title">{t("CitiesPageTitle")}</h1>
       <CityList
         cities={cities}
         listStyles={styles.list}

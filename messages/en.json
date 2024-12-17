@@ -17,6 +17,18 @@
     "Terms&Conditions": "Terms & Conditions",
     "PrivacyPolicy": "Privacy policy"
   },
+  "HomePage": {
+    "WelcomeTitle": "Welcome to Travelers without borders",
+    "WelcomeDescription": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations. Here we connect you with vibrant cities, historic monuments, and natural wonders waiting to be explored. Whether you're an adventurer looking for new experiences or a curious person wanting to see unique corners of the planet, this is your gateway to the trip of your dreams. Get ready to get inspired, plan and explore without limits!",
+    "CarrouselTitle": "Don't know where to go?",
+    "CarrouselSubtitle": "Let us suggest some destinations",
+    "TestimoniesTitle": "Testimonies from other travelers"
+  },
+  "AboutUsPage": {
+    "MainTitle": "Get to know us better",
+    "MainDescription": " is a Web platform designed for tourism and adventure lovers. To Through a visual and dynamic experience, users can explore tourist destinations around the world, discovering fascinating cities and their most emblematic monuments. The website allows travellers to find out about cultural characteristics, of each place, providing details of interest about the most iconic sites. With a focus on ease of By navigating and interactive design, Travelers Without Borders invites you to users to plan their next adventure, connecting them with a diversity of global destinations regardless of borders.",
+    "TestimoniesTitle": "Know experiences from other users"
+  },
   "Cities": {
     "MonumentsInCity": "Monuments in {city}",
     "Madrid": {
@@ -185,44 +197,45 @@
     },
     "NoCityFound": "{city} city not found",
     "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
-    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}"
+    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
+    "CitiesPageTitle": "Choose your next destination"
   },
   "Testimonies": {
     "1": {
       "id": 1,
-      "author": "María González",
-      "testimony": "Viajeros Sin Fronteras me ayudó a planificar el viaje de mis sueños a Madrid. Las recomendaciones de lugares para visitar y los monumentos fueron precisas, y pude aprovechar al máximo mi tiempo en la ciudad. ¡Definitivamente usaré esta web para mi próximo viaje!",
-      "score": 5
+      "author": "John Smith",
+      "testimony": "Viajeros sin Fronteras provided an exceptional travel experience. Their attention to detail and personalized service made our trip unforgettable. Highly recommend their services",
+      "score": "★★★★★"
     },
     "2": {
       "id": 2,
-      "author": "Carlos Pérez",
-      "testimony": "Gracias a esta plataforma, descubrí lugares únicos en Valencia que ni siquiera sabía que existían. La información sobre cada destino es detallada y las guías son fáciles de seguir. Sin duda, es una herramienta imprescindible para cualquier viajero.",
-      "score": 4
+      "author": "Emily Johnson",
+      "testimony": "Great experience overall with Viajeros sin Fronteras. The itinerary was well-planned, and the accommodations were comfortable. Would have appreciated more local insights during the tours.",
+      "score": "★★★★☆"
     },
     "3": {
       "id": 3,
-      "author": "Lucía Fernández",
-      "testimony": "Me encantó la experiencia de usar Viajeros Sin Fronteras para mi viaje a Barcelona. Aunque algunas atracciones estaban cerradas, la información sobre las alternativas fue de gran ayuda. Un recurso muy útil para cualquier viajero.",
-      "score": 4
+      "author": "Michael Brown",
+      "testimony": "Outstanding service from start to finish. Viajeros sin Fronteras exceeded our expectations, providing unique experiences and seamless travel arrangements. Will definitely book with them again.",
+      "score": "★★★★★"
     },
     "4": {
       "id": 4,
-      "author": "Juan Martínez",
-      "testimony": "¡Increíble plataforma! Pude planificar mi viaje a Sevilla fácilmente y las recomendaciones fueron fantásticas. Las reseñas de otros viajeros también fueron muy útiles para decidir qué lugares visitar. ¡Totalmente recomendable!",
-      "score": 5
+      "author": "Sarah Davis",
+      "testimony": "Viajeros sin Fronteras organized a memorable trip for us. The destinations were amazing, and the guides were knowledgeable. A bit more flexibility in the schedule would have been ideal.",
+      "score": "★★★★☆"
     },
     "5": {
       "id": 5,
-      "author": "Ana López",
-      "testimony": "Viajeros Sin Fronteras tiene una interfaz sencilla y la información es muy clara. Me ayudó a planificar un viaje a Madrid y todo salió perfecto. Sin embargo, creo que podrían mejorar la sección de fotos.",
-      "score": 3
+      "author": "David Wilson",
+      "testimony": "Exceptional travel agency! Viajeros sin Fronteras took care of every detail, allowing us to fully enjoy our vacation without any worries. Highly recommend their services to fellow travelers.",
+      "score": "★★★★★"
     },
     "6": {
       "id": 6,
-      "author": "Pedro Ramírez",
-      "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
-      "score": 5
+      "author": "Jessica Martinez",
+      "testimony": "We had a wonderful time on our trip arranged by Viajeros sin Fronteras. The cultural experiences were enriching, and the group size was perfect. Some activities felt a bit rushed, but overall, a great experience.",
+      "score": "★★★★☆"
     }
   }
 }
