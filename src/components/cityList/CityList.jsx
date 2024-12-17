@@ -15,7 +15,7 @@ const CityList = ({
     <ul className={listStyles}>
       {cities.map((city) => (
         <li key={city.id} className={listItemStyles}>
-          <Link href={`/${city.city}`}>
+          <Link href={`/${city.city}`} style={{ height: "100%" }}>
             <Suspense>
               <Image
                 src={city.image}

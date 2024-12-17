@@ -1,0 +1,16 @@
+.rateList {
+  width: 100%;
+  color: var(--font-color-primary);
+  text-align: right;
+  margin-top: 3vh;
+  margin-right: 4vw;
+  cursor: default;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .rateList {
+    text-align: center;
+    margin: 0;
+  }
+}

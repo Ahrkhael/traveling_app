@@ -4,6 +4,31 @@
     "Cities": "Cities",
     "AboutUs": "About us"
   },
+  "Footer": {
+    "Explore": "Explore",
+    "FollowUs": "Follow us",
+    "Contact": "Contact",
+    "Subscribe": "Subscribe",
+    "LegalNotice": "Legal notice",
+    "Home": "Home",
+    "Cities": "Cities",
+    "AboutUs": "About us",
+    "SubscribeBotton": "Subscribe",
+    "Terms&Conditions": "Terms & Conditions",
+    "PrivacyPolicy": "Privacy policy"
+  },
+  "HomePage": {
+    "WelcomeTitle": "Welcome to Travelers without borders",
+    "WelcomeDescription": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations. Here we connect you with vibrant cities, historic monuments, and natural wonders waiting to be explored. Whether you're an adventurer looking for new experiences or a curious person wanting to see unique corners of the planet, this is your gateway to the trip of your dreams. Get ready to get inspired, plan and explore without limits!",
+    "CarrouselTitle": "Don't know where to go?",
+    "CarrouselSubtitle": "Let us suggest some destinations",
+    "TestimoniesTitle": "Testimonies from other travelers"
+  },
+  "AboutUsPage": {
+    "MainTitle": "Get to know us better",
+    "MainDescription": " is a Web platform designed for tourism and adventure lovers. To Through a visual and dynamic experience, users can explore tourist destinations around the world, discovering fascinating cities and their most emblematic monuments. The website allows travellers to find out about cultural characteristics, of each place, providing details of interest about the most iconic sites. With a focus on ease of By navigating and interactive design, Travelers Without Borders invites you to users to plan their next adventure, connecting them with a diversity of global destinations regardless of borders.",
+    "TestimoniesTitle": "Know experiences from other users"
+  },
   "Cities": {
     "MonumentsInCity": "Monuments in {city}",
     "Madrid": {
@@ -136,80 +161,81 @@
           "id": 1,
           "monument": "Ciudad de las Artes",
           "shortDescription": "An architectural, cultural and entertainment complex of the city, it has a wide variety of buildings including the Hemisfèric, the Museu de les Ciències and the Oceanográfico, each with a peculiar architecture and inside which a great deal of knowledge awaits you.",
-          "longDescription": "La Ciudad de las Artes y las Ciencias es uno de los complejos arquitectónicos más vanguardistas e impresionantes de España, diseñado por el célebre arquitecto Santiago Calatrava. Este conjunto futurista, ubicado en el antiguo cauce del río Turia, consta de varios edificios icónicos que combinan ciencia, cultura y ocio en un entorno único. Entre sus estructuras destacan el Hemisfèric, que alberga un cine IMAX y un planetario; el Museo de las Ciencias Príncipe Felipe, un espacio interactivo que acerca la ciencia a los visitantes; y el Oceanogràfic, el acuario más grande de Europa, con ecosistemas marinos de todo el mundo. El Palacio de las Artes Reina Sofía, dedicado a las artes escénicas, y el Ágora, un espacio para eventos, completan este impresionante conjunto. Los jardines del Umbracle, con su estructura de arcos y vegetación mediterránea, ofrecen un paseo tranquilo con vistas panorámicas de los alrededores. La Ciudad de las Artes y las Ciencias no solo es un referente de la arquitectura moderna, sino también un punto clave para el turismo y la cultura en Valencia."
+          "longDescription": "The City of Arts and Sciences is a futuristic architectural and cultural complex that has become an iconic symbol of Valencia. Designed by Santiago Calatrava, this sprawling space features stunning structures like the Hemisfèric, an eye-shaped planetarium, the Oceanogràfic, Europe’s largest aquarium, and the Palau de les Arts, a striking opera house. Surrounded by reflecting pools and lush gardens, it offers a unique blend of science, art, and leisure, making it a must-visit destination for modern architecture enthusiasts."
         },
         "Lonja de la Seda": {
           "id": 2,
           "monument": "Lonja de la Seda",
           "shortDescription": "Located in the historic centre of the city, it is a work of Valencian civil Gothic, declared in 1996 by UNESCO as a Heritage of Humanity.",
-          "longDescription": "La Lonja de la Seda, declarada Patrimonio de la Humanidad por la UNESCO, es una de las joyas arquitectónicas más valiosas de Valencia y un ejemplo destacado del estilo gótico civil. Construida entre los siglos XV y XVI, esta edificación fue el centro del comercio de la seda en su época de esplendor, reflejando la riqueza y el dinamismo de la Valencia medieval. Su Sala de Contratación, con altos techos abovedados sostenidos por columnas helicoidales, es un espacio de una belleza impresionante que simboliza el poder económico de la ciudad. Otros elementos notables incluyen la Torre, que servía como prisión para los comerciantes que no cumplían con sus contratos, y el Patio de los Naranjos, un rincón tranquilo que evoca el pasado mediterráneo. Este monumento no solo destaca por su arquitectura majestuosa, sino también por ser un testimonio vivo del comercio y la cultura que marcaron la historia de Valencia."
+          "longDescription": "The Lonja de la Seda, is a UNESCO World Heritage Site and a masterpiece of late Gothic architecture. Built in the 15th century, it stands as a testament to Valencia’s prosperous trading history during the Mediterranean Golden Age. The Hall of Columns, with its soaring vaulted ceiling and twisted pillars, exudes elegance, while the orange-tree courtyard adds a serene touch. This historic gem reflects the city’s mercantile past and cultural grandeur."
         },
         "Torres de Serranos": {
           "id": 3,
           "monument": "Torres de Serranos",
           "shortDescription": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two polygonal towers joined by a central body, where the gate itself opens and is topped with a semicircular arch.",
-          "longDescription": "Las Torres de Serranos son uno de los símbolos más reconocidos de Valencia y una de las puertas mejor conservadas de las antiguas murallas que rodeaban la ciudad. Construidas a finales del siglo XIV en estilo gótico, estas torres servían tanto de defensa como de entrada ceremonial para visitantes ilustres. Su diseño robusto, con altas torres gemelas y un arco central, es un recordatorio del pasado militar de Valencia. Durante siglos, las Torres de Serranos han desempeñado diversas funciones, desde cárcel para nobles hasta lugar de refugio para las obras de arte del Museo del Prado durante la Guerra Civil Española. Hoy en día, son un mirador excepcional, ofreciendo vistas panorámicas del casco antiguo y del río Turia. Las Torres de Serranos son un testimonio de la historia y el patrimonio de Valencia, y su imponente presencia sigue siendo un punto de referencia para locales y visitantes."
+          "longDescription": "The Torres de Serranos are majestic medieval gates that once served as part of Valencia’s city walls. Built in the 14th century, these imposing towers showcase Gothic architecture and offer a glimpse into the city’s defensive history. Visitors can climb to the top for sweeping views of the old town and the Turia Gardens, making the Serranos Towers a cherished landmark of Valencia’s heritage."
         },
         "Torres de Quart": {
           "id": 4,
           "monument": "Torres de Quart",
           "shortDescription": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two semi-cylindrical towers joined by a central body, where the gate itself opens, in the shape of a semicircular arch.",
-          "longDescription": "Las Torres de Quart son otro vestigio significativo de las antiguas murallas medievales de Valencia, construidas en el siglo XV para proteger la ciudad. Estas torres, de estilo gótico militar, se caracterizan por su apariencia robusta y sus muros marcados por impactos de cañonazos sufridos durante la Guerra de la Independencia contra Napoleón. Su estructura defensiva, con gruesos muros y almenas, es un ejemplo notable de la arquitectura militar de la época. Las Torres de Quart fueron una de las principales puertas de entrada a la ciudad y han desempeñado funciones diversas, incluyendo la de prisión femenina en el siglo XIX. Actualmente, se pueden visitar y subir a lo alto de las torres, desde donde se disfruta de unas vistas impresionantes del casco histórico de Valencia. Este monumento es un testimonio palpable de la resistencia y la historia de la ciudad."
+          "longDescription": "The Quart Towers, another remnant of Valencia’s ancient fortifications, are impressive Gothic gates with a storied past. Built in the 15th century, these robust towers bear the marks of cannon fire from historic sieges, serving as a vivid reminder of the city’s resilience. Today, they stand as a symbol of Valencia’s strength and offer visitors a chance to explore their interiors and enjoy panoramic views from their battlements."
         },
         "El Miguelete": {
           "id": 5,
           "monument": "El Miguelete",
           "shortDescription": "In Valencian Gothic style, the Miguelete (or Torre del Micalet in Valencian), is the bell tower of the cathedral of Valencia. It is 51 meters high up to the terrace, which is the same meters as its perimeter and 63 meters high in total.",
-          "longDescription": "El Miguelete, o \"El Micalet\" en valenciano, es el campanario más emblemático de Valencia y una parte integral de la Catedral de la ciudad. Construido entre los siglos XIV y XV en estilo gótico valenciano, esta torre octogonal se eleva 50 metros, ofreciendo unas vistas espectaculares de la ciudad y sus alrededores desde su cima. Para llegar allí, los visitantes deben subir 207 escalones de piedra en una escalera de caracol que forma parte de la experiencia. El Miguelete debe su nombre a su campana más grande, que pesa más de 10 toneladas y suena en ocasiones especiales. Este campanario no solo es un símbolo arquitectónico, sino también un punto de referencia para la vida religiosa y cultural de Valencia. Su ubicación en pleno centro histórico lo convierte en una parada imprescindible para quienes deseen disfrutar de la historia y la belleza de la ciudad."
+          "longDescription": "El Miguelete is the iconic bell tower of Valencia’s Cathedral, rising gracefully over the city’s skyline. Built in the Gothic style during the 14th and 15th centuries, the tower features an octagonal base and a spiral staircase of over 200 steps leading to a spectacular viewing platform. From the top, visitors can admire breathtaking views of Valencia’s historic center, making the climb a rewarding experience for those seeking a blend of history and scenery."
         },
         "Mercado Central": {
           "id": 6,
           "monument": "Mercado Central",
           "shortDescription": "Located in the City of Bruges square, it is considered one of the masterpieces of Valencian modernism. It has 1200 food stalls and has been supplying the Valencian population for almost a century.",
-          "longDescription": "El Mercado Central de Valencia es mucho más que un lugar de compras; es un vibrante centro de vida social y cultural, y una de las mayores joyas modernistas de la ciudad. Inaugurado en 1928, este edificio combina funcionalidad y belleza arquitectónica, con una estructura metálica adornada con vidrieras, cerámicas y mosaicos que reflejan el estilo modernista valenciano. En su interior, el mercado alberga más de 1.200 puestos que ofrecen productos frescos y locales, desde frutas y verduras hasta pescados, carnes y especias. El bullicio y los aromas del Mercado Central crean una experiencia sensorial única, mientras que su cúpula central y sus detalles decorativos hacen que sea un placer tanto para los compradores como para los turistas. Este lugar no solo es un testimonio de la gastronomía valenciana, sino también un punto de encuentro donde se entrelazan tradición y modernidad, convirtiéndose en una visita imprescindible en cualquier recorrido por Valencia."
+          "longDescription": "The Central Market of Valencia is a vibrant masterpiece of modernist architecture and a bustling hub of local life. Built in the early 20th century, it boasts colorful ceramic tiles, a stunning iron-and-glass facade, and a striking central dome. Inside, visitors can explore a lively array of stalls offering fresh produce, seafood, and local delicacies, immersing themselves in the flavors and aromas of Valencia’s culinary heritage."
         }
       }
     },
     "NoCityFound": "{city} city not found",
     "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
-    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}"
+    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
+    "CitiesPageTitle": "Choose your next destination"
   },
   "Testimonies": {
     "1": {
       "id": 1,
-      "author": "María González",
-      "testimony": "Viajeros Sin Fronteras me ayudó a planificar el viaje de mis sueños a Madrid. Las recomendaciones de lugares para visitar y los monumentos fueron precisas, y pude aprovechar al máximo mi tiempo en la ciudad. ¡Definitivamente usaré esta web para mi próximo viaje!",
-      "score": 5
+      "author": "John Smith",
+      "testimony": "Viajeros sin Fronteras provided an exceptional travel experience. Their attention to detail and personalized service made our trip unforgettable. Highly recommend their services",
+      "score": "★★★★★"
     },
     "2": {
       "id": 2,
-      "author": "Carlos Pérez",
-      "testimony": "Gracias a esta plataforma, descubrí lugares únicos en Valencia que ni siquiera sabía que existían. La información sobre cada destino es detallada y las guías son fáciles de seguir. Sin duda, es una herramienta imprescindible para cualquier viajero.",
-      "score": 4
+      "author": "Emily Johnson",
+      "testimony": "Great experience overall with Viajeros sin Fronteras. The itinerary was well-planned, and the accommodations were comfortable. Would have appreciated more local insights during the tours.",
+      "score": "★★★★☆"
     },
     "3": {
       "id": 3,
-      "author": "Lucía Fernández",
-      "testimony": "Me encantó la experiencia de usar Viajeros Sin Fronteras para mi viaje a Barcelona. Aunque algunas atracciones estaban cerradas, la información sobre las alternativas fue de gran ayuda. Un recurso muy útil para cualquier viajero.",
-      "score": 4
+      "author": "Michael Brown",
+      "testimony": "Outstanding service from start to finish. Viajeros sin Fronteras exceeded our expectations, providing unique experiences and seamless travel arrangements. Will definitely book with them again.",
+      "score": "★★★★★"
     },
     "4": {
       "id": 4,
-      "author": "Juan Martínez",
-      "testimony": "¡Increíble plataforma! Pude planificar mi viaje a Sevilla fácilmente y las recomendaciones fueron fantásticas. Las reseñas de otros viajeros también fueron muy útiles para decidir qué lugares visitar. ¡Totalmente recomendable!",
-      "score": 5
+      "author": "Sarah Davis",
+      "testimony": "Viajeros sin Fronteras organized a memorable trip for us. The destinations were amazing, and the guides were knowledgeable. A bit more flexibility in the schedule would have been ideal.",
+      "score": "★★★★☆"
     },
     "5": {
       "id": 5,
-      "author": "Ana López",
-      "testimony": "Viajeros Sin Fronteras tiene una interfaz sencilla y la información es muy clara. Me ayudó a planificar un viaje a Madrid y todo salió perfecto. Sin embargo, creo que podrían mejorar la sección de fotos.",
-      "score": 3
+      "author": "David Wilson",
+      "testimony": "Exceptional travel agency! Viajeros sin Fronteras took care of every detail, allowing us to fully enjoy our vacation without any worries. Highly recommend their services to fellow travelers.",
+      "score": "★★★★★"
     },
     "6": {
       "id": 6,
-      "author": "Pedro Ramírez",
-      "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
-      "score": 5
+      "author": "Jessica Martinez",
+      "testimony": "We had a wonderful time on our trip arranged by Viajeros sin Fronteras. The cultural experiences were enriching, and the group size was perfect. Some activities felt a bit rushed, but overall, a great experience.",
+      "score": "★★★★☆"
     }
   }
 }
