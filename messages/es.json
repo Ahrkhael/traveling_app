@@ -17,6 +17,18 @@
     "Terms&Conditions": "Términos y condiciones",
     "PrivacyPolicy": "Política de privacidad"
   },
+  "HomePage": {
+    "WelcomeTitle": "Bienvenidos a la web de Viajeros sin fronteras",
+    "WelcomeDescription": "Tu web de viajes de confianza. Explora el mundo desde la comodidad de tu pantalla y descubre destinos inolvidables. Aquí te conectamos con ciudades vibrantes, monumentos históricos y maravillas naturales que esperan ser exploradas. Ya seas un aventurero en busca de nuevas experiencias o un curioso deseando conocer rincones únicos del planeta, esta es tu puerta de entrada al viaje de tus sueños. ¡Prepárate para inspirarte, planificar y explorar sin límites!",
+    "CarrouselTitle": "¿No sabes qué destino elegir?",
+    "CarrouselSubtitle": "Permítenos sugerirte algunas ciudades",
+    "TestimoniesTitle": "Testimonios de otros viajeros como tú"
+  },
+  "AboutUsPage": {
+    "MainTitle": "¿Quiénes somos?",
+    "MainDescription": " es una plataforma web diseñada para los amantes del turismo y la aventura. A través de una experiencia visual y dinámica, los usuarios pueden explorar destinos turísticos alrededor del mundo, descubriendo ciudades fascinantes y sus monumentos más emblemáticos. La web permite a los viajeros informarse sobre las características culturales, históricas y naturales de cada lugar, brindando detalles de interés sobre los sitios más icónicos. Con un enfoque en la facilidad de navegación y un diseño interactivo, Viajeros Sin Fronteras invita a los usuarios a planificar su próxima aventura, conectándolos con una diversidad de destinos globales sin importar fronteras.",
+    "TestimoniesTitle": "Conoce las experiencias de nuestros usuarios"
+  },
   "Cities": {
     "MonumentsInCity": "Monumentos en {city}",
     "Madrid": {
@@ -185,44 +197,45 @@
     },
     "NoCityFound": "No se encontró la ciudad {city}",
     "NoMonumentFound": "El monumento {monument} en la ciudad {city} no se ha encontrado",
-    "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}"
+    "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}",
+    "CitiesPageTitle": "Elige tu próximo destino"
   },
   "Testimonies": {
     "1": {
       "id": 1,
       "author": "María González",
       "testimony": "Viajeros Sin Fronteras me ayudó a planificar el viaje de mis sueños a Madrid. Las recomendaciones de lugares para visitar y los monumentos fueron precisas, y pude aprovechar al máximo mi tiempo en la ciudad. ¡Definitivamente usaré esta web para mi próximo viaje!",
-      "score": 5
+      "score": "★★★★★"
     },
     "2": {
       "id": 2,
       "author": "Carlos Pérez",
       "testimony": "Gracias a esta plataforma, descubrí lugares únicos en Valencia que ni siquiera sabía que existían. La información sobre cada destino es detallada y las guías son fáciles de seguir. Sin duda, es una herramienta imprescindible para cualquier viajero.",
-      "score": 4
+      "score": "★★★★☆"
     },
     "3": {
       "id": 3,
       "author": "Lucía Fernández",
       "testimony": "Me encantó la experiencia de usar Viajeros Sin Fronteras para mi viaje a Barcelona. Aunque algunas atracciones estaban cerradas, la información sobre las alternativas fue de gran ayuda. Un recurso muy útil para cualquier viajero.",
-      "score": 4
+      "score": "★★★★☆"
     },
     "4": {
       "id": 4,
       "author": "Juan Martínez",
       "testimony": "¡Increíble plataforma! Pude planificar mi viaje a Sevilla fácilmente y las recomendaciones fueron fantásticas. Las reseñas de otros viajeros también fueron muy útiles para decidir qué lugares visitar. ¡Totalmente recomendable!",
-      "score": 5
+      "score": "★★★★★"
     },
     "5": {
       "id": 5,
       "author": "Ana López",
       "testimony": "Viajeros Sin Fronteras tiene una interfaz sencilla y la información es muy clara. Me ayudó a planificar un viaje a Madrid y todo salió perfecto. Sin embargo, creo que podrían mejorar la sección de fotos.",
-      "score": 3
+      "score": "★★★☆☆"
     },
     "6": {
       "id": 6,
       "author": "Pedro Ramírez",
       "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
-      "score": 5
+      "score": "★★★★★"
     }
   }
 }

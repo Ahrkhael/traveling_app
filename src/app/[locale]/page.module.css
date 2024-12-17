@@ -43,6 +43,10 @@
   margin: 5% 10%;
 }
 
+.titleTestimonies {
+  font-size: 32px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

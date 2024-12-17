@@ -1,41 +1,38 @@
 import styles from "./page.module.css";
 import data from "../../../data/data.json";
 import Carousel from "../../components/carousel/Carousel";
-import TestimonyList from "../../components/testimonyList/TestimonyList";
+import TestimonySection from "../../components/testimonyList/TestimonySection";
+import { useTranslations } from "next-intl";
 
 const cities = data.Cities;
-const testimonies = data.Testimonies;
 
 export default function Home() {
+  const t = useTranslations("HomePage");
+
   return (
     <main className="main">
       <div className={styles.div}>
-        <h2 className="title">
-          Bienvenidos a la web de Viajeros sin fronteras
-        </h2>
+        <h2 className="title">{t("WelcomeTitle")}</h2>
         <p className={`description ${styles.description}`}>
-          Tu web de viajes de confianza. Explora el mundo desde la comodidad de
-          tu pantalla y descubre destinos inolvidables. Aquí te conectamos con
-          ciudades vibrantes, monumentos históricos y maravillas naturales que
-          esperan ser exploradas. Ya seas un aventurero en busca de nuevas
-          experiencias o un curioso deseando conocer rincones únicos del
-          planeta, esta es tu puerta de entrada al viaje de tus sueños.
-          ¡Prepárate para inspirarte, planificar y explorar sin límites!
+          {t("WelcomeDescription")}
         </p>
       </div>
 
-      <Carousel cities={cities} />
+      <Carousel
+        title={t("CarrouselTitle")}
+        titleDescription={t("CarrouselSubtitle")}
+        cities={cities}
+      />
 
-      <div className={styles.div}>
-        <h1 className="title">Testimonios de otros viajeros como tú</h1>
-        <TestimonyList
-          testimonies={testimonies}
-          listStyles={styles.list}
-          listItemStyles={styles.listItem}
-          titleStyles={"title"}
-          descriptionStyles={"description"}
-        />
-      </div>
+      <TestimonySection
+        title={t("TestimoniesTitle")}
+        titleStyles={"title"}
+        divStyles={styles.div}
+        listStyles={styles.list}
+        listItemStyles={styles.listItem}
+        listItemTitleStyles={`title ${styles.titleTestimonies}`}
+        descriptionStyles={"description"}
+      />
     </main>
   );
 }
