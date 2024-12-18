@@ -9,6 +9,7 @@
   font-size: 40px;
   font-weight: bold;
   color: var(--font-color-primary);
+  margin-top: 4%;
 }
 
 .carouselTitleDescription {
