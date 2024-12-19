@@ -19,8 +19,8 @@ const CityList = ({
             <Suspense>
               <Image
                 src={city.image}
-                width={200}
-                height={200}
+                width={320}
+                height={214}
                 alt={`Foto de la ciudad de ${city.city}`}
                 className={imgStyles}
               />

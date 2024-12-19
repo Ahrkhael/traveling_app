@@ -9,14 +9,14 @@ export default function Carousel({ title, titleDescription, cities }) {
   const t = useTranslations("Cities");
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [itemDisplacement, setItemDisplacement] = useState(450); // Desplazamiento inicial
+  const [itemDisplacement, setItemDisplacement] = useState(); // Desplazamiento inicial
 
   useEffect(() => {
     const updateItemWidth = () => {
       if (window.innerWidth <= 768) {
-        setItemDisplacement(280); // En móviles
+        setItemDisplacement(270); // En móviles
       } else {
-        setItemDisplacement(450); // En pantallas grandes
+        setItemDisplacement(490); // En pantallas grandes
       }
     };
 
@@ -51,8 +51,8 @@ export default function Carousel({ title, titleDescription, cities }) {
   };
 
   return (
-    <div className={styles.carouselContainer}>
-      <h2 className={`title ${styles.carouselTitle}`}>{title}</h2>
+    <div className={`section ${styles.carouselContainer}`}>
+      <h2 className={`${styles.carouselTitle}`}>{title}</h2>
       <p className={`description ${styles.carouselTitleDescription}`}>
         {titleDescription}
       </p>

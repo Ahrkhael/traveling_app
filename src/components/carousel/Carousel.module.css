@@ -9,6 +9,7 @@
   font-size: 40px;
   font-weight: bold;
   color: var(--font-color-primary);
+  margin-top: 4%;
 }
 
 .carouselTitleDescription {
@@ -16,7 +17,7 @@
   justify-content: center;
   align-items: inherit;
   font-size: 1rem;
-  color: var(--font-color-secondary);
+  color: var(--font-color-primary);
   width: 100%;
   z-index: 2;
 }
@@ -41,13 +42,11 @@
 }
 
 .carouselItem {
-  flex: 0 0 350px; /* Cada item ocupa 350px de ancho */
+  flex: 0 0 28%;
   text-align: center;
   background-color: inherit;
   border-radius: 10px;
-  flex-basis: 28%;
   margin: 0 40px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cityTitle {
@@ -58,7 +57,7 @@
 
 .cityDescription {
   font-size: 1rem;
-  color: var(--font-color-secondary);
+  color: var(--font-color-primary);
   margin-top: 5px;
 }
 
@@ -66,7 +65,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(var(--background-arrow-rgba));
   color: #fff;
   padding: 10px;
   border: none;
@@ -76,7 +75,7 @@
 }
 
 .carouselArrow:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(var(--background-arrow-hover-rgba));
 }
 
 .carouselArrowLeft {
@@ -90,7 +89,7 @@
 .carouselArrow svg {
   width: 24px;
   height: 24px;
-  fill: white;
+  fill: var(--font-color-primary);
 }
 
 /* Media query para dispositivos móviles */
@@ -101,10 +100,6 @@
 
   .carouselTitleDescription {
     font-size: 0.9rem;
-  }
-
-  .img {
-    border-radius: 50%;
   }
 
   .cityTitle {

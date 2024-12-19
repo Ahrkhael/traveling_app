@@ -45,7 +45,7 @@
   display: block;
   padding: 1rem;
   font-weight: bold;
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   text-align: center;
   text-decoration: none;
   border: 1px solid var(--font-color-secondary);
@@ -53,7 +53,7 @@
 }
 
 .dropdownLink:hover {
-  background-color: rgb(var(--background-end-rgb));
+  background-color: rgb(var(--background-navbar-hover-rgb));
   color: var(--font-color-menu-secondary);
 }
 
