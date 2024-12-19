@@ -42,11 +42,10 @@
 }
 
 .carouselItem {
-  flex: 0 0 350px; /* Cada item ocupa 350px de ancho */
+  flex: 0 0 28%;
   text-align: center;
   background-color: inherit;
   border-radius: 10px;
-  flex-basis: 28%;
   margin: 0 40px;
 }
 
@@ -101,10 +100,6 @@
 
   .carouselTitleDescription {
     font-size: 0.9rem;
-  }
-
-  .img {
-    border-radius: 50%;
   }
 
   .cityTitle {
