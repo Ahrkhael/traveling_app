@@ -14,9 +14,9 @@ export default function Carousel({ title, titleDescription, cities }) {
   useEffect(() => {
     const updateItemWidth = () => {
       if (window.innerWidth <= 768) {
-        setItemDisplacement(270); // En móviles
+        setItemDisplacement(100); // En móviles
       } else {
-        setItemDisplacement(490); // En pantallas grandes
+        setItemDisplacement(33); // En pantallas grandes
       }
     };
 
@@ -60,6 +60,7 @@ export default function Carousel({ title, titleDescription, cities }) {
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
           onClick={handlePrevClick}
+          aria-label="move left the carousel"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +76,7 @@ export default function Carousel({ title, titleDescription, cities }) {
         <div
           className={styles.carouselList}
           style={{
-            transform: `translateX(-${currentIndex * itemDisplacement}px)`,
+            transform: `translateX(-${currentIndex * itemDisplacement}dvw)`,
           }}
         >
           <CityList
@@ -91,6 +92,7 @@ export default function Carousel({ title, titleDescription, cities }) {
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
           onClick={handleNextClick}
+          aria-label="move right the carousel"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
