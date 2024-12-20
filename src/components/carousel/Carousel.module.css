@@ -2,7 +2,6 @@
   text-align: center;
   width: 100%;
   margin: 5% 0;
-  padding: 0 40px;
 }
 
 .carouselTitle {
@@ -46,7 +45,7 @@
   text-align: center;
   background-color: inherit;
   border-radius: 10px;
-  margin: 0 40px;
+  margin: 0 2.5dvw;
 }
 
 .cityTitle {
@@ -64,7 +63,6 @@
 .carouselArrow {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   background-color: rgba(var(--background-arrow-rgba));
   color: #fff;
   padding: 10px;
@@ -79,11 +77,15 @@
 }
 
 .carouselArrowLeft {
+  top: 0px;
   left: 0px;
+  transform: translate(2dvw, 20dvh);
 }
 
 .carouselArrowRight {
+  top: 0px;
   right: 0px;
+  transform: translate(-2dvw, 20dvh);
 }
 
 .carouselArrow svg {
@@ -94,6 +96,10 @@
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
+  .carouselItem {
+    margin: 0 20dvw;
+  }
+
   .carouselTitle {
     font-size: 28px;
   }
