@@ -1,14 +1,16 @@
 .carouselContainer {
   text-align: center;
   width: 100%;
+  height: 600px;
   margin: 5% 0;
 }
 
 .carouselTitle {
   font-size: 40px;
   font-weight: bold;
+  cursor: default;
   color: var(--font-color-primary);
-  margin-top: 4%;
+  padding-top: 40px;
 }
 
 .carouselTitleDescription {
@@ -28,16 +30,16 @@
   align-items: center;
   overflow: hidden;
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  margin: 2.5dvh auto;
 }
 
 .carouselList {
   display: flex;
   width: 100%;
+  height: 100%;
   transition: transform 0.5s ease-in-out;
   list-style-type: none;
-  padding: 0;
-  margin: 20px 0;
 }
 
 .carouselItem {
@@ -96,7 +98,14 @@
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
+  .img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
   .carouselItem {
+    flex: 0 0 60%;
     margin: 0 20dvw;
   }
 
@@ -106,6 +115,8 @@
 
   .carouselTitleDescription {
     font-size: 0.9rem;
+    padding-top: 12px;
+    margin-bottom: 2.5dvh;
   }
 
   .cityTitle {
