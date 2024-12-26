@@ -14,9 +14,9 @@ export default function Carousel({ title, titleDescription, cities }) {
   useEffect(() => {
     const updateItemWidth = () => {
       if (window.innerWidth <= 768) {
-        setItemDisplacement(270); // En móviles
+        setItemDisplacement(100); // En móviles
       } else {
-        setItemDisplacement(490); // En pantallas grandes
+        setItemDisplacement(33); // En pantallas grandes
       }
     };
 
@@ -57,25 +57,10 @@ export default function Carousel({ title, titleDescription, cities }) {
         {titleDescription}
       </p>
       <div className={styles.carousel}>
-        <button
-          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
-          onClick={handlePrevClick}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="white"
-            width="24px"
-            height="24px"
-          >
-            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-          </svg>
-        </button>
-
         <div
           className={styles.carouselList}
           style={{
-            transform: `translateX(-${currentIndex * itemDisplacement}px)`,
+            transform: `translateX(-${currentIndex * itemDisplacement}dvw)`,
           }}
         >
           <CityList
@@ -88,9 +73,27 @@ export default function Carousel({ title, titleDescription, cities }) {
             t={t}
           />
         </div>
+
+        <button
+          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
+          onClick={handlePrevClick}
+          aria-label="move left the carousel"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="white"
+            width="24px"
+            height="24px"
+          >
+            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          </svg>
+        </button>
+
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
           onClick={handleNextClick}
+          aria-label="move right the carousel"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
