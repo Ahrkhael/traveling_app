@@ -16,7 +16,7 @@
 .menuButton {
   position: absolute;
   font-size: 1.5rem;
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   background: none;
   border: none;
 }
@@ -51,7 +51,7 @@
   padding: 1rem;
   text-decoration: none;
   text-align: center;
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   font-weight: bold;
   border: 1px solid var(--font-color-secondary);
   border-collapse: collapse;
