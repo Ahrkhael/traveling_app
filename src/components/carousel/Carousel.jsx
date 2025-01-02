@@ -57,22 +57,6 @@ export default function Carousel({ title, titleDescription, cities }) {
         {titleDescription}
       </p>
       <div className={styles.carousel}>
-        <button
-          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
-          onClick={handlePrevClick}
-          aria-label="move left the carousel"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="white"
-            width="24px"
-            height="24px"
-          >
-            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-          </svg>
-        </button>
-
         <div
           className={styles.carouselList}
           style={{
@@ -89,6 +73,23 @@ export default function Carousel({ title, titleDescription, cities }) {
             t={t}
           />
         </div>
+
+        <button
+          className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
+          onClick={handlePrevClick}
+          aria-label="move left the carousel"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="white"
+            width="24px"
+            height="24px"
+          >
+            <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+          </svg>
+        </button>
+
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
           onClick={handleNextClick}
