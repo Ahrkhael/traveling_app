@@ -2,6 +2,7 @@ import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
+import styles from "./MonumentList.module.css";
 
 export default function MonumentList({
   city,
@@ -22,13 +23,16 @@ export default function MonumentList({
             style={{ height: "100%" }}
           >
             <Suspense>
-              <Image
-                src={monument.image}
-                width={200}
-                height={200}
-                alt={`Foto del monumento ${monument.monument}`}
-                className={imgStyles}
-              />
+              <div className={styles.imageWrapper}>
+                <Image
+                  src={monument.image}
+                  alt={`Foto del monumento ${monument.monument}`}
+                  fill
+                  sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
+                  style={{ objectFit: "cover", borderRadius: "10px" }}
+                  className={imgStyles}
+                />
+              </div>
               <h2 className={titleStyles}>
                 {t(`${monument.monument}.monument`)}
               </h2>

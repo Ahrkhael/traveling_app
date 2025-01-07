@@ -1,13 +1,12 @@
 .divCity {
-  width: 70vw;
-  min-width: 630px;
+  width: 100vw;
   height: 50vh;
-  min-height: 260px;
-  padding: 5vh 10vw;
+  min-height: 400px;
+  padding: 5dvh 10dvw;
 }
 
 .divMonuments {
-  margin: 5vh 0;
+  padding: 5dvh 0;
 }
 
 .list {
@@ -41,8 +40,18 @@
   height: 120px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .divCity {
+    height: 40dvh;
+    padding: 2dvh 5dvw;
+  }
+
+  .divMonuments {
+    padding: 2dvh 0;
+  }
+
   .list {
     grid-template-columns: 1fr;
+    height: 2400px;
   }
 }

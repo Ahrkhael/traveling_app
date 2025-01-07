@@ -150,9 +150,9 @@ a {
 
 .description {
   display: inline-block;
-  justify-content: center;
   align-items: inherit;
   text-align: center;
+  padding: 0 40px;
   font-size: 1rem;
   color: var(--font-color-primary);
   user-select: none;
@@ -167,7 +167,7 @@ a {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
   .main {
-    margin-top: 10%;
+    margin-top: 7dvh;
   }
 
   .title {
