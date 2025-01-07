@@ -52,7 +52,7 @@ export default function Carousel({ title, titleDescription, cities }) {
 
   return (
     <div className={`section ${styles.carouselContainer}`}>
-      <h2 className={`${styles.carouselTitle}`}>{title}</h2>
+      <h2 className={`title ${styles.carouselTitle}`}>{title}</h2>
       <p className={`description ${styles.carouselTitleDescription}`}>
         {titleDescription}
       </p>
