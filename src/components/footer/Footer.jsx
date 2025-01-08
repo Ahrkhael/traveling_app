@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import styles from "./Footer.module.css";
 import Link from "next/link";
+import SubscribeForm from "./subscribeForm/SubscribeForm";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -56,16 +57,10 @@ export default function Footer() {
 
         <div className={styles.section}>
           <h4>{t("Contact")}</h4>
-          <p>correo@viajerossinfronteras.com</p>
+          <p>mail@viajerossinfronteras.com</p>
         </div>
 
-        <div className={styles.section}>
-          <h4>{t("Subscribe")}</h4>
-          <form className={styles.subscribeForm}>
-            <input type="email" placeholder="example@mail.com" />
-            <button type="submit">{t("SubscribeBotton")}</button>
-          </form>
-        </div>
+        <SubscribeForm />
 
         <div className={styles.section}>
           <h4>{t("LegalNotice")}</h4>

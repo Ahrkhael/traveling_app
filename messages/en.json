@@ -8,14 +8,18 @@
     "Explore": "Explore",
     "FollowUs": "Follow us",
     "Contact": "Contact",
-    "Subscribe": "Subscribe",
     "LegalNotice": "Legal notice",
     "Home": "Home",
     "Cities": "Cities",
     "AboutUs": "About us",
-    "SubscribeBotton": "Subscribe",
     "Terms&Conditions": "Terms & Conditions",
-    "PrivacyPolicy": "Privacy policy"
+    "PrivacyPolicy": "Privacy policy",
+    "SubscribeForm": {
+      "SubscribeBotton": "Subscribe",
+      "Subscribe": "Subscribe",
+      "ModalMessage": "We will contact you soon",
+      "Accept": "Accept"
+    }
   },
   "HomePage": {
     "WelcomeTitle": "Welcome to Travelers without borders",
