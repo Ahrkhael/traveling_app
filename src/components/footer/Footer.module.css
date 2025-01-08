@@ -42,27 +42,3 @@
   text-decoration: underline;
   color: rgb(135, 230, 255);
 }
-
-.subscribeForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.subscribeForm input {
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.subscribeForm button {
-  background-color: #0a6eac;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-}
-
-.subscribeForm button:hover {
-  background-color: #0a9cac;
-  color: #fff;
-}

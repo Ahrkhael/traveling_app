@@ -8,14 +8,18 @@
     "Explore": "Explora",
     "FollowUs": "Síguenos",
     "Contact": "Contacto",
-    "Subscribe": "Suscríbete",
     "LegalNotice": "Aviso legal",
     "Home": "Inicio",
     "Cities": "Ciudades",
     "AboutUs": "¿Quiénes somos?",
-    "SubscribeBotton": "Suscríbete",
     "Terms&Conditions": "Términos y condiciones",
-    "PrivacyPolicy": "Política de privacidad"
+    "PrivacyPolicy": "Política de privacidad",
+    "SubscribeForm": {
+      "SubscribeBotton": "Suscríbete",
+      "Subscribe": "Suscríbete",
+      "ModalMessage": "En seguida te contactaremos",
+      "Accept": "Aceptar"
+    }
   },
   "HomePage": {
     "WelcomeTitle": "Bienvenidos a la web de Viajeros sin fronteras",

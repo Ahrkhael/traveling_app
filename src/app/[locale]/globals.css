@@ -15,6 +15,9 @@
   --background-arrow-rgba: 230, 230, 230, 0.5;
   --background-arrow-hover-rgba: 230, 230, 230, 0.3;
   --background-section-rgb: 247, 247, 247;
+  --background-modal-rgb: 255, 255, 255;
+  --background-button: #0a6eac;
+  --background-button-hover: #0a9cac;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -60,6 +63,7 @@
     --background-arrow-rgba: 36, 37, 40, 0.5;
     --background-arrow-hover-rgba: 36, 37, 40, 0.8;
     --background-section-rgb: 20, 20, 20;
+    --background-modal-rgb: 30, 30, 30;
 
     --font-color-primary: #f1f1f1;
     --font-color-secondary: #ebeef1;
