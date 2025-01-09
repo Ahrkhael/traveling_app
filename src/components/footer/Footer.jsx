@@ -1,10 +1,11 @@
 import { useTranslations } from "next-intl";
 import styles from "./Footer.module.css";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import SubscribeForm from "./subscribeForm/SubscribeForm";
 
 export default function Footer() {
   const t = useTranslations("Footer");
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>

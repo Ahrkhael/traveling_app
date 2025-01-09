@@ -241,5 +241,25 @@
       "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
       "score": "★★★★★"
     }
+  },
+  "Terms": {
+    "TitlePage": "Términos y Condiciones de Uso",
+    "Introduction": "Introducción",
+    "IntroductionDescription": "Bienvenido/a a <strong>Viajeros Sin Fronteras</strong>. Al acceder a nuestro sitio web, aceptas cumplir con estos términos y condiciones de uso. Si no estás de acuerdo con alguno de estos términos, te recomendamos no utilizar nuestros servicios.",
+    "UseSite": "Uso del Sitio",
+    "UseSiteDescription": "El contenido de este sitio web es solo para uso personal e informativo. Está prohibido:",
+    "UseSiteList": "<li>Copiar, distribuir o reproducir cualquier contenido sin nuestro consentimiento expreso.</li><li>Utilizar este sitio web con fines ilegales o no autorizados.</li>",
+    "IntelectualProperty": "Propiedad Intelectual",
+    "IntelectualPropertyDescription": "Todo el contenido de <strong>Viajeros Sin Fronteras</strong>, incluidos textos, gráficos, logotipos y código, está protegido por leyes de propiedad intelectual. No puedes usar este contenido sin obtener permiso previo.",
+    "UserResponsability": "Responsabilidad del Usuario",
+    "UserResponsabilityDescription": "Como usuario, eres responsable de la información que compartes y de las actividades realizadas en nuestro sitio. Nos reservamos el derecho de eliminar contenido que consideremos inapropiado.",
+    "LinkThirdParties": "Enlaces a terceros",
+    "LinkThirdPartiesDescription": "Nuestra web puede contener enlaces a sitios web de terceros. No somos responsables del contenido, políticas o prácticas de estos sitios.",
+    "LiabilityLimitation": "Limitación de Responsabilidad",
+    "LiabilityLimitationDescription": "No garantizamos que el contenido de nuestro sitio sea preciso, completo o esté actualizado. No nos hacemos responsables de pérdidas o daños derivados del uso de nuestra web.",
+    "TermsChanges": "Cambios en los Términos",
+    "TermsChangesDescription": "Podemos actualizar estos términos en cualquier momento. Es tu responsabilidad revisarlos periódicamente. El uso continuo de nuestra web después de cambios implica tu aceptación.",
+    "Contact": "Contacto",
+    "ContactDescription": "Si tienes preguntas o inquietudes sobre estos términos, puedes escribirnos a: "
   }
 }
