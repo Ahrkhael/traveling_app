@@ -261,5 +261,25 @@
     "TermsChangesDescription": "Podemos actualizar estos términos en cualquier momento. Es tu responsabilidad revisarlos periódicamente. El uso continuo de nuestra web después de cambios implica tu aceptación.",
     "Contact": "Contacto",
     "ContactDescription": "Si tienes preguntas o inquietudes sobre estos términos, puedes escribirnos a: "
+  },
+  "Privacy": {
+    "TitlePage": "Política de Privacidad",
+    "Introduction": "Introducción",
+    "IntroductionDescription": "En <strong>Viajeros Sin Fronteras</strong>, tu privacidad es nuestra prioridad. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tu información personal cuando visitas nuestro sitio web o utilizas nuestros servicios. Al acceder a nuestra plataforma, aceptas las prácticas descritas en esta política.",
+    "SavedInfo": "Información que Recopilamos",
+    "SavedInfoDescription": "Podemos recopilar los siguientes tipos de información:",
+    "SavedInfoList": "<li><strong>Información personal proporcionada por ti:</strong> Como tu nombre, dirección de correo electrónico, y cualquier dato que compartas al registrarte o contactarnos.</li><li><strong>Información automática:</strong> Datos recopilados automáticamente como tu tipo de navegador y las páginas que visitas en nuestro sitio.</li><li><strong>Cookies y tecnologías similares:</strong> Utilizamos cookies para mejorar tu experiencia y analizar cómo utilizas nuestra web.</li>",
+    "UseInfo": "Cómo Usamos tu Información",
+    "UseInfoDescription": "La información que recopilamos se utiliza para:",
+    "UseInfoList": "<li>Proporcionarte una experiencia personalizada en nuestro sitio.</li><li>Procesar reservas, consultas o solicitudes relacionadas con los servicios que ofrecemos.</li><li>Enviar notificaciones, ofertas o información relevante (cuando hayas dado tu consentimiento).</li><li>Analizar y mejorar nuestro sitio web y servicios.</li>",
+    "ShareInfo": "Cómo compartimos tu Información",
+    "ShareInfoDescription": "Nos comprometemos a no vender ni alquilar tu información personal a terceros. Sin embargo, podríamos compartirla en los siguientes casos:",
+    "ShareInfoList": "<li><strong>Con proveedores de servicios:</strong> Terceras partes que nos ayudan a operar nuestro sitio, procesar pagos o enviar comunicaciones.</li><li><strong>Por motivos legales:</strong> Si es requerido por la ley o para proteger nuestros derechos y prevenir actividades fraudulentas.</li>",
+    "UserRights": "Tus Derechos",
+    "UserRightsDescription": "Como usuario, tienes los siguientes derechos:",
+    "UserRightsList": "<li>Acceder a los datos personales que tenemos sobre ti.</li><li>Solicitar la corrección de cualquier dato inexacto.</li><li>Pedir la eliminación de tus datos personales, salvo en casos donde la ley nos obligue a conservarlos.</li><li>Retirar tu consentimiento para el procesamiento de datos en cualquier momento.</li>",
+    "UserRightsContact": "Para ejercer tus derechos, puedes contactarnos a través de: ",
+    "PolicyChanges": "Cambios en nuestra Política",
+    "PolicyChangesDescription": "Podemos actualizar esta Política de Privacidad ocasionalmente. Te recomendamos revisarla periódicamente para estar informado sobre cómo protegemos tu información."
   }
 }
