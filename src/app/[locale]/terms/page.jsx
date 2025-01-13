@@ -6,7 +6,7 @@ export default function TermsPage() {
 
   return (
     <main className="main">
-      <h1>{t("TitlePage")}</h1>
+      <h1 className={styles.title}>{t("TitlePage")}</h1>
 
       <section className={styles.sections}>
         <h2 className={styles.description}>1. {t("Introduction")}</h2>
