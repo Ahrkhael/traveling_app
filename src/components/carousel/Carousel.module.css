@@ -98,6 +98,10 @@
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
+  .carouselContainer {
+    height: 700px;
+  }
+
   .img {
     display: block;
     margin: 0 auto;

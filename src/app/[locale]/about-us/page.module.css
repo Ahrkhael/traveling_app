@@ -32,3 +32,9 @@
 .titleTestimonies {
   font-size: 32px;
 }
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: repeat(1, 6fr);
+  }
+}
