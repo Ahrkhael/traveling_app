@@ -4,9 +4,15 @@
 }
 
 .description {
-  margin: 0 10dvw;
+  margin: 6px 10dvw;
 }
 
 .description li {
-  margin-left: 15px;
+  margin: 6px 15px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    text-align: center;
+  }
 }
