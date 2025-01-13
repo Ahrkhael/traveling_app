@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function useDropdown() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
     // Detectar si hay soporte para eventos táctiles
@@ -21,6 +22,21 @@ export default function useDropdown() {
 
     return () => {
       window.removeEventListener("resize", checkTouchDevice);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Manejar clics fuera del desplegable
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownVisible(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -43,5 +59,6 @@ export default function useDropdown() {
     handleToggleDropdown,
     handleMouseEnter,
     handleMouseLeave,
+    dropdownRef,
   };
 }

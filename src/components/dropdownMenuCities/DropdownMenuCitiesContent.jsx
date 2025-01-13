@@ -10,10 +10,12 @@ export default function DropdownMenuCitiesContent({ title, cities }) {
     handleToggleDropdown,
     handleMouseEnter,
     handleMouseLeave,
+    dropdownRef,
   } = useDropdown();
 
   return (
     <div
+      ref={dropdownRef}
       className={styles.dropdown}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
