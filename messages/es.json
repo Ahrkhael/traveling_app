@@ -17,7 +17,8 @@
     "SubscribeForm": {
       "SubscribeBotton": "Suscríbete",
       "Subscribe": "Suscríbete",
-      "ModalMessage": "En seguida te contactaremos",
+      "ModalMessageSuccess": "En seguida te contactaremos",
+      "ModalMessageFail": "Introduce un email válido",
       "Accept": "Aceptar"
     }
   },

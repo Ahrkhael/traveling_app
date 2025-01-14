@@ -17,7 +17,8 @@
     "SubscribeForm": {
       "SubscribeBotton": "Subscribe",
       "Subscribe": "Subscribe",
-      "ModalMessage": "We will contact you soon",
+      "ModalMessageSuccess": "We will contact you soon",
+      "ModalMessageFail": "Introduce a valid email",
       "Accept": "Accept"
     }
   },
