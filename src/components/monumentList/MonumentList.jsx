@@ -14,6 +14,8 @@ export default function MonumentList({
   descriptionStyles,
 }) {
   const t = useTranslations(`Cities.${city}.monuments`);
+  const tGlobal = useTranslations("Cities");
+
   return (
     <ul className={listStyles}>
       {monuments.map((monument) => (
@@ -26,8 +28,13 @@ export default function MonumentList({
               <div className={styles.imageWrapper}>
                 <Image
                   src={monument.image}
-                  alt={`Foto del monumento ${monument.monument}`}
+                  alt={tGlobal("MonumentImageAlt", {
+                    monument: monument.monument,
+                    city: city,
+                  })}
                   fill
+                  placeholder="blur"
+                  blurDataURL={monument.blurDataURL}
                   sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
                   style={{ objectFit: "cover", borderRadius: "10px" }}
                   className={imgStyles}
