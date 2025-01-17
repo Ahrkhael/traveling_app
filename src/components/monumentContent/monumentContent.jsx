@@ -38,6 +38,8 @@ export default function MonumentContent({
               city: city,
             })}
             fill
+            placeholder="blur"
+            blurDataURL={monumentData.blurDataURL}
             sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
             style={{ objectFit: "cover", borderRadius: "10px" }}
             className={styles.img}

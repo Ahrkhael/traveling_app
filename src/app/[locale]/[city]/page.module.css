@@ -1,3 +1,7 @@
+.main {
+  min-height: 80vh;
+}
+
 .divCity {
   width: 100vw;
   height: 50vh;
@@ -41,6 +45,10 @@
 }
 
 @media (max-width: 768px) {
+  .main {
+    min-height: 3200px;
+  }
+
   .divCity {
     height: 40dvh;
     padding: 2dvh 5dvw;
