@@ -23,6 +23,8 @@ const CityList = ({
                   src={city.image}
                   alt={`Foto de la ciudad de ${city.city}`}
                   fill
+                  placeholder="blur"
+                  blurDataURL={city.blurDataURL}
                   sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
                   style={{ objectFit: "cover", borderRadius: "10px" }}
                   className={imgStyles}
