@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lqip-modern": "^2.2.1",
     "next": "^15.0.3",
     "next-intl": "^3.25.3",
     "react": "^18.3.1",

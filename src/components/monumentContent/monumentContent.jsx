@@ -2,9 +2,11 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 import styleImage from "./MonumentContent.module.css";
+import BlurImage from "../blurImage/BlurImage";
 
 export default function MonumentContent({
   monumentData,
+  base64ImagePlaceholder,
   city,
   monument,
   styles,
@@ -30,21 +32,16 @@ export default function MonumentContent({
   return (
     <main className={`main ${styles.main}`}>
       <Suspense>
-        <div className={styleImage.imageWrapper}>
-          <Image
-            src={monumentData.image}
-            alt={tGlobal("MonumentImageAlt", {
-              monument: monument,
-              city: city,
-            })}
-            fill
-            placeholder="blur"
-            blurDataURL={monumentData.blurDataURL}
-            sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
-            style={{ objectFit: "cover", borderRadius: "10px" }}
-            className={styles.img}
-          />
-        </div>
+        <BlurImage
+          src={monumentData.image}
+          alt={tGlobal("MonumentImageAlt", {
+            monument: monument,
+            city: city,
+          })}
+          blurDataURL={base64ImagePlaceholder}
+          sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
+          styleImage={styleImage}
+        />
       </Suspense>
       <h1 className="title">{tMonument("monument")}</h1>
       <p className={`description ${styles.monumentDescription}`}>
