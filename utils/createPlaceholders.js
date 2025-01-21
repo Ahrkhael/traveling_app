@@ -1,3 +1,5 @@
+// Script para generar imágenes con blur dado un conjunto de imágenes
+
 import fs from "fs";
 import path from "path";
 import lqip from "lqip-modern";
