@@ -42,7 +42,7 @@ export default function MonumentContent({
             blurDataURL={monumentData.blurDataURL}
             sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
             style={{ objectFit: "cover", borderRadius: "10px" }}
-            styleImage={styleImage.img}
+            className={styleImage.img}
           />
         </div>
       </Suspense>
