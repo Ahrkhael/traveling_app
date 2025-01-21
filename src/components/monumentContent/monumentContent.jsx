@@ -1,7 +1,7 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 import styleImage from "./MonumentContent.module.css";
+import Image from "next/image";
 
 export default function MonumentContent({
   monumentData,
@@ -42,7 +42,7 @@ export default function MonumentContent({
             blurDataURL={monumentData.blurDataURL}
             sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
             style={{ objectFit: "cover", borderRadius: "10px" }}
-            className={styles.img}
+            className={styleImage.img}
           />
         </div>
       </Suspense>
