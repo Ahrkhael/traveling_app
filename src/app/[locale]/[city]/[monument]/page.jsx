@@ -29,23 +29,17 @@ async function fetchMonumentData(city, monument) {
       )
     : null;
 
-  const res = await fetch(
-    `http://localhost:3000/api/placeholder?imagePath=${encodeURIComponent(monumentData.image)}`
-  );
-  const { base64 } = await res.json();
-
-  return { monumentData, base64, decodedCity, decodedMonument };
+  return { monumentData, decodedCity, decodedMonument };
 }
 
 export default async function MonumentPage({ params }) {
   const { city, monument } = await params;
-  const { monumentData, base64, decodedCity, decodedMonument } =
+  const { monumentData, decodedCity, decodedMonument } =
     await fetchMonumentData(city, monument);
 
   return (
     <MonumentContent
       monumentData={monumentData}
-      base64ImagePlaceholder={base64}
       city={decodedCity}
       monument={decodedMonument}
       styles={styles}
