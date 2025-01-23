@@ -1,3 +1,5 @@
+// Script que permite comprobar si la implementación de lqip funciona correctamente
+
 import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
