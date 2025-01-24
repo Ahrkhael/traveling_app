@@ -3,138 +3,164 @@
     {
       "id": 1,
       "city": "Madrid",
-      "image": "/images/madrid.jpg",
+      "image": "/images/madrid/madrid.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsABUB8JbACdACp5VdU2yAA/UqnYkYnMCi5mAVkTz66nY0JKeEnksBbzWETDxgz4OP4mjD8eRKKCazZ4yLI4Nx0k4jtlbAgHlKlsw1Mx6rj9quiRuITlNLwAA==",
       "monuments": [
         {
           "id": 1,
           "monument": "Palacio real",
-          "image": "/images/palacio-real.jpg"
+          "image": "/images/madrid/palacio-real.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA="
         },
         {
           "id": 2,
           "monument": "Parque del retiro",
-          "image": "/images/parque-retiro.jpg"
+          "image": "/images/madrid/parque-retiro.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JbACdAD1kF+jsWcAAPHoh+pSXD0dQhVnKXFQuCYsMqYZneDFov2W6pDVaxSpshtYwAAA"
         },
         {
           "id": 3,
           "monument": "Puerta del Sol",
-          "image": "/images/puerta-del-sol.jpg"
+          "image": "/images/madrid/puerta-del-sol.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0JP/3FgAA/u7hqR/e8Nc23JNk/P26evcl3901S6mBWnHsVnfhqYhqtBMCTGilVMAAAA=="
         },
         {
           "id": 4,
           "monument": "Plaza Mayor",
-          "image": "/images/plaza-mayor.jpg"
+          "image": "/images/madrid/plaza-mayor.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACdAC9PDUl8YAAhot4eCKAqaqdyeimwl109gFmhb5Ot+Z5hmzN9Ei0AAAA"
         },
         {
           "id": 5,
           "monument": "Museo del Prado",
-          "image": "/images/museo-prado.jpg"
+          "image": "/images/madrid/museo-prado.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA"
         },
         {
           "id": 6,
           "monument": "Gran Vía",
-          "image": "/images/gran-via.jpg"
+          "image": "/images/madrid/gran-via.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JbACdABUyAAAyqO6UPWySPi42bzg9/G9EbzVDcPgr4g8s71938msO9inAkUEk5zqt/PDot807j9GSAA="
         }
       ]
     },
     {
       "id": 2,
       "city": "Barcelona",
-      "image": "/images/sagrada-familia.jpg",
+      "image": "/images/barcelona/sagrada-familia.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
       "monuments": [
         {
           "id": 1,
           "monument": "Sagrada familia",
-          "image": "/images/sagrada-familia.jpg"
+          "image": "/images/barcelona/sagrada-familia.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA"
         },
         {
           "id": 2,
           "monument": "Catedral",
-          "image": "/images/catedral-barcelona.jpg"
+          "image": "/images/barcelona/catedral-barcelona.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA="
         },
         {
           "id": 3,
           "monument": "Liceu",
-          "image": "/images/liceu.jpg"
+          "image": "/images/barcelona/liceu.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA=="
         },
         {
           "id": 4,
           "monument": "Parc Güell",
-          "image": "/images/parc-guell.jpg"
+          "image": "/images/barcelona/parc-guell.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA="
         },
         {
           "id": 5,
           "monument": "Casa Batllo",
-          "image": "/images/casa-batllo.jpg"
+          "image": "/images/barcelona/casa-batllo.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA=="
         },
         {
           "id": 6,
           "monument": "Parc Montjuic",
-          "image": "/images/parc-montjuic.jpg"
+          "image": "/images/barcelona/parc-montjuic.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA=="
         }
       ]
     },
     {
       "id": 3,
       "city": "Sevilla",
-      "image": "/images/plaza-espana.jpg",
+      "image": "/images/sevilla/plaza-espana.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
       "monuments": [
         {
           "id": 1,
           "monument": "Giralda",
-          "image": "/images/giralda.jpg"
+          "image": "/images/sevilla/giralda.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA="
         },
         {
           "id": 2,
           "monument": "Alcázar",
-          "image": "/images/alcazar.jpg"
+          "image": "/images/sevilla/alcazar.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA="
         },
         {
           "id": 3,
           "monument": "Plaza de España",
-          "image": "/images/plaza-espana.jpg"
+          "image": "/images/sevilla/plaza-espana.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA"
         },
         {
           "id": 4,
           "monument": "Barrio de Triana",
-          "image": "/images/triana.jpg"
+          "image": "/images/sevilla/triana.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JbACdAEPAfIseRqp+AD+wCDxRV9iwECbbbUe47+6+LE21S2mZG5DwNoSYUhJSPm3wGyXgAA="
         }
       ]
     },
     {
       "id": 4,
       "city": "Valencia",
-      "image": "/images/valencia.jpg",
+      "image": "/images/valencia/ciudad-de-las-artes.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
       "monuments": [
         {
           "id": 1,
           "monument": "Ciudad de las Artes",
-          "image": "/images/valencia.jpg"
+          "image": "/images/valencia/ciudad-de-las-artes.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA=="
         },
         {
           "id": 2,
           "monument": "Lonja de la Seda",
-          "image": "/images/lonja-de-la-seda.jpg"
+          "image": "/images/valencia/lonja-de-la-seda.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JYgCdADyf26IAP7acdUaTtvKYLOLEmcIdrNDTGs2aJPBqkPBoiqIwA1lDyAsAAA="
         },
         {
           "id": 3,
           "monument": "Torres de Serranos",
-          "image": "/images/torres-de-serranos.jpg"
+          "image": "/images/valencia/torres-de-serranos.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdH8AFV6x9AAA96J+jBt1h5aW8lG3raSxQyXyoVxXbN20upEq2Z+Kk+S8ouUpgr42isU42uXau2MigKf2AAA="
         },
         {
           "id": 4,
           "monument": "Torres de Quart",
-          "image": "/images/torres-de-quart.jpg"
+          "image": "/images/valencia/torres-de-quart.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBdgCPNTZrxMtAA/sns9T82F+NEpT2cULdY/HUPHPX53gmnWosomlJwx8usLQzJc38PpexffTXg8tR6gAAA"
         },
         {
           "id": 5,
           "monument": "El Miguelete",
-          "image": "/images/miguelete.jpg"
+          "image": "/images/valencia/miguelete.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA="
         },
         {
           "id": 6,
           "monument": "Mercado Central",
-          "image": "/images/mercado-central.jpg"
+          "image": "/images/valencia/mercado-central.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA=="
         }
       ]
     }

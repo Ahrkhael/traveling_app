@@ -7,8 +7,9 @@
   z-index: 100;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: rgb(var(--background-navbar-rgb));
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(var(--navbar-border-shadow));
 }
 
 /* Por defecto, ocultamos NavbarMobile*/
@@ -19,10 +20,10 @@
 /* En pantallas pequeñas */
 @media (max-width: 768px) {
   .header > :nth-child(1) {
-    display: none; /* Oculta Navbar */
+    display: none; /* Oculta NavbarDesktop */
   }
 
   .header > :nth-child(2) {
-    display: block; /* Muestra MobileNavbar */
+    display: block; /* Muestra NavbarMobile */
   }
 }

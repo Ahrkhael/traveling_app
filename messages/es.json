@@ -8,14 +8,19 @@
     "Explore": "Explora",
     "FollowUs": "Síguenos",
     "Contact": "Contacto",
-    "Subscribe": "Suscríbete",
     "LegalNotice": "Aviso legal",
     "Home": "Inicio",
     "Cities": "Ciudades",
     "AboutUs": "¿Quiénes somos?",
-    "SubscribeBotton": "Suscríbete",
     "Terms&Conditions": "Términos y condiciones",
-    "PrivacyPolicy": "Política de privacidad"
+    "PrivacyPolicy": "Política de privacidad",
+    "SubscribeForm": {
+      "SubscribeBotton": "Suscríbete",
+      "Subscribe": "Suscríbete",
+      "ModalMessageSuccess": "En seguida te contactaremos",
+      "ModalMessageFail": "Introduce un email válido",
+      "Accept": "Aceptar"
+    }
   },
   "HomePage": {
     "WelcomeTitle": "Bienvenidos a la web de Viajeros sin fronteras",
@@ -237,5 +242,45 @@
       "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
       "score": "★★★★★"
     }
+  },
+  "Terms": {
+    "TitlePage": "Términos y Condiciones de Uso",
+    "Introduction": "Introducción",
+    "IntroductionDescription": "Bienvenido/a a <strong>Viajeros Sin Fronteras</strong>. Al acceder a nuestro sitio web, aceptas cumplir con estos términos y condiciones de uso. Si no estás de acuerdo con alguno de estos términos, te recomendamos no utilizar nuestros servicios.",
+    "UseSite": "Uso del Sitio",
+    "UseSiteDescription": "El contenido de este sitio web es solo para uso personal e informativo. Está prohibido:",
+    "UseSiteList": "<li>Copiar, distribuir o reproducir cualquier contenido sin nuestro consentimiento expreso.</li><li>Utilizar este sitio web con fines ilegales o no autorizados.</li>",
+    "IntelectualProperty": "Propiedad Intelectual",
+    "IntelectualPropertyDescription": "Todo el contenido de <strong>Viajeros Sin Fronteras</strong>, incluidos textos, gráficos, logotipos y código, está protegido por leyes de propiedad intelectual. No puedes usar este contenido sin obtener permiso previo.",
+    "UserResponsability": "Responsabilidad del Usuario",
+    "UserResponsabilityDescription": "Como usuario, eres responsable de la información que compartes y de las actividades realizadas en nuestro sitio. Nos reservamos el derecho de eliminar contenido que consideremos inapropiado.",
+    "LinkThirdParties": "Enlaces a terceros",
+    "LinkThirdPartiesDescription": "Nuestra web puede contener enlaces a sitios web de terceros. No somos responsables del contenido, políticas o prácticas de estos sitios.",
+    "LiabilityLimitation": "Limitación de Responsabilidad",
+    "LiabilityLimitationDescription": "No garantizamos que el contenido de nuestro sitio sea preciso, completo o esté actualizado. No nos hacemos responsables de pérdidas o daños derivados del uso de nuestra web.",
+    "TermsChanges": "Cambios en los Términos",
+    "TermsChangesDescription": "Podemos actualizar estos términos en cualquier momento. Es tu responsabilidad revisarlos periódicamente. El uso continuo de nuestra web después de cambios implica tu aceptación.",
+    "Contact": "Contacto",
+    "ContactDescription": "Si tienes preguntas o inquietudes sobre estos términos, puedes escribirnos a: "
+  },
+  "Privacy": {
+    "TitlePage": "Política de Privacidad",
+    "Introduction": "Introducción",
+    "IntroductionDescription": "En <strong>Viajeros Sin Fronteras</strong>, tu privacidad es nuestra prioridad. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tu información personal cuando visitas nuestro sitio web o utilizas nuestros servicios. Al acceder a nuestra plataforma, aceptas las prácticas descritas en esta política.",
+    "SavedInfo": "Información que Recopilamos",
+    "SavedInfoDescription": "Podemos recopilar los siguientes tipos de información:",
+    "SavedInfoList": "<li><strong>Información personal proporcionada por ti:</strong> Como tu nombre, dirección de correo electrónico, y cualquier dato que compartas al registrarte o contactarnos.</li><li><strong>Información automática:</strong> Datos recopilados automáticamente como tu tipo de navegador y las páginas que visitas en nuestro sitio.</li><li><strong>Cookies y tecnologías similares:</strong> Utilizamos cookies para mejorar tu experiencia y analizar cómo utilizas nuestra web.</li>",
+    "UseInfo": "Cómo Usamos tu Información",
+    "UseInfoDescription": "La información que recopilamos se utiliza para:",
+    "UseInfoList": "<li>Proporcionarte una experiencia personalizada en nuestro sitio.</li><li>Procesar reservas, consultas o solicitudes relacionadas con los servicios que ofrecemos.</li><li>Enviar notificaciones, ofertas o información relevante (cuando hayas dado tu consentimiento).</li><li>Analizar y mejorar nuestro sitio web y servicios.</li>",
+    "ShareInfo": "Cómo compartimos tu Información",
+    "ShareInfoDescription": "Nos comprometemos a no vender ni alquilar tu información personal a terceros. Sin embargo, podríamos compartirla en los siguientes casos:",
+    "ShareInfoList": "<li><strong>Con proveedores de servicios:</strong> Terceras partes que nos ayudan a operar nuestro sitio, procesar pagos o enviar comunicaciones.</li><li><strong>Por motivos legales:</strong> Si es requerido por la ley o para proteger nuestros derechos y prevenir actividades fraudulentas.</li>",
+    "UserRights": "Tus Derechos",
+    "UserRightsDescription": "Como usuario, tienes los siguientes derechos:",
+    "UserRightsList": "<li>Acceder a los datos personales que tenemos sobre ti.</li><li>Solicitar la corrección de cualquier dato inexacto.</li><li>Pedir la eliminación de tus datos personales, salvo en casos donde la ley nos obligue a conservarlos.</li><li>Retirar tu consentimiento para el procesamiento de datos en cualquier momento.</li>",
+    "UserRightsContact": "Para ejercer tus derechos, puedes contactarnos a través de: ",
+    "PolicyChanges": "Cambios en nuestra Política",
+    "PolicyChangesDescription": "Podemos actualizar esta Política de Privacidad ocasionalmente. Te recomendamos revisarla periódicamente para estar informado sobre cómo protegemos tu información."
   }
 }

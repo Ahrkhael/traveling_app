@@ -15,12 +15,10 @@ export default function CityContent({ cityData, city, styles }) {
   const monuments = cityData.monuments;
 
   return (
-    <main className="main">
+    <main className={`main ${styles.main}`}>
       <div className={styles.divCity}>
         <h1 className="title">{city}</h1>
-        <h2 className={`description ${styles.cityLongDescription}`}>
-          {t(`${city}.longDescription`)}
-        </h2>
+        <h2 className={`description`}>{t(`${city}.longDescription`)}</h2>
       </div>
       <div className={styles.divMonuments}>
         <h1 className="title">{t("MonumentsInCity", { city: city })}</h1>

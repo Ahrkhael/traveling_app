@@ -1,0 +1,13 @@
+.imageWrapper {
+  position: relative;
+  height: 70%;
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .imageWrapper {
+    height: 30dvh;
+    width: 30dvh;
+  }
+}

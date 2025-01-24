@@ -12,6 +12,7 @@ export default function LangSelector() {
     handleToggleDropdown,
     handleMouseEnter,
     handleMouseLeave,
+    dropdownRef,
   } = useDropdown();
 
   const pathSegments = pathname.split("/");
@@ -27,6 +28,7 @@ export default function LangSelector() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleToggleDropdown}
+      ref={dropdownRef}
     >
       <p className={styles.dropdownButton}>🌍</p>
       <div

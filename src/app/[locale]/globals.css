@@ -4,14 +4,20 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-  --font-color-primary: #0070f3;
-  --font-color-secondary: rgb(45, 179, 213);
-  --font-color-menu-secondary: #66ccff;
+  --font-color-primary: #021f3c;
+  --font-color-secondary: #f1f1f1;
+  --font-color-menu-secondary: rgb(135, 230, 255);
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 77, 124, 133;
-  --background-end-rgb: 129, 96, 96;
-  --background-navbar-rgb: 170, 170, 180;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+  --background-navbar-rgb: 15, 19, 37;
+  --background-navbar-hover-rgb: 79, 99, 147;
+  --background-arrow-rgba: 230, 230, 230, 0.5;
+  --background-arrow-hover-rgba: 230, 230, 230, 0.3;
+  --background-section-rgb: 247, 247, 247;
+  --background-modal-rgb: 255, 255, 255;
+  --background-button: #0a6eac;
+  --background-button-hover: #0a9cac;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -39,7 +45,8 @@
   );
 
   --navbar-height: 7%;
-  --navbar-min-height: 30px;
+  --navbar-min-height: 45px;
+  --navbar-border-shadow: 20, 20, 20, 0.4;
 
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
@@ -49,10 +56,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 24, 24, 24;
     --background-navbar-rgb: 35, 34, 31;
+    --background-navbar-hover-rgb: 24, 24, 24;
+    --background-arrow-rgba: 36, 37, 40, 0.5;
+    --background-arrow-hover-rgba: 36, 37, 40, 0.8;
+    --background-section-rgb: 20, 20, 20;
+    --background-modal-rgb: 30, 30, 30;
+
+    --font-color-primary: #f1f1f1;
+    --font-color-secondary: #ebeef1;
+    --font-color-menu-secondary: rgb(135, 230, 255);
+
+    --navbar-border-shadow: 100, 100, 100, 0.4;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -94,7 +111,6 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -118,9 +134,13 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
-  padding: 2rem;
+  margin-top: 7dvh;
+  padding: 2rem 0;
   min-height: 80vh;
+}
+
+.section {
+  background-color: rgb(var(--background-section-rgb));
 }
 
 .title {
@@ -134,11 +154,11 @@ a {
 
 .description {
   display: inline-block;
-  justify-content: center;
   align-items: inherit;
   text-align: center;
+  padding: 0 40px;
   font-size: 1rem;
-  color: var(--font-color-secondary);
+  color: var(--font-color-primary);
   user-select: none;
 }
 
@@ -151,7 +171,7 @@ a {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
   .main {
-    margin-top: 10%;
+    margin-top: 7dvh;
   }
 
   .title {
@@ -159,6 +179,7 @@ a {
   }
 
   .description {
-    display: none;
+    padding: 0 5%;
+    font-size: 0.8rem;
   }
 }

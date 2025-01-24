@@ -20,15 +20,22 @@
 }
 
 .listItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 8px;
   padding: 20px;
-  border-radius: 10px;
 }
 
 .titleTestimonies {
   font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: repeat(1, 6fr);
+  }
+
+  .titleTestimonies {
+    font-size: 20px;
+  }
 }

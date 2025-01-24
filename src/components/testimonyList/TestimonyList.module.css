@@ -1,16 +1,36 @@
+.description {
+  display: flex;
+  text-align: center;
+  min-height: 100px;
+}
+
 .rateList {
   width: 100%;
   color: var(--font-color-primary);
   text-align: right;
-  margin-top: 3vh;
-  margin-right: 4vw;
+  margin-right: 4dvw;
   cursor: default;
+}
+
+/* Media query para dispositivos tablets */
+@media (max-width: 992px) {
+  .description {
+    min-height: 130px;
+  }
+
+  .rateList {
+    margin: 0;
+  }
 }
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
+  .description {
+    min-height: 80px;
+    margin: 0 10dvw;
+  }
+
   .rateList {
     text-align: center;
-    margin: 0;
   }
 }
