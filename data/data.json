@@ -10,37 +10,49 @@
           "id": 1,
           "monument": "Palacio real",
           "image": "/images/madrid/palacio-real.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA="
+          "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA=",
+          "latitude": 40.41833,
+          "longitude": -3.71442
         },
         {
           "id": 2,
           "monument": "Parque del retiro",
           "image": "/images/madrid/parque-retiro.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JbACdAD1kF+jsWcAAPHoh+pSXD0dQhVnKXFQuCYsMqYZneDFov2W6pDVaxSpshtYwAAA"
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JbACdAD1kF+jsWcAAPHoh+pSXD0dQhVnKXFQuCYsMqYZneDFov2W6pDVaxSpshtYwAAA",
+          "latitude": 40.41544,
+          "longitude": -3.68347
         },
         {
           "id": 3,
           "monument": "Puerta del Sol",
           "image": "/images/madrid/puerta-del-sol.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0JP/3FgAA/u7hqR/e8Nc23JNk/P26evcl3901S6mBWnHsVnfhqYhqtBMCTGilVMAAAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0JP/3FgAA/u7hqR/e8Nc23JNk/P26evcl3901S6mBWnHsVnfhqYhqtBMCTGilVMAAAA==",
+          "latitude": 40.41687,
+          "longitude": -3.70348
         },
         {
           "id": 4,
           "monument": "Plaza Mayor",
           "image": "/images/madrid/plaza-mayor.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACdAC9PDUl8YAAhot4eCKAqaqdyeimwl109gFmhb5Ot+Z5hmzN9Ei0AAAA"
+          "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACdAC9PDUl8YAAhot4eCKAqaqdyeimwl109gFmhb5Ot+Z5hmzN9Ei0AAAA",
+          "latitude": 40.41558,
+          "longitude": -3.70743
         },
         {
           "id": 5,
           "monument": "Museo del Prado",
           "image": "/images/madrid/museo-prado.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA"
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA",
+          "latitude": 40.41392,
+          "longitude": -3.69213
         },
         {
           "id": 6,
           "monument": "Gran Vía",
           "image": "/images/madrid/gran-via.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JbACdABUyAAAyqO6UPWySPi42bzg9/G9EbzVDcPgr4g8s71938msO9inAkUEk5zqt/PDot807j9GSAA="
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JbACdABUyAAAyqO6UPWySPi42bzg9/G9EbzVDcPgr4g8s71938msO9inAkUEk5zqt/PDot807j9GSAA=",
+          "latitude": 40.41907,
+          "longitude": -3.69689
         }
       ]
     },
@@ -54,37 +66,49 @@
           "id": 1,
           "monument": "Sagrada familia",
           "image": "/images/barcelona/sagrada-familia.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA"
+          "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
+          "latitude": 41.40386,
+          "longitude": 2.17429
         },
         {
           "id": 2,
           "monument": "Catedral",
           "image": "/images/barcelona/catedral-barcelona.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA="
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA=",
+          "latitude": 41.38409,
+          "longitude": 2.17619
         },
         {
           "id": 3,
           "monument": "Liceu",
           "image": "/images/barcelona/liceu.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA==",
+          "latitude": 41.38033,
+          "longitude": 2.17327
         },
         {
           "id": 4,
           "monument": "Parc Güell",
           "image": "/images/barcelona/parc-guell.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA="
+          "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA=",
+          "latitude": 41.41475,
+          "longitude": 2.15265
         },
         {
           "id": 5,
           "monument": "Casa Batllo",
           "image": "/images/barcelona/casa-batllo.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA==",
+          "latitude": 41.39186,
+          "longitude": 2.16489
         },
         {
           "id": 6,
           "monument": "Parc Montjuic",
           "image": "/images/barcelona/parc-montjuic.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA==",
+          "latitude": 41.37016,
+          "longitude": 2.16953
         }
       ]
     },
@@ -98,25 +122,33 @@
           "id": 1,
           "monument": "Giralda",
           "image": "/images/sevilla/giralda.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA="
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA=",
+          "latitude": 37.38635,
+          "longitude": -5.99264
         },
         {
           "id": 2,
           "monument": "Alcázar",
           "image": "/images/sevilla/alcazar.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA="
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA=",
+          "latitude": 37.38327,
+          "longitude": -5.99023
         },
         {
           "id": 3,
           "monument": "Plaza de España",
           "image": "/images/sevilla/plaza-espana.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA"
+          "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
+          "latitude": 37.37696,
+          "longitude": -5.98725
         },
         {
           "id": 4,
           "monument": "Barrio de Triana",
           "image": "/images/sevilla/triana.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JbACdAEPAfIseRqp+AD+wCDxRV9iwECbbbUe47+6+LE21S2mZG5DwNoSYUhJSPm3wGyXgAA="
+          "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JbACdAEPAfIseRqp+AD+wCDxRV9iwECbbbUe47+6+LE21S2mZG5DwNoSYUhJSPm3wGyXgAA=",
+          "latitude": 37.38098,
+          "longitude": -6.00937
         }
       ]
     },
@@ -130,37 +162,49 @@
           "id": 1,
           "monument": "Ciudad de las Artes",
           "image": "/images/valencia/ciudad-de-las-artes.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
+          "latitude": 39.45503,
+          "longitude": -0.35045
         },
         {
           "id": 2,
           "monument": "Lonja de la Seda",
           "image": "/images/valencia/lonja-de-la-seda.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JYgCdADyf26IAP7acdUaTtvKYLOLEmcIdrNDTGs2aJPBqkPBoiqIwA1lDyAsAAA="
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JYgCdADyf26IAP7acdUaTtvKYLOLEmcIdrNDTGs2aJPBqkPBoiqIwA1lDyAsAAA=",
+          "latitude": 39.47455,
+          "longitude": -0.37832
         },
         {
           "id": 3,
           "monument": "Torres de Serranos",
           "image": "/images/valencia/torres-de-serranos.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdH8AFV6x9AAA96J+jBt1h5aW8lG3raSxQyXyoVxXbN20upEq2Z+Kk+S8ouUpgr42isU42uXau2MigKf2AAA="
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdH8AFV6x9AAA96J+jBt1h5aW8lG3raSxQyXyoVxXbN20upEq2Z+Kk+S8ouUpgr42isU42uXau2MigKf2AAA=",
+          "latitude": 39.47943,
+          "longitude": -0.37598
         },
         {
           "id": 4,
           "monument": "Torres de Quart",
           "image": "/images/valencia/torres-de-quart.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBdgCPNTZrxMtAA/sns9T82F+NEpT2cULdY/HUPHPX53gmnWosomlJwx8usLQzJc38PpexffTXg8tR6gAAA"
+          "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBdgCPNTZrxMtAA/sns9T82F+NEpT2cULdY/HUPHPX53gmnWosomlJwx8usLQzJc38PpexffTXg8tR6gAAA",
+          "latitude": 39.47592,
+          "longitude": -0.3839
         },
         {
           "id": 5,
           "monument": "El Miguelete",
           "image": "/images/valencia/miguelete.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA="
+          "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA=",
+          "latitude": 39.47546,
+          "longitude": -0.37563
         },
         {
           "id": 6,
           "monument": "Mercado Central",
           "image": "/images/valencia/mercado-central.jpg",
-          "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA=="
+          "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA==",
+          "latitude": 39.47363,
+          "longitude": -0.37905
         }
       ]
     }

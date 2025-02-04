@@ -203,7 +203,8 @@
     "NoCityFound": "{city} city not found",
     "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
     "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
-    "CitiesPageTitle": "Choose your next destination"
+    "CitiesPageTitle": "Choose your next destination",
+    "MonumentMapPopUp": "Here is {monument}"
   },
   "Testimonies": {
     "1": {

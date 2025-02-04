@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 import styleImage from "./MonumentContent.module.css";
 import Image from "next/image";
+import MapWrapper from "../map/Map.jsx";
 
 export default function MonumentContent({
   monumentData,
@@ -50,6 +51,10 @@ export default function MonumentContent({
       <p className={`description ${styles.monumentDescription}`}>
         {tMonument("longDescription")}
       </p>
+      <MapWrapper
+        position={[monumentData.latitude, monumentData.longitude]}
+        name={monumentData.monument}
+      />
     </main>
   );
 }
