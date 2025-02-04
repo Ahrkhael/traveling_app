@@ -38,7 +38,6 @@ export default function LangSelector() {
           <Link
             key={locale}
             href={`/${locale}${nonLocalizedPath}`}
-            locale={locale}
             className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
           >
             <span
