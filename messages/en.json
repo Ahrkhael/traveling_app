@@ -1,0 +1,287 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "Cities": "Cities",
+    "AboutUs": "About us"
+  },
+  "Footer": {
+    "Explore": "Explore",
+    "FollowUs": "Follow us",
+    "Contact": "Contact",
+    "LegalNotice": "Legal notice",
+    "Home": "Home",
+    "Cities": "Cities",
+    "AboutUs": "About us",
+    "Terms&Conditions": "Terms & Conditions",
+    "PrivacyPolicy": "Privacy policy",
+    "SubscribeForm": {
+      "SubscribeBotton": "Subscribe",
+      "Subscribe": "Subscribe",
+      "ModalMessageSuccess": "We will contact you soon",
+      "ModalMessageFail": "Introduce a valid email",
+      "Accept": "Accept"
+    }
+  },
+  "HomePage": {
+    "WelcomeTitle": "Welcome to Travelers without borders",
+    "WelcomeDescription": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations. Here we connect you with vibrant cities, historic monuments, and natural wonders waiting to be explored. Whether you're an adventurer looking for new experiences or a curious person wanting to see unique corners of the planet, this is your gateway to the trip of your dreams. Get ready to get inspired, plan and explore without limits!",
+    "CarrouselTitle": "Don't know where to go?",
+    "CarrouselSubtitle": "Let us suggest some destinations",
+    "TestimoniesTitle": "Testimonies from other travelers"
+  },
+  "AboutUsPage": {
+    "MainTitle": "Get to know us better",
+    "MainDescription": " is a Web platform designed for tourism and adventure lovers. To Through a visual and dynamic experience, users can explore tourist destinations around the world, discovering fascinating cities and their most emblematic monuments. The website allows travellers to find out about cultural characteristics, of each place, providing details of interest about the most iconic sites. With a focus on ease of By navigating and interactive design, Travelers Without Borders invites you to users to plan their next adventure, connecting them with a diversity of global destinations regardless of borders.",
+    "TestimoniesTitle": "Know experiences from other users"
+  },
+  "Cities": {
+    "MonumentsInCity": "Monuments in {city}",
+    "Madrid": {
+      "id": 1,
+      "city": "Madrid",
+      "shortDescription": "With more than 3 million inhabitants and being the capital of Spain, it is possibly one of the most popular tourist destinations for our users.",
+      "longDescription": "Madrid, the vibrant capital of Spain, is a city where history and modernity blend seamlessly. Known for its grand boulevards, world-class museums like the Prado and Reina Sofia, and the lively atmosphere of neighborhoods such as Malasaña and La Latina, Madrid offers a rich cultural tapestry. Visitors can enjoy traditional Spanish cuisine, admire architectural marvels like the Royal Palace, and immerse themselves in the city's energetic nightlife, making it a dynamic destination for all.",
+      "monuments": {
+        "Palacio real": {
+          "id": 1,
+          "monument": "Royal Palace",
+          "shortDescription": "The official residence of the King of Spain and used for state ceremonies and solemn acts, it is the largest royal palace in Western Europe and one of the largest in the world.",
+          "longDescription": "The Royal Palace of Madrid is a majestic symbol of Spain's royal heritage and one of the largest palaces in Europe. Built in the 18th century, it boasts over 3,000 lavishly decorated rooms, including the Throne Room, the Royal Armory, and the grand Banquet Hall. Surrounded by manicured gardens and overlooking the picturesque Campo del Moro, this architectural masterpiece offers visitors a glimpse into the opulent lifestyle of Spanish monarchs while serving as an iconic landmark of the city."
+        },
+        "Parque del retiro": {
+          "id": 2,
+          "monument": "Retiro Park",
+          "shortDescription": "Historic garden considered one of the main tourist attractions of the city for its architectural and landscape figures from the seventeenth to the twenty-first century.",
+          "longDescription": "Retiro Park is a sprawling green oasis in the heart of Madrid, perfect for relaxation and exploration. Originally a royal retreat, this historic park features tranquil walking paths, beautiful sculptures, and the stunning Crystal Palace, a glass pavilion nestled by a serene lake. Visitors can enjoy rowing boats on the pond, marvel at the Monument to Alfonso XII, or immerse themselves in the vibrant cultural events held within this enchanting urban sanctuary."
+        },
+        "Puerta del Sol": {
+          "id": 3,
+          "monument": "Puerta del Sol",
+          "shortDescription": "The Puerta del Sol is the heart of Madrid and one of the most emblematic points of the city, famous for being home to the \"kilometre 0\" of Spanish roads.",
+          "longDescription": "The Puerta del Sol is a bustling square at the very center of Madrid, known as the symbolic heart of Spain. It is home to iconic landmarks such as the statue of \"El Oso y el Madroño\" (The Bear and the Strawberry Tree) and the historic clock tower of the Casa de Correos, where Spaniards gather to welcome the New Year. Surrounded by lively streets filled with shops, cafes, and street performers, the Puerta del Sol embodies the vibrant energy of Madrid's urban life."
+        },
+        "Plaza Mayor": {
+          "id": 4,
+          "monument": "Plaza Mayor",
+          "shortDescription": "The Plaza Mayor is one of the most historic squares in Madrid, known for its Herrerian-style architecture and for having been the scene of important events over the centuries.",
+          "longDescription": "The Plaza Mayor is a stunning rectangular square steeped in history and charm, located in the heart of Madrid. Encircled by elegant arcades and colorful facades, it has been a focal point for public life since the 17th century, hosting markets, bullfights, and festivals. Today, visitors can enjoy its lively atmosphere, sample traditional Spanish dishes at outdoor cafes, and admire the statue of King Philip III that stands proudly in its center."
+        },
+        "Museo del Prado": {
+          "id": 5,
+          "monument": "Prado Museum",
+          "shortDescription": "The Prado Museum is one of the most important museums in the world, known for its vast collection of European art, including masterpieces by Goya, Velázquez, and El Greco.",
+          "longDescription": "The Prado Museum is one of the world’s most prestigious art galleries, housing an unparalleled collection of masterpieces. Visitors can explore works by renowned artists such as Velázquez, Goya, and El Greco, as well as European treasures by Bosch, Titian, and Rubens. With its exquisite collection spanning centuries, the Prado offers an unforgettable journey through the history of art and serves as a cultural treasure of Madrid."
+        },
+        "Gran Vía": {
+          "id": 6,
+          "monument": "Gran Vía",
+          "shortDescription": "Gran Vía is one of Madrid's main shopping and entertainment avenues, known for its lively nightlife, theaters, and shops.",
+          "longDescription": "Gran Vía is Madrid’s most iconic avenue, a vibrant hub of entertainment, shopping, and nightlife. Known as \"Madrid's Broadway,\" it is lined with grand early 20th-century architecture, luxury boutiques, and theaters showcasing the city’s top musicals. Whether enjoying panoramic views from rooftop terraces or immersing oneself in the energy of its bustling streets, Gran Vía represents the dynamic and modern spirit of Madrid."
+        }
+      }
+    },
+    "Barcelona": {
+      "id": 2,
+      "city": "Barcelona",
+      "shortDescription": "Without a doubt, one of the best destinations to visit in Summer, with very diverse cultural events and a very open-minded city.",
+      "longDescription": "Barcelona, the jewel of Catalonia, is a city renowned for its unique blend of Gothic and modernist architecture. Home to the legendary works of Antoni Gaudí, such as the Sagrada Família and Park Güell, it captivates visitors with its artistic and historical richness. Strolling along Las Ramblas, relaxing on its golden beaches, and enjoying the vibrant culinary scene are just a few of the many experiences this Mediterranean gem offers.",
+      "monuments": {
+        "Sagrada familia": {
+          "id": 1,
+          "monument": "Sagrada familia",
+          "shortDescription": "Catholic Basilica designed by the architect Antoni Gaudí, whose construction began in 1882 and, to this day, is still in process. It is considered a masterpiece and an exponent of Catalan modernist architecture.",
+          "longDescription": "The Sagrada Família, Antoni Gaudí’s architectural masterpiece, is an awe-inspiring basilica that stands as the symbol of Barcelona. Under construction since 1882, its intricate facades depict biblical scenes with stunning detail, while the interior dazzles with towering columns that resemble a forest canopy, illuminated by colorful stained glass. This UNESCO World Heritage Site blends Gothic and modernist styles, offering visitors a profound spiritual and artistic experience in one of the world’s most extraordinary buildings."
+        },
+        "Catedral": {
+          "id": 2,
+          "monument": "Cathedral",
+          "shortDescription": "Gothic-style cathedral seat of the Archdiocese of Barcelona, dedicated to the Holy Cross and Saint Eulalia, patron saint of the city of Barcelona and which has a cloister in which thirteen white geese live.",
+          "longDescription": "The Barcelona Cathedral, officially known as the Cathedral of the Holy Cross and Saint Eulalia, is a magnificent example of Catalan Gothic architecture. Located in the heart of the Gothic Quarter, it features ornate spires, a serene cloister filled with greenery and geese, and an intricately designed facade. Visitors can climb to the rooftop for panoramic views of the city or explore its rich history, making it a must-see landmark steeped in medieval charm."
+        },
+        "Liceu": {
+          "id": 3,
+          "monument": "Liceu",
+          "shortDescription": "Located on La Rambla, it is the oldest active opera house in the city and from 1847 to 1989 it was the largest in Europe by capacity.",
+          "longDescription": "The Gran Teatre del Liceu, located on Barcelona's famous La Rambla, is one of Europe’s most prestigious opera houses. Opened in 1847, its grand interiors are adorned with gold accents, red velvet seats, and an opulent chandelier, evoking timeless elegance. Hosting world-class operas, concerts, and ballets, the Liceu remains a cultural cornerstone of Barcelona, offering an unforgettable experience for lovers of the performing arts."
+        },
+        "Parc Güell": {
+          "id": 4,
+          "monument": "Parc Güell",
+          "shortDescription": "Public park with gardens and architectural elements located in the upper part of the city, in the foothills of the Collserola mountain range.",
+          "longDescription": "Park Güell, designed by Antoni Gaudí, is a whimsical park that embodies the spirit of Catalan modernism. Nestled on a hillside, it features colorful mosaics, winding pathways, and fantastical structures like the famous Salamander statue and the Serpentine Bench. The park’s playful design harmonizes with the natural surroundings, offering stunning views of Barcelona and a magical escape into Gaudí’s artistic vision."
+        },
+        "Casa Batllo": {
+          "id": 5,
+          "monument": "Casa Batllo",
+          "shortDescription": "The work of the architect Antoni Gaudí, it is a comprehensive remodelling of a previously existing building on the Solar. A reflection of the artistic plenitude of its author, it offers new structural solutions for regulated geometry.",
+          "longDescription": "Casa Batlló is a striking modernist building on Barcelona’s Passeig de Gràcia, celebrated for its dreamlike design by Antoni Gaudí. Its colorful facade resembles a dragon’s scales, while the interior is a marvel of organic shapes, intricate details, and innovative lighting. Every element of the building, from the curved windows to the spiraling rooftop chimneys, reflects Gaudí’s boundless creativity, making it a masterpiece of Art Nouveau and a must-visit destination."
+        },
+        "Parc Montjuic": {
+          "id": 6,
+          "monument": "Parc Montjuic",
+          "shortDescription": "A park located on the mountain of Montjuic, with an area of 5.2 hectares, it has various children's play areas and recreational equipment, as well as a varied collection of sculptures spread over its grounds.",
+          "longDescription": "Montjuïc Park is a sprawling cultural and recreational area perched on a hill overlooking Barcelona. It is home to a range of attractions, including the Magic Fountain, the Montjuïc Castle, and the Palau Nacional, which houses the National Art Museum of Catalonia. The park offers lush gardens, walking trails, and panoramic views of the city and the Mediterranean, making it a perfect blend of nature, history, and culture for visitors to explore."
+        }
+      }
+    },
+    "Sevilla": {
+      "id": 3,
+      "city": "Sevilla",
+      "shortDescription": "\"Sevilla has a special color\" or so say Los Del Río, a culturally very rich city for being a Muslim and Christian historic center, with monuments that are a clear reflection of this.",
+      "longDescription": "Seville, the heart of Andalusia, is a city that brims with romance, tradition, and history. Its iconic landmarks, such as the Giralda, the Alcázar, and the Plaza de España, reflect its Moorish and Renaissance influences. Seville is also the birthplace of flamenco, offering a rich cultural experience with passionate music and dance. From its lively streets to its fragrant orange blossoms, the city enchants visitors with its timeless charm.",
+      "monuments": {
+        "Giralda": {
+          "id": 1,
+          "monument": "Giralda",
+          "shortDescription": "Being the bell tower of Seville Cathedral, it is one of the most emblematic monuments of the city. The lower part corresponds to the minaret of the old mosque and the upper part belongs to a construction from the Christian period, thus being a mixture between both religions and cultures that is representative of the spirit of the city.",
+          "longDescription": "La Giralda, the iconic bell tower of Seville, is a stunning fusion of Moorish and Renaissance architecture. Originally built as the minaret of the Great Mosque in the 12th century, its intricate brickwork and geometric patterns reflect the Almohad style, while the Renaissance bell tower added later enhances its grandeur. Visitors can ascend its sloping ramps for breathtaking panoramic views of the city, making it a symbol of Seville’s rich history and cultural blend."
+        },
+        "Alcázar": {
+          "id": 2,
+          "monument": "Alcázar",
+          "shortDescription": "Walled palace complex built in different historical periods, combining Islamic, Mudejar, Gothic, Renaissance, Mannerist and Baroque art. It is the residence of the Spanish royal family when they visit Seville, being the oldest royal palace in use in Europe and one of the most visited monuments in the city.",
+          "longDescription": "The Alcázar of Seville is a magnificent royal palace and a masterpiece of Mudéjar architecture, with influences spanning Islamic, Gothic, Renaissance, and Baroque styles. Originally constructed as a Moorish fortress, its ornate halls, tranquil courtyards, and intricate tilework captivate visitors. The lush gardens, filled with fountains and orange trees, provide a serene escape. Still used as a residence for Spanish royalty, the Alcázar stands as a testament to Seville’s vibrant and layered past."
+        },
+        "Plaza de España": {
+          "id": 3,
+          "monument": "Plaza de España",
+          "shortDescription": "Located in the beautiful María Luisa Park, this architectural complex is the largest construction of the Ibero-American Exhibition of 1929 and is decorated with forty-eight benches dedicated to the Spanish provinces.",
+          "longDescription": "The Plaza de España is a monumental square and architectural marvel, built for the Ibero-American Exposition of 1929. Its semicircular design is adorned with stunning tiled alcoves representing each Spanish province, a picturesque canal crossed by ornate bridges, and the grand central fountain. Encircled by a majestic Neo-Mudéjar building with sweeping colonnades, this vibrant plaza is both a cultural hub and a beloved symbol of Seville’s splendor."
+        },
+        "Barrio de Triana": {
+          "id": 4,
+          "monument": "Barrio de Triana",
+          "shortDescription": "According to mythology, the goddess Astarte, fleeing from the amorous persecution of Hercules, mythological founder of the city of Seville, went to take refuge on the western bank of the Guadalquivir, thus founding this famous neighborhood.",
+          "longDescription": "Located across the Guadalquivir River, is a historic and colorful neighborhood famed for its vibrant traditions and artistic soul. Known as the birthplace of flamenco and celebrated for its ceramic workshops, Triana offers a unique blend of culture and craftsmanship. Stroll through its lively streets, visit the bustling Triana Market, and enjoy the stunning views of the river and Seville’s skyline, immersing yourself in the authentic spirit of this beloved barrio."
+        }
+      }
+    },
+    "Valencia": {
+      "id": 4,
+      "city": "Valencia",
+      "shortDescription": "Historically known as \"The City of El Cid\", we can still visit its extensive medieval and modern historical and cultural heritage.",
+      "longDescription": "Valencia, the sunny coastal city, is famed for its futuristic City of Arts and Sciences and its stunning beaches along the Mediterranean. With a history that spans over two millennia, the city offers a unique mix of ancient sites like the Silk Exchange and modern landmarks. Known as the birthplace of paella, Valencia invites visitors to savor its cuisine while enjoying the vibrant Fallas festival and its lively atmosphere.",
+      "monuments": {
+        "Ciudad de las Artes": {
+          "id": 1,
+          "monument": "Ciudad de las Artes",
+          "shortDescription": "An architectural, cultural and entertainment complex of the city, it has a wide variety of buildings including the Hemisfèric, the Museu de les Ciències and the Oceanográfico, each with a peculiar architecture and inside which a great deal of knowledge awaits you.",
+          "longDescription": "The City of Arts and Sciences is a futuristic architectural and cultural complex that has become an iconic symbol of Valencia. Designed by Santiago Calatrava, this sprawling space features stunning structures like the Hemisfèric, an eye-shaped planetarium, the Oceanogràfic, Europe’s largest aquarium, and the Palau de les Arts, a striking opera house. Surrounded by reflecting pools and lush gardens, it offers a unique blend of science, art, and leisure, making it a must-visit destination for modern architecture enthusiasts."
+        },
+        "Lonja de la Seda": {
+          "id": 2,
+          "monument": "Lonja de la Seda",
+          "shortDescription": "Located in the historic centre of the city, it is a work of Valencian civil Gothic, declared in 1996 by UNESCO as a Heritage of Humanity.",
+          "longDescription": "The Lonja de la Seda, is a UNESCO World Heritage Site and a masterpiece of late Gothic architecture. Built in the 15th century, it stands as a testament to Valencia’s prosperous trading history during the Mediterranean Golden Age. The Hall of Columns, with its soaring vaulted ceiling and twisted pillars, exudes elegance, while the orange-tree courtyard adds a serene touch. This historic gem reflects the city’s mercantile past and cultural grandeur."
+        },
+        "Torres de Serranos": {
+          "id": 3,
+          "monument": "Torres de Serranos",
+          "shortDescription": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two polygonal towers joined by a central body, where the gate itself opens and is topped with a semicircular arch.",
+          "longDescription": "The Torres de Serranos are majestic medieval gates that once served as part of Valencia’s city walls. Built in the 14th century, these imposing towers showcase Gothic architecture and offer a glimpse into the city’s defensive history. Visitors can climb to the top for sweeping views of the old town and the Turia Gardens, making the Serranos Towers a cherished landmark of Valencia’s heritage."
+        },
+        "Torres de Quart": {
+          "id": 4,
+          "monument": "Torres de Quart",
+          "shortDescription": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two semi-cylindrical towers joined by a central body, where the gate itself opens, in the shape of a semicircular arch.",
+          "longDescription": "The Quart Towers, another remnant of Valencia’s ancient fortifications, are impressive Gothic gates with a storied past. Built in the 15th century, these robust towers bear the marks of cannon fire from historic sieges, serving as a vivid reminder of the city’s resilience. Today, they stand as a symbol of Valencia’s strength and offer visitors a chance to explore their interiors and enjoy panoramic views from their battlements."
+        },
+        "El Miguelete": {
+          "id": 5,
+          "monument": "El Miguelete",
+          "shortDescription": "In Valencian Gothic style, the Miguelete (or Torre del Micalet in Valencian), is the bell tower of the cathedral of Valencia. It is 51 meters high up to the terrace, which is the same meters as its perimeter and 63 meters high in total.",
+          "longDescription": "El Miguelete is the iconic bell tower of Valencia’s Cathedral, rising gracefully over the city’s skyline. Built in the Gothic style during the 14th and 15th centuries, the tower features an octagonal base and a spiral staircase of over 200 steps leading to a spectacular viewing platform. From the top, visitors can admire breathtaking views of Valencia’s historic center, making the climb a rewarding experience for those seeking a blend of history and scenery."
+        },
+        "Mercado Central": {
+          "id": 6,
+          "monument": "Mercado Central",
+          "shortDescription": "Located in the City of Bruges square, it is considered one of the masterpieces of Valencian modernism. It has 1200 food stalls and has been supplying the Valencian population for almost a century.",
+          "longDescription": "The Central Market of Valencia is a vibrant masterpiece of modernist architecture and a bustling hub of local life. Built in the early 20th century, it boasts colorful ceramic tiles, a stunning iron-and-glass facade, and a striking central dome. Inside, visitors can explore a lively array of stalls offering fresh produce, seafood, and local delicacies, immersing themselves in the flavors and aromas of Valencia’s culinary heritage."
+        }
+      }
+    },
+    "NoCityFound": "{city} city not found",
+    "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
+    "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
+    "CitiesPageTitle": "Choose your next destination",
+    "MonumentMapPopUp": "Here is {monument}"
+  },
+  "Testimonies": {
+    "1": {
+      "id": 1,
+      "author": "John Smith",
+      "testimony": "Viajeros sin Fronteras provided an exceptional travel experience. Their attention to detail and personalized service made our trip unforgettable. Highly recommend their services",
+      "score": "★★★★★"
+    },
+    "2": {
+      "id": 2,
+      "author": "Emily Johnson",
+      "testimony": "Great experience overall with Viajeros sin Fronteras. The itinerary was well-planned, and the accommodations were comfortable. Would have appreciated more local insights during the tours.",
+      "score": "★★★★☆"
+    },
+    "3": {
+      "id": 3,
+      "author": "Michael Brown",
+      "testimony": "Outstanding service from start to finish. Viajeros sin Fronteras exceeded our expectations, providing unique experiences and seamless travel arrangements. Will definitely book with them again.",
+      "score": "★★★★★"
+    },
+    "4": {
+      "id": 4,
+      "author": "Sarah Davis",
+      "testimony": "Viajeros sin Fronteras organized a memorable trip for us. The destinations were amazing, and the guides were knowledgeable. A bit more flexibility in the schedule would have been ideal.",
+      "score": "★★★★☆"
+    },
+    "5": {
+      "id": 5,
+      "author": "David Wilson",
+      "testimony": "Exceptional travel agency! Viajeros sin Fronteras took care of every detail, allowing us to fully enjoy our vacation without any worries. Highly recommend their services to fellow travelers.",
+      "score": "★★★★★"
+    },
+    "6": {
+      "id": 6,
+      "author": "Jessica Martinez",
+      "testimony": "We had a wonderful time on our trip arranged by Viajeros sin Fronteras. The cultural experiences were enriching, and the group size was perfect. Some activities felt a bit rushed, but overall, a great experience.",
+      "score": "★★★★☆"
+    }
+  },
+  "Terms": {
+    "TitlePage": "Terms and Conditions of Use",
+    "Introduction": "Introduction",
+    "IntroductionDescription": "Welcome to <strong>Viajeros Sin Fronteras</strong>. By accessing our website, you agree to abide by these terms and conditions of use. If you do not agree with any of these terms, we recommend that you do not use our services.",
+    "UseSite": "Use of the Site",
+    "UseSiteDescription": "The content of this website is for personal and informational use only. It is forbidden:",
+    "UseSiteList": "<li>Copy, distribute or reproduce any content without our express consent.</li><li>Use this website for illegal or unauthorized purposes.</li>",
+    "IntelectualProperty": "Intelectual Property",
+    "IntelectualPropertyDescription": "All content from <strong>Viajeros Sin Fronteras</strong>, including text, charts, logos and code, is protected by intellectual property laws. You may not use this content without obtaining prior permission.",
+    "UserResponsability": "User Responsability",
+    "UserResponsabilityDescription": "As a user, you are responsible for the information you share and the activities you conduct on our site. We reserve the right to remove content that we deem inappropriate.",
+    "LinkThirdParties": "Link to Third Parties",
+    "LinkThirdPartiesDescription": "Our website may contain links to third-party websites. We are not responsible for the content, policies, or practices of these sites.",
+    "LiabilityLimitation": "Limitation of Liability",
+    "LiabilityLimitationDescription": "We do not guarantee that the content on our site is accurate, complete, or up-to-date. We are not responsible for any loss or damage arising from the use of our website.",
+    "TermsChanges": "Changes to Terms",
+    "TermsChangesDescription": "We may update these terms at any time. It is your responsibility to review them periodically. Your continued use of our site after changes constitutes your acceptance.",
+    "Contact": "Contact",
+    "ContactDescription": "If you have questions or concerns about these terms, you can write to us at: "
+  },
+  "Privacy": {
+    "TitlePage": "Privacy Policy",
+    "Introduction": "Introduction",
+    "IntroductionDescription": "At <strong>Viajeros Sin Fronteras</strong>, your privacy is our priority. This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services. By accessing our platform, you are accepting the practices described in this policy.",
+    "SavedInfo": "Information we Collect",
+    "SavedInfoDescription": "We may collect the following types of information:",
+    "SavedInfoList": "<li><strong>Personal information provided by you:</strong> Such as your name, email address, and any information you share when registering or contacting us.</li><li><strong>Automatic Information:</strong> Data collected automatically such as your browser type and the pages you visit on our site.</li><li><strong>Cookies and similar technologies:</strong> We use cookies to improve your experience and analyse how you use our website.</li>",
+    "UseInfo": "How we Use your Information",
+    "UseInfoDescription": "The information we collect is used to:",
+    "UseInfoList": "<li>To provide you with a personalized experience on our site.</li><li>To process bookings, inquiries or requests relating to the services we offer.</li><li>Send notifications, offers or relevant information (where you have given your consent).</li><li>Analyze and improve our website and services.</li>",
+    "ShareInfo": "How we Share your Information",
+    "ShareInfoDescription": "We promise not to sell or rent your personal information to third parties. However, we may share it in the following cases:",
+    "ShareInfoList": "<li><strong>With service providers:</strong> Third parties who help us operate our site, process payments, or send communications.</li><li><strong>For legal reasons:</strong> If required by law or to protect our rights and prevent fraudulent activity.</li>",
+    "UserRights": "User Rights",
+    "UserRightsDescription": "As a user, you have the following rights:",
+    "UserRightsList": "<li>Access the personal data we hold about you.</li><li>Request the correction of any inaccurate data.</li><li>Request the deletion of your personal data, except in cases where we are required by law to retain it.</li><li>Withdraw your consent to data processing at any time.</li>",
+    "UserRightsContact": "To exercise your rights, you can contact us via: ",
+    "PolicyChanges": "Changes to our Policy",
+    "PolicyChangesDescription": "We may update this Privacy Policy from time to time. We encourage you to review it periodically to be informed about how we protect your information."
+  }
+}

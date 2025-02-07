@@ -1,0 +1,41 @@
+.div {
+  display: grid;
+  margin: 5% 0;
+}
+
+.aboutUsDescription {
+  margin: 0 10%;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.listItem {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 8px;
+  padding: 20px;
+}
+
+.titleTestimonies {
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: repeat(1, 6fr);
+  }
+
+  .titleTestimonies {
+    font-size: 20px;
+  }
+}

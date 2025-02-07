@@ -1,5 +1,8 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Suspense } from "react";
+import styles from "./MonumentList.module.css";
 
 export default function MonumentList({
   city,
@@ -10,20 +13,40 @@ export default function MonumentList({
   titleStyles,
   descriptionStyles,
 }) {
+  const t = useTranslations(`Cities.${city}.monuments`);
+  const tGlobal = useTranslations("Cities");
+
   return (
     <ul className={listStyles}>
       {monuments.map((monument) => (
-        <li key={monument.monument} className={listItemStyles}>
-          <Link href={`/${city}/${monument.monument}`}>
-            <Image
-              src={monument.image}
-              width={200}
-              height={200}
-              alt={`Foto del monumento ${monument.monument}`}
-              className={imgStyles}
-            />
-            <h2 className={titleStyles}>{monument.monument}</h2>
-            <p className={descriptionStyles}>{monument.shortDescription}</p>
+        <li key={monument.id} className={listItemStyles}>
+          <Link
+            href={`/${city}/${monument.monument}`}
+            style={{ height: "100%" }}
+          >
+            <Suspense>
+              <div className={styles.imageWrapper}>
+                <Image
+                  src={monument.image}
+                  alt={tGlobal("MonumentImageAlt", {
+                    monument: monument.monument,
+                    city: city,
+                  })}
+                  fill
+                  placeholder="blur"
+                  blurDataURL={monument.blurDataURL}
+                  sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
+                  style={{ objectFit: "cover", borderRadius: "10px" }}
+                  className={imgStyles}
+                />
+              </div>
+              <h2 className={titleStyles}>
+                {t(`${monument.monument}.monument`)}
+              </h2>
+              <p className={descriptionStyles}>
+                {t(`${monument.monument}.shortDescription`)}
+              </p>
+            </Suspense>
           </Link>{" "}
         </li>
       ))}

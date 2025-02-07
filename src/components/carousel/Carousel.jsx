@@ -3,17 +3,20 @@
 import { useState, useEffect } from "react";
 import CityList from "../cityList/CityList";
 import styles from "./Carousel.module.css";
+import { useTranslations } from "next-intl";
 
-export default function Carousel({ cities }) {
+export default function Carousel({ title, titleDescription, cities }) {
+  const t = useTranslations("Cities");
+
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [itemDisplacement, setItemDisplacement] = useState(450); // Desplazamiento inicial
+  const [itemDisplacement, setItemDisplacement] = useState(); // Desplazamiento inicial
 
   useEffect(() => {
     const updateItemWidth = () => {
       if (window.innerWidth <= 768) {
-        setItemDisplacement(280); // En móviles
+        setItemDisplacement(100); // En móviles
       } else {
-        setItemDisplacement(450); // En pantallas grandes
+        setItemDisplacement(33); // En pantallas grandes
       }
     };
 
@@ -48,17 +51,33 @@ export default function Carousel({ cities }) {
   };
 
   return (
-    <div className={styles.carouselContainer}>
-      <h2 className={`title ${styles.carouselTitle}`}>
-        ¿No sabes qué destino elegir?
-      </h2>
+    <div className={`section ${styles.carouselContainer}`}>
+      <h2 className={`title ${styles.carouselTitle}`}>{title}</h2>
       <p className={`description ${styles.carouselTitleDescription}`}>
-        Permítenos sugerirte algunas ciudades
+        {titleDescription}
       </p>
       <div className={styles.carousel}>
+        <div
+          className={styles.carouselList}
+          style={{
+            transform: `translateX(-${currentIndex * itemDisplacement}dvw)`,
+          }}
+        >
+          <CityList
+            cities={cities}
+            listStyles={styles.carouselList}
+            listItemStyles={styles.carouselItem}
+            imgStyles={styles.img}
+            titleStyles={styles.cityTitle}
+            descriptionStyles={styles.cityDescription}
+            t={t}
+          />
+        </div>
+
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowLeft}`}
           onClick={handlePrevClick}
+          aria-label="move left the carousel"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -71,24 +90,10 @@ export default function Carousel({ cities }) {
           </svg>
         </button>
 
-        <div
-          className={styles.carouselList}
-          style={{
-            transform: `translateX(-${currentIndex * itemDisplacement}px)`,
-          }}
-        >
-          <CityList
-            cities={cities}
-            listStyles={styles.carouselList}
-            listItemStyles={styles.carouselItem}
-            imgStyles={styles.img}
-            titleStyles={styles.cityTitle}
-            descriptionStyles={styles.cityDescription}
-          />
-        </div>
         <button
           className={`${styles.carouselArrow} ${styles.carouselArrowRight}`}
           onClick={handleNextClick}
+          aria-label="move right the carousel"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

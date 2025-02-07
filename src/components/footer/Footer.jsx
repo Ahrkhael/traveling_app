@@ -1,64 +1,79 @@
+import { useTranslations } from "next-intl";
 import styles from "./Footer.module.css";
+import { Link } from "@/i18n/routing";
+import SubscribeForm from "./subscribeForm/SubscribeForm";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.section}>
-          <h4>Explora</h4>
+          <h4>{t("Explore")}</h4>
           <ul>
             <li>
-              <a href="/">Inicio</a>
+              <Link href="/" className={styles.link}>
+                {t("Home")}
+              </Link>
             </li>
             <li>
-              <a href="/cities">Ciudades</a>
+              <Link href="/cities" className={styles.link}>
+                {t("Cities")}
+              </Link>
             </li>
             <li>
-              <a href="/about-us">
-                Acerca de <br /> Nosotros
-              </a>
+              <Link href="/about-us" className={styles.link}>
+                {t("AboutUs")}
+              </Link>
             </li>
           </ul>
         </div>
 
         <div className={styles.section}>
-          <h4>Síguenos</h4>
+          <h4>{t("FollowUs")}</h4>
           <ul className={styles.socials}>
             <li>
-              <a href="https://instagram.com">Instagram</a>
+              <Link href="https://instagram.com" className={styles.link}>
+                Instagram
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com">Facebook</a>
+              <Link href="https://facebook.com" className={styles.link}>
+                Facebook
+              </Link>
             </li>
             <li>
-              <a href="https://twitter.com">Twitter</a>
+              <Link href="https://twitter.com" className={styles.link}>
+                Twitter
+              </Link>
             </li>
             <li>
-              <a href="https://youtube.com">YouTube</a>
+              <Link href="https://youtube.com" className={styles.link}>
+                YouTube
+              </Link>
             </li>
           </ul>
         </div>
 
         <div className={styles.section}>
-          <h4>Contacto</h4>
-          <p>correo@viajerossinfronteras.com</p>
+          <h4>{t("Contact")}</h4>
+          <p>mail@viajerossinfronteras.com</p>
         </div>
 
-        <div className={styles.section}>
-          <h4>Suscríbete</h4>
-          <form className={styles.subscribeForm}>
-            <input type="email" placeholder="example@mail.com" />
-            <button type="submit">Suscribirse</button>
-          </form>
-        </div>
+        <SubscribeForm />
 
         <div className={styles.section}>
-          <h4>Aviso legal</h4>
+          <h4>{t("LegalNotice")}</h4>
           <p>
-            <a href="/terms">Términos y Condiciones</a>
+            <Link href="/terms" className={styles.link}>
+              {t("Terms&Conditions")}
+            </Link>
           </p>
           <p>
-            <a href="/privacy">Política de Privacidad</a>
+            <Link href="/privacy" className={styles.link}>
+              {t("PrivacyPolicy")}
+            </Link>
           </p>
         </div>
       </div>

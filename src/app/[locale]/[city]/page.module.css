@@ -1,0 +1,65 @@
+.main {
+  min-height: 80vh;
+}
+
+.divCity {
+  width: 100vw;
+  height: 50vh;
+  min-height: 400px;
+  padding: 5dvh 10dvw;
+}
+
+.divMonuments {
+  padding: 5dvh 0;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.list p {
+  margin: 0 5%;
+}
+
+.img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.monumentDescription {
+  height: 120px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    min-height: 3200px;
+  }
+
+  .divCity {
+    height: 40dvh;
+    padding: 2dvh 5dvw;
+  }
+
+  .divMonuments {
+    padding: 2dvh 0;
+  }
+
+  .list {
+    grid-template-columns: 1fr;
+    height: 2400px;
+  }
+}

@@ -1,0 +1,40 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.list p {
+  margin: 0 5%;
+}
+
+.img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: 1fr;
+    height: 2000px;
+  }
+
+  .listItem {
+    padding: 0 40px;
+  }
+
+  .img {
+    border-radius: 50%;
+  }
+}

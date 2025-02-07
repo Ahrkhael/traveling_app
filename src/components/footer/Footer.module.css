@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(35, 34, 31);
+  background-color: rgb(var(--background-navbar-rgb));
   padding: 2rem;
   text-align: center;
 }
@@ -15,7 +15,7 @@
 }
 
 .section h4 {
-  color: var(--font-color-primary);
+  color: var(--font-color-secondary);
   margin-bottom: 0.5rem;
   user-select: none;
 }
@@ -34,34 +34,11 @@
   margin-bottom: 0.3rem;
 }
 
-.section ul li a {
+.link {
   color: var(--font-color-secondary);
 }
 
-.section ul li a:hover {
+.link:hover {
   text-decoration: underline;
-}
-
-.subscribeForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.subscribeForm input {
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.subscribeForm button {
-  background-color: #0a6eac;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-}
-
-.subscribeForm button:hover {
-  background-color: #0a9cac;
-  color: #fff;
+  color: rgb(135, 230, 255);
 }

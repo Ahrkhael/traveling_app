@@ -2,32 +2,28 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 7%;
-  min-height: 20px;
+  height: 7dvh;
+  min-height: var(--navbar-min-height);
   z-index: 100;
-  display: grid;
-  justify-content: center;
-  background-color: rgb(35, 34, 31);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.nav {
   display: flex;
-  gap: 20px;
+  justify-content: center;
   align-items: center;
+  background-color: rgb(var(--background-navbar-rgb));
+  box-shadow: 0 2px 5px rgba(var(--navbar-border-shadow));
 }
 
-.img {
-  border-radius: 50%;
+/* Por defecto, ocultamos NavbarMobile*/
+.header > :nth-child(2) {
+  display: none;
 }
 
-.link {
-  text-decoration: none;
-  color: var(--font-color-primary);
-  font-size: 18px;
-  font-weight: bold;
-}
+/* En pantallas pequeñas */
+@media (max-width: 768px) {
+  .header > :nth-child(1) {
+    display: none; /* Oculta NavbarDesktop */
+  }
 
-.link:hover {
-  color: #40f5ff;
+  .header > :nth-child(2) {
+    display: block; /* Muestra NavbarMobile */
+  }
 }

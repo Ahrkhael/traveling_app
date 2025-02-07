@@ -1,175 +1,247 @@
 {
   "Cities": [
     {
+      "id": 1,
       "city": "Madrid",
-      "image": "/madrid.jpg",
-      "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
-      "longDescription": "Madrid, la vibrante capital de España, es una ciudad que combina una rica historia con una vida moderna y cosmopolita. Sus majestuosas avenidas y plazas, como la icónica Puerta del Sol y la Plaza Mayor, están rodeadas de arquitectura impresionante, cafés acogedores y una energía contagiosa. Los amantes del arte disfrutarán de tesoros culturales como el Museo del Prado, el Reina Sofía y el Thyssen-Bornemisza, que albergan algunas de las mejores colecciones de arte del mundo. Además, Madrid es famosa por su vida nocturna, su deliciosa gastronomía (desde tapas tradicionales hasta alta cocina) y sus hermosos parques, como el Retiro, un oasis en el corazón de la ciudad. Madrid es, sin duda, un destino que no te dejará indiferente.",
+      "image": "/images/madrid/madrid.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsABUB8JbACdACp5VdU2yAA/UqnYkYnMCi5mAVkTz66nY0JKeEnksBbzWETDxgz4OP4mjD8eRKKCazZ4yLI4Nx0k4jtlbAgHlKlsw1Mx6rj9quiRuITlNLwAA==",
       "monuments": [
         {
+          "id": 1,
           "monument": "Palacio real",
-          "image": "/palacio-real.jpg",
-          "shortDescription": "Residencia oficial del Rey de España y utlizado para ceremonias de Estado y actos solemnes, es el palacio real más grande de Europa Occidental y uno de los más grandes del mundo."
+          "image": "/images/madrid/palacio-real.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA=",
+          "latitude": 40.41833,
+          "longitude": -3.71442
         },
         {
+          "id": 2,
           "monument": "Parque del retiro",
-          "image": "/parque-retiro.jpg",
-          "shortDescription": "Jardín histórico considerado una de las principales atracciones turísitcas de la ciudad por sus figuras arquitectónicas y paisajísticas desde el Siglo XVII al Siglo XXI."
+          "image": "/images/madrid/parque-retiro.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JbACdAD1kF+jsWcAAPHoh+pSXD0dQhVnKXFQuCYsMqYZneDFov2W6pDVaxSpshtYwAAA",
+          "latitude": 40.41544,
+          "longitude": -3.68347
         },
         {
+          "id": 3,
           "monument": "Puerta del Sol",
-          "image": "/puerta-del-sol.jpg",
-          "shortDescription": "La Puerta del Sol es el corazón de Madrid y uno de los puntos más emblemáticos de la ciudad, famosa por albergar el \"kilómetro 0\" de las carreteras españolas."
+          "image": "/images/madrid/puerta-del-sol.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0JP/3FgAA/u7hqR/e8Nc23JNk/P26evcl3901S6mBWnHsVnfhqYhqtBMCTGilVMAAAA==",
+          "latitude": 40.41687,
+          "longitude": -3.70348
         },
         {
-          "monument": "La plaza Mayor",
-          "image": "/plaza-mayor.jpg",
-          "shortDescription": "La Plaza Mayor es una de las plazas más históricas de Madrid, conocida por su arquitectura de estilo herreriano y por haber sido escenario de importantes eventos a lo largo de los siglos."
+          "id": 4,
+          "monument": "Plaza Mayor",
+          "image": "/images/madrid/plaza-mayor.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACdAC9PDUl8YAAhot4eCKAqaqdyeimwl109gFmhb5Ot+Z5hmzN9Ei0AAAA",
+          "latitude": 40.41558,
+          "longitude": -3.70743
         },
         {
+          "id": 5,
           "monument": "Museo del Prado",
-          "image": "/museo-prado.jpg",
-          "shortDescription": "El Museo del Prado es uno de los museos más importantes del mundo, conocido por su vasta colección de arte europeo, que incluye obras maestras de Goya, Velázquez y El Greco."
+          "image": "/images/madrid/museo-prado.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA",
+          "latitude": 40.41392,
+          "longitude": -3.69213
         },
         {
-          "monument": "La Gran Vía",
-          "image": "/gran-via.jpg",
-          "shortDescription": "La Gran Vía es una de las principales avenidas comerciales y de ocio de Madrid, conocida por su animada vida nocturna, teatros y tiendas."
+          "id": 6,
+          "monument": "Gran Vía",
+          "image": "/images/madrid/gran-via.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JbACdABUyAAAyqO6UPWySPi42bzg9/G9EbzVDcPgr4g8s71938msO9inAkUEk5zqt/PDot807j9GSAA=",
+          "latitude": 40.41907,
+          "longitude": -3.69689
         }
       ]
     },
     {
+      "id": 2,
       "city": "Barcelona",
-      "image": "/sagrada-familia.jpg",
-      "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
-      "longDescription": "Barcelona es una ciudad que cautiva con su mezcla única de cultura, arte y mar. Situada a orillas del Mediterráneo, esta joya catalana es mundialmente conocida por la obra del arquitecto Antoni Gaudí, especialmente la inconfundible Sagrada Familia y el colorido Parque Güell. Las calles de Barcelona invitan a pasear, desde Las Ramblas, siempre animada y llena de vida, hasta el barrio gótico con sus estrechas callejuelas medievales y sus plazas llenas de encanto. La ciudad también cuenta con una vibrante escena culinaria, que va desde mercados locales como La Boquería hasta restaurantes galardonados con estrellas Michelin. Y para aquellos que buscan relajarse, las playas urbanas y el cálido clima mediterráneo hacen de Barcelona un destino ideal para todo tipo de viajeros.",
+      "image": "/images/barcelona/sagrada-familia.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
       "monuments": [
         {
+          "id": 1,
           "monument": "Sagrada familia",
-          "image": "/sagrada-familia.jpg",
-          "shortDescription": "Basílica católica diseñada por el arquitecto Antoni Gaudí, cuya construcción se inició en 1882 y, a día de hoy, sigue en proceso. Es considerada una obra maestra y un exponente de la arquitectura modernista catalana."
+          "image": "/images/barcelona/sagrada-familia.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
+          "latitude": 41.40386,
+          "longitude": 2.17429
         },
         {
-          "monument": "Catedral de Barcelona",
-          "image": "/catedral-barcelona.jpg",
-          "shortDescription": "Catedral de estilo gótico sede de la archidiócesis de Barcelona, dedicada a la Santa Cruz y a Santa Eulalia, patrona de la ciudad de Barcelona y que cuenta con un claustro en el que viven trece ocas blancas."
+          "id": 2,
+          "monument": "Catedral",
+          "image": "/images/barcelona/catedral-barcelona.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA=",
+          "latitude": 41.38409,
+          "longitude": 2.17619
         },
         {
+          "id": 3,
           "monument": "Liceu",
-          "image": "/liceu.jpg",
-          "shortDescription": "Situado en La Rambla, es el teatro de opera en activo más antiguo de la ciudad y desde 1847 hasta 1989 ha sido el más grande de Europa por capacidad."
+          "image": "/images/barcelona/liceu.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA==",
+          "latitude": 41.38033,
+          "longitude": 2.17327
         },
         {
-          "monument": "Parc Guell",
-          "image": "/parc-guell.jpg",
-          "shortDescription": "Parque público con jardines y elementos arquitectónicos situado en la parte superior de la ciudad, en las estribaciones de la sierra de Collserola."
+          "id": 4,
+          "monument": "Parc Güell",
+          "image": "/images/barcelona/parc-guell.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA=",
+          "latitude": 41.41475,
+          "longitude": 2.15265
         },
         {
+          "id": 5,
           "monument": "Casa Batllo",
-          "image": "/casa-batllo.jpg",
-          "shortDescription": "Obra del arquitecto Antoni Gaudí, se trata de una remodelación integral de un edificio previamente existente en el Solar. Reflejo de la plenitud artística de su autor, ofrece nuevas soluciones estructurales de la geometría reglada."
+          "image": "/images/barcelona/casa-batllo.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA==",
+          "latitude": 41.39186,
+          "longitude": 2.16489
         },
         {
+          "id": 6,
           "monument": "Parc Montjuic",
-          "image": "/parc-montjuic.jpg",
-          "shortDescription": "Parque situado en la montaña de Montjuic, con una superficie de 5,2 hectáreas, cuenta con diversas zonas de juegos infantiles y equipación lúdica, así como una variada colección de esculturas repartidas entre sus terrenos."
+          "image": "/images/barcelona/parc-montjuic.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA==",
+          "latitude": 41.37016,
+          "longitude": 2.16953
         }
       ]
     },
     {
+      "id": 3,
       "city": "Sevilla",
-      "image": "/plaza-espana.jpg",
-      "shortDescription": "\"Sevilla tiene un color especial\" o eso dicen Los Del Río, ciudad culturalmente muy rica por ser un centro histórico musulmán y cristiano, con unos monumentos que son un claro reflejo de ello.",
-      "longDescription": "Sevilla, la capital de Andalucía, es una ciudad que rebosa encanto y tradición. Conocida por su impresionante arquitectura, como la majestuosa Catedral de Sevilla, que alberga la famosa Giralda, y el encantador Real Alcázar, esta ciudad está impregnada de historia y cultura. Sevilla es también el hogar del flamenco, y no hay mejor lugar para disfrutar de una auténtica actuación que en uno de sus muchos tablaos. Pasear por el barrio de Santa Cruz, con sus estrechas calles empedradas y patios llenos de flores, es como viajar en el tiempo. Los viajeros pueden disfrutar de la calidez del sol sevillano casi todo el año y de su deliciosa gastronomía, con platos típicos como el gazpacho y el pescaíto frito. Sevilla es un destino lleno de vida y tradición, que conquista a todo aquel que la visita.",
+      "image": "/images/sevilla/plaza-espana.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
       "monuments": [
         {
+          "id": 1,
           "monument": "Giralda",
-          "image": "/giralda.jpg",
-          "shortDescription": "Siendo la torre campanario de la catedral de Sevilla, es uno de los monumentos más emblemáticos de la ciudad. La parte inferior corresponde al alminar de la antigua mezquita y la superior pertenece a una construcción de época cristiana, siendo así una mezcla entre ambas religiones y culturas que es representativo del espíritu de la ciudad."
+          "image": "/images/sevilla/giralda.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA=",
+          "latitude": 37.38635,
+          "longitude": -5.99264
         },
         {
+          "id": 2,
           "monument": "Alcázar",
-          "image": "/alcazar.jpg",
-          "shortDescription": "Conjunto palaciego amurallado contruido en diferentes etapas históricas, combinando arte islámico, mudéjar, gótico, renacentista, manierista y barroco. Es la residencia de la familia real española cuando visitan Sevilla, siendo así, el palacio real en uso más antiguo de Europa y uno de los monumentos más visitados de la ciudad."
+          "image": "/images/sevilla/alcazar.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA=",
+          "latitude": 37.38327,
+          "longitude": -5.99023
         },
         {
+          "id": 3,
           "monument": "Plaza de España",
-          "image": "/plaza-espana.jpg",
-          "shortDescription": "Ubicado en el precioso parque de María Luisa, este conjunto arquitectónico es la construcción más grande de la exposición Iberoamericana de 1929 y está decorada con cuarenta y ocho bancos dedicados a las provincias españolas."
+          "image": "/images/sevilla/plaza-espana.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
+          "latitude": 37.37696,
+          "longitude": -5.98725
         },
         {
+          "id": 4,
           "monument": "Barrio de Triana",
-          "image": "/triana.jpg",
-          "shortDescription": "Según la mitología, la diosa Astarté, huyendo de la persecución amorosa de Hércules, fundador mitológico de la ciudad de Sevilla, fue a refugiarse a la orilla occidental del Guadalquivir fundando así, este famoso barrio."
+          "image": "/images/sevilla/triana.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JbACdAEPAfIseRqp+AD+wCDxRV9iwECbbbUe47+6+LE21S2mZG5DwNoSYUhJSPm3wGyXgAA=",
+          "latitude": 37.38098,
+          "longitude": -6.00937
         }
       ]
     },
     {
+      "id": 4,
       "city": "Valencia",
-      "image": "/valencia.jpg",
-      "shortDescription": "Históricamente conocida como \"La ciudad del Cid\", aún podemos visitar sus amplio patrimonio histórico y cultural medieval y moderno.",
-      "longDescription": "Valencia, ubicada en la costa este de España, es una ciudad que sorprende con su mezcla de tradición e innovación. Famosa por ser la cuna de la paella, esta ciudad también ofrece una rica oferta cultural y una arquitectura que fusiona lo antiguo con lo moderno. Desde su encantador casco histórico, donde se encuentra la Catedral de Valencia y el Mercado Central, hasta la futurista Ciudad de las Artes y las Ciencias, Valencia ofrece una experiencia única. La ciudad es ideal para los amantes de la naturaleza, con amplias zonas verdes como el Jardín del Turia, y para quienes disfrutan del mar, gracias a sus extensas playas de arena dorada. Con un clima templado durante todo el año, Valencia es el destino perfecto para quienes buscan disfrutar del Mediterráneo en su máxima expresión.",
+      "image": "/images/valencia/ciudad-de-las-artes.jpg",
+      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
       "monuments": [
         {
+          "id": 1,
           "monument": "Ciudad de las Artes",
-          "image": "/valencia.jpg",
-          "shortDescription": "Complejo arquitectónico, cultural y de entretenimiento de la ciudad, cuenta con una gran variedad de edificios entre los que cabe destacar el Hemisfèric, el Museu de les Ciències y el Oceanográfico, cada uno con una arquitectura peculiar y en cuyo interior os espera una gran cantidad de conocimiento."
+          "image": "/images/valencia/ciudad-de-las-artes.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
+          "latitude": 39.45503,
+          "longitude": -0.35045
         },
         {
+          "id": 2,
           "monument": "Lonja de la Seda",
-          "image": "/lonja-de-la-seda.jpg",
-          "shortDescription": "Situada en el centro histórico de la ciudad, es una obra del gótico civil valenciano, declarada en 1996 por la UNESCO como Patromonio de la Humanidad."
+          "image": "/images/valencia/lonja-de-la-seda.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JYgCdADyf26IAP7acdUaTtvKYLOLEmcIdrNDTGs2aJPBqkPBoiqIwA1lDyAsAAA=",
+          "latitude": 39.47455,
+          "longitude": -0.37832
         },
         {
+          "id": 3,
           "monument": "Torres de Serranos",
-          "image": "/torres-de-serranos.jpg",
-          "shortDescription": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres poligonales unidas por un cuerpo central, donde se abre la puerta propiamente dicha y rematada en arco de medio punto."
+          "image": "/images/valencia/torres-de-serranos.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdH8AFV6x9AAA96J+jBt1h5aW8lG3raSxQyXyoVxXbN20upEq2Z+Kk+S8ouUpgr42isU42uXau2MigKf2AAA=",
+          "latitude": 39.47943,
+          "longitude": -0.37598
         },
         {
+          "id": 4,
           "monument": "Torres de Quart",
-          "image": "/torres-de-quart.jpg",
-          "shortDescription": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres semicilíndricas unidas por un cuerpo central, donde se abre la puerta propiamente dicha, con forma de arco de medio punto."
+          "image": "/images/valencia/torres-de-quart.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBdgCPNTZrxMtAA/sns9T82F+NEpT2cULdY/HUPHPX53gmnWosomlJwx8usLQzJc38PpexffTXg8tR6gAAA",
+          "latitude": 39.47592,
+          "longitude": -0.3839
         },
         {
+          "id": 5,
           "monument": "El Miguelete",
-          "image": "/miguelete.jpg",
-          "shortDescription": "De estilo gótico valenciano, el Miguelete (o Torre del Micalet en valenciano), es la torre campanario de la catedral de Valencia. Tiene 51 metros de altura hasta la terraza, que son los mismos metros que tiene de perímetro y 63 metros de altura en total."
+          "image": "/images/valencia/miguelete.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA=",
+          "latitude": 39.47546,
+          "longitude": -0.37563
         },
         {
+          "id": 6,
           "monument": "Mercado Central",
-          "image": "/mercado-central.jpg",
-          "shortDescription": "Ubicado en la plaza Ciudad de Brujas, está considerado como una de las obras maestras del modernismo valenciano. Cuenta con 1200 puestos alimenticios y lleva abasteciendo a la población valenciana desde hace casi un siglo."
+          "image": "/images/valencia/mercado-central.jpg",
+          "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA==",
+          "latitude": 39.47363,
+          "longitude": -0.37905
         }
       ]
     }
   ],
   "Testimonies": [
     {
+      "id": 1,
       "author": "María González",
       "testimony": "Viajeros Sin Fronteras me ayudó a planificar el viaje de mis sueños a Madrid. Las recomendaciones de lugares para visitar y los monumentos fueron precisas, y pude aprovechar al máximo mi tiempo en la ciudad. ¡Definitivamente usaré esta web para mi próximo viaje!",
       "score": 5
     },
     {
+      "id": 2,
       "author": "Carlos Pérez",
       "testimony": "Gracias a esta plataforma, descubrí lugares únicos en Valencia que ni siquiera sabía que existían. La información sobre cada destino es detallada y las guías son fáciles de seguir. Sin duda, es una herramienta imprescindible para cualquier viajero.",
       "score": 4
     },
     {
+      "id": 3,
       "author": "Lucía Fernández",
       "testimony": "Me encantó la experiencia de usar Viajeros Sin Fronteras para mi viaje a Barcelona. Aunque algunas atracciones estaban cerradas, la información sobre las alternativas fue de gran ayuda. Un recurso muy útil para cualquier viajero.",
       "score": 4
     },
     {
+      "id": 4,
       "author": "Juan Martínez",
       "testimony": "¡Increíble plataforma! Pude planificar mi viaje a Sevilla fácilmente y las recomendaciones fueron fantásticas. Las reseñas de otros viajeros también fueron muy útiles para decidir qué lugares visitar. ¡Totalmente recomendable!",
       "score": 5
     },
     {
+      "id": 5,
       "author": "Ana López",
       "testimony": "Viajeros Sin Fronteras tiene una interfaz sencilla y la información es muy clara. Me ayudó a planificar un viaje a Madrid y todo salió perfecto. Sin embargo, creo que podrían mejorar la sección de fotos.",
       "score": 3
     },
     {
+      "id": 6,
       "author": "Pedro Ramírez",
       "testimony": "Gracias a esta web descubrí una pequeña joya en Barcelona que no estaba en ninguna guía turística. La información fue precisa y me encantó la sección de eventos. Muy recomendable.",
       "score": 5

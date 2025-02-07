@@ -1,14 +1,16 @@
 .carouselContainer {
   text-align: center;
   width: 100%;
+  height: 600px;
   margin: 5% 0;
-  padding: 0 40px;
 }
 
 .carouselTitle {
   font-size: 40px;
   font-weight: bold;
+  cursor: default;
   color: var(--font-color-primary);
+  padding-top: 40px;
 }
 
 .carouselTitleDescription {
@@ -16,7 +18,7 @@
   justify-content: center;
   align-items: inherit;
   font-size: 1rem;
-  color: var(--font-color-secondary);
+  color: var(--font-color-primary);
   width: 100%;
   z-index: 2;
 }
@@ -28,26 +30,24 @@
   align-items: center;
   overflow: hidden;
   width: 100%;
-  margin: 0 auto;
+  height: 75%;
+  margin: 2.5dvh auto;
 }
 
 .carouselList {
   display: flex;
   width: 100%;
+  height: 100%;
   transition: transform 0.5s ease-in-out;
   list-style-type: none;
-  padding: 0;
-  margin: 20px 0;
 }
 
 .carouselItem {
-  flex: 0 0 350px; /* Cada item ocupa 350px de ancho */
+  flex: 0 0 28%;
   text-align: center;
   background-color: inherit;
   border-radius: 10px;
-  flex-basis: 28%;
-  margin: 0 40px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 2.5dvw;
 }
 
 .cityTitle {
@@ -58,15 +58,14 @@
 
 .cityDescription {
   font-size: 1rem;
-  color: var(--font-color-secondary);
+  color: var(--font-color-primary);
   margin-top: 5px;
 }
 
 .carouselArrow {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(var(--background-arrow-rgba));
   color: #fff;
   padding: 10px;
   border: none;
@@ -76,35 +75,52 @@
 }
 
 .carouselArrow:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(var(--background-arrow-hover-rgba));
 }
 
 .carouselArrowLeft {
+  top: 0px;
   left: 0px;
+  transform: translate(2dvw, 20dvh);
 }
 
 .carouselArrowRight {
+  top: 0px;
   right: 0px;
+  transform: translate(-2dvw, 20dvh);
 }
 
 .carouselArrow svg {
   width: 24px;
   height: 24px;
-  fill: white;
+  fill: var(--font-color-primary);
 }
 
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
+  .carouselContainer {
+    height: 700px;
+  }
+
+  .img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .carouselItem {
+    flex: 0 0 60%;
+    margin: 0 20dvw;
+  }
+
   .carouselTitle {
     font-size: 28px;
   }
 
   .carouselTitleDescription {
     font-size: 0.9rem;
-  }
-
-  .img {
-    border-radius: 50%;
+    padding-top: 12px;
+    margin-bottom: 2.5dvh;
   }
 
   .cityTitle {
