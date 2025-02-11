@@ -1,6 +1,7 @@
 {
   "git": {
     "deploymentEnabled": {
+      "dev_branch": false,
       "feature/add_maps": false,
       "feature/add_i18n": false
     }

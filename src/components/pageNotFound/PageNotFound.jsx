@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-export default function NotFound() {
+export default function PageNotFound() {
   const t = useTranslations("NotFoundLocalePage");
   return (
     <main className="main">
