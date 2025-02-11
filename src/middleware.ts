@@ -34,17 +34,6 @@ export default function middleware(req: NextRequest) {
     return response;
   }
 
-  const pathname = req.nextUrl.pathname;
-
-  // Si la ruta no coincide con ningún idioma soportado, devuelve un 404
-  if (
-    !pathname.startsWith("/en") &&
-    !pathname.startsWith("/es") &&
-    pathname !== "/"
-  ) {
-    return NextResponse.redirect(new URL("/not-found", req.url));
-  }
-
   // Middleware de next-intl
   return createMiddleware(routing)(req);
 }
