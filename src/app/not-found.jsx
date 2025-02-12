@@ -1,11 +1,20 @@
-import { useTranslations } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { cookies } from "next/headers";
+import PageNotFound from "../components/pageNotFound/PageNotFound";
+import Navbar from "../components/navbar/Navbar";
+import Footer from "../components/footer/Footer";
 
-export default function NotFound() {
-  const t = useTranslations("NotFoundLocalePage");
+export default async function NotFound() {
+  const locale = (await cookies()).get("NEXT_LOCALE").value;
+
+  const messages = await getMessages(locale);
+
   return (
-    <main className="main">
-      <h1 className="title">404 | {t("Title")}</h1>
-      <p>{t("Description")}</p>
-    </main>
+    <NextIntlClientProvider messages={messages}>
+      <Navbar />
+      <PageNotFound />
+      <Footer />
+    </NextIntlClientProvider>
   );
 }
