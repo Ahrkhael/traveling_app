@@ -283,5 +283,9 @@
     "UserRightsContact": "To exercise your rights, you can contact us via: ",
     "PolicyChanges": "Changes to our Policy",
     "PolicyChangesDescription": "We may update this Privacy Policy from time to time. We encourage you to review it periodically to be informed about how we protect your information."
+  },
+  "NotFoundLocalePage": {
+    "Title": "Page not found",
+    "Description": "Please, navigate to an existing page"
   }
 }
