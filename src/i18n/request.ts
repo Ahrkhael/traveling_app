@@ -8,7 +8,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   // Ensure that a valid locale is used
   if (!locale || !routing.locales.includes(locale as any)) {
-    locale = (await cookies()).get("NEXT_LOCALE").value;
+    const cookieLocale = (await cookies()).get("NEXT_LOCALE")?.value;
+    locale = cookieLocale || routing.defaultLocale;
   }
 
   return {
