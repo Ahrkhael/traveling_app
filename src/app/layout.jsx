@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cookies } from "next/headers";
+import { routing } from "@/i18n/routing";
+import LangUpdaterHTMLtag from "../hooks/LangUpdaterHTMLtag";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 
@@ -12,14 +14,19 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children }) {
-  const locale = (await cookies()).get("NEXT_LOCALE").value;
+  const locale =
+    (await cookies()).get("NEXT_LOCALE")?.value || routing.defaultLocale;
 
   return (
     <html lang={locale}>
       <head>
         <link rel="icon" href="/images/airplane.jpg" type="image/jpeg" />
       </head>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        {" "}
+        <LangUpdaterHTMLtag />
+        {children}
+      </body>
     </html>
   );
 }
