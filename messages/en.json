@@ -204,7 +204,8 @@
     "NoMonumentFound": "The monument {monument} in the city {city} has not been found",
     "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
     "CitiesPageTitle": "Choose your next destination",
-    "MonumentMapPopUp": "Here is {monument}"
+    "MonumentMapPopUp": "Here is {monument}",
+    "MonumentLink": "Do you want to know more about this monument?{br}Visit this website:{br}<website>{link}</website>"
   },
   "Testimonies": {
     "1": {

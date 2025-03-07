@@ -10,3 +10,18 @@
 .monumentDescription {
   margin: 0 12%;
 }
+
+.monumentLink {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.monumentLink p {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .monumentLink {
+    margin: 0;
+  }
+}
