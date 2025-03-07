@@ -204,7 +204,8 @@
     "NoMonumentFound": "El monumento {monument} en la ciudad {city} no se ha encontrado",
     "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}",
     "CitiesPageTitle": "Elige tu próximo destino",
-    "MonumentMapPopUp": "Aquí está {monument}"
+    "MonumentMapPopUp": "Aquí está {monument}",
+    "MonumentLink": "¿Quieres saber más acerca de este monumento?{br}Visita su web:{br}<website>{link}</website>"
   },
   "Testimonies": {
     "1": {

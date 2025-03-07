@@ -55,6 +55,17 @@ export default function MonumentContent({
         position={[monumentData.latitude, monumentData.longitude]}
         name={monumentData.monument}
       />
+      {monumentData.link ? (
+        <div className={styles.monumentLink}>
+          <p className={`description`}>
+            {tGlobal.rich("MonumentLink", {
+              br: <br />,
+              link: monumentData.link,
+              website: (chunks) => <a href={monumentData.link}>{chunks}</a>,
+            })}
+          </p>
+        </div>
+      ) : null}
     </main>
   );
 }
