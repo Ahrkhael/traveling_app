@@ -18,17 +18,14 @@ export default function MonumentList({
 
   return (
     <ul className={listStyles}>
-      {monuments.map((monument) => (
-        <li key={monument.id} className={listItemStyles}>
-          <Link
-            href={`/${city}/${monument.monument}`}
-            style={{ height: "100%" }}
-          >
+      {monuments.map((monumentName, index) => (
+        <li key={index} className={listItemStyles}>
+          <Link href={`/${city}/${monumentName}`} style={{ height: "100%" }}>
             <Suspense>
               <div className={styles.imageWrapper}>
-                <Image
+                {/* <Image
                   src={monument.image}
-                  alt={tGlobal("MonumentImageAlt", {
+                  alt={tGlobal("MonumentImageAlt", {0
                     monument: monument.monument,
                     city: city,
                   })}
@@ -38,13 +35,11 @@ export default function MonumentList({
                   sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
                   style={{ objectFit: "cover", borderRadius: "10px" }}
                   className={imgStyles}
-                />
+                /> */}
               </div>
-              <h2 className={titleStyles}>
-                {t(`${monument.monument}.monument`)}
-              </h2>
+              <h2 className={titleStyles}>{t(`${monumentName}.monument`)}</h2>
               <p className={descriptionStyles}>
-                {t(`${monument.monument}.shortDescription`)}
+                {t(`${monumentName}.shortDescription`)}
               </p>
             </Suspense>
           </Link>{" "}
