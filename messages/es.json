@@ -42,13 +42,13 @@
       "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
       "longDescription": "Madrid, la vibrante capital de España, es una ciudad que combina una rica historia con una vida moderna y cosmopolita. Sus majestuosas avenidas y plazas, como la icónica Puerta del Sol y la Plaza Mayor, están rodeadas de arquitectura impresionante, cafés acogedores y una energía contagiosa. Los amantes del arte disfrutarán de tesoros culturales como el Museo del Prado, el Reina Sofía y el Thyssen-Bornemisza, que albergan algunas de las mejores colecciones de arte del mundo. Además, Madrid es famosa por su vida nocturna, su deliciosa gastronomía (desde tapas tradicionales hasta alta cocina) y sus hermosos parques, como el Retiro, un oasis en el corazón de la ciudad. Madrid es, sin duda, un destino que no te dejará indiferente.",
       "monuments": {
-        "Palacio real": {
+        "Palacio Real": {
           "id": 1,
           "monument": "Palacio real",
           "shortDescription": "Residencia oficial del Rey de España y utilizado para ceremonias de Estado y actos solemnes, es el palacio real más grande de Europa Occidental y uno de los más grandes del mundo.",
           "longDescription": "El Palacio Real de Madrid, la residencia oficial de la familia real española, es uno de los edificios más impresionantes y emblemáticos de España. Situado en el corazón de Madrid, este palacio se construyó en el siglo XVIII bajo el mandato de Felipe V, quien quiso dotar a la ciudad de una residencia acorde con el poder y prestigio de la monarquía. A pesar de que actualmente no alberga a los reyes de España, el palacio se sigue utilizando para ceremonias oficiales y actos de Estado, lo que lo convierte en un símbolo de la historia y tradición monárquica del país. Con más de 3,000 habitaciones, el Palacio Real cuenta con salones decorados con lujo extremo, desde frescos de grandes artistas como Goya hasta mobiliario histórico, armas antiguas y colecciones de relojes únicos. Uno de los aspectos más destacados es la Real Armería, una colección de armaduras medievales y objetos de guerra de gran valor histórico. Los jardines que lo rodean, como los Jardines de Sabatini y el Campo del Moro, ofrecen una experiencia de paseo majestuosa, combinando la belleza de la naturaleza con el esplendor de la arquitectura."
         },
-        "Parque del retiro": {
+        "Parque del Retiro": {
           "id": 2,
           "monument": "Parque del retiro",
           "shortDescription": "Jardín histórico considerado una de las principales atracciones turísticas de la ciudad por sus figuras arquitectónicas y paisajísticas desde el Siglo XVII al Siglo XXI.",
@@ -86,7 +86,7 @@
       "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
       "longDescription": "Barcelona es una ciudad que cautiva con su mezcla única de cultura, arte y mar. Situada a orillas del Mediterráneo, esta joya catalana es mundialmente conocida por la obra del arquitecto Antoni Gaudí, especialmente la inconfundible Sagrada Familia y el colorido Parque Güell. Las calles de Barcelona invitan a pasear, desde Las Ramblas, siempre animada y llena de vida, hasta el barrio gótico con sus estrechas callejuelas medievales y sus plazas llenas de encanto. La ciudad también cuenta con una vibrante escena culinaria, que va desde mercados locales como La Boquería hasta restaurantes galardonados con estrellas Michelin. Y para aquellos que buscan relajarse, las playas urbanas y el cálido clima mediterráneo hacen de Barcelona un destino ideal para todo tipo de viajeros.",
       "monuments": {
-        "Sagrada familia": {
+        "Sagrada Familia": {
           "id": 1,
           "monument": "Sagrada familia",
           "shortDescription": "Basílica católica diseñada por el arquitecto Antoni Gaudí, cuya construcción se inició en 1882 y, a día de hoy, sigue en proceso. Es considerada una obra maestra y un exponente de la arquitectura modernista catalana.",
@@ -116,9 +116,9 @@
           "shortDescription": "Obra del arquitecto Antoni Gaudí, se trata de una remodelación integral de un edificio previamente existente en el Solar. Reflejo de la plenitud artística de su autor, ofrece nuevas soluciones estructurales de la geometría reglada.",
           "longDescription": "La Casa Batlló es una de las obras maestras de Antoni Gaudí y un icono del modernismo catalán. Situada en el Paseo de Gracia, esta casa fue remodelada entre 1904 y 1906 para el industrial Josep Batlló, quien encargó a Gaudí un diseño innovador y original. La fachada de la Casa Batlló, con su estructura orgánica, mosaicos de colores y balcones que parecen calaveras, es uno de los aspectos más llamativos del edificio, evocando una estética de fantasía. En su interior, Gaudí creó un ambiente mágico, con escaleras en forma de espiral, vidrieras que juegan con la luz natural y detalles en cada rincón que recuerdan a las formas de la naturaleza. La Casa Batlló es especialmente famosa por su \"patio de luces\", un espacio que maximiza la entrada de luz y en el cual Gaudí empleó diferentes tonalidades de azul para crear un efecto de profundidad. Desde la azotea, donde se pueden ver chimeneas con formas originales, los visitantes pueden disfrutar de una vista privilegiada de la ciudad. La Casa Batlló es un ejemplo perfecto de la genialidad de Gaudí y su capacidad para transformar la arquitectura en arte."
         },
-        "Parc Montjuic": {
+        "Parc Montjuïc": {
           "id": 6,
-          "monument": "Parc Montjuic",
+          "monument": "Parc Montjuïc",
           "shortDescription": "Parque situado en la montaña de Montjuic, con una superficie de 5,2 hectáreas, cuenta con diversas zonas de juegos infantiles y equipación lúdica, así como una variada colección de esculturas repartidas entre sus terrenos.",
           "longDescription": "El Parc de Montjuïc, ubicado en la colina de Montjuïc, es uno de los espacios verdes más grandes y variados de Barcelona, con múltiples atracciones y lugares de interés. Este parque no solo ofrece vistas panorámicas impresionantes de la ciudad y el mar, sino que también alberga varios museos, jardines y monumentos. Entre sus puntos más destacados se encuentran el Castillo de Montjuïc, una antigua fortaleza militar que actualmente sirve como mirador; el Museo Nacional de Arte de Cataluña (MNAC), que cuenta con una extensa colección de arte románico, gótico y renacentista; y la Fuente Mágica, famosa por sus espectáculos de agua, luces y música. Montjuïc también fue sede de los Juegos Olímpicos de 1992, por lo que se pueden visitar instalaciones deportivas como el Estadio Olímpico y la Torre de Comunicaciones de Calatrava. Los jardines del parque, como el Jardín Botánico y los jardines de Joan Maragall, son ideales para pasear y disfrutar de la tranquilidad. El Parc de Montjuïc es un destino donde naturaleza, historia y cultura se fusionan, ofreciendo una experiencia completa para todos los visitantes."
         }

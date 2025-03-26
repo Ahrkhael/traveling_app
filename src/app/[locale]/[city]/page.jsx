@@ -37,7 +37,7 @@ async function fetchCityData(city) {
 
   // Realiza la llamada al backend usando el nombre de la ciudad
   const res = await fetch(
-    `http://localhost:3001/api/v1/cities/${decodedCity}/monuments`
+    `http://localhost:3001/api/v1/cities/${decodedCity}/monuments_details`
   );
 
   if (!res.ok) {

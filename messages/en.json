@@ -42,13 +42,13 @@
       "shortDescription": "With more than 3 million inhabitants and being the capital of Spain, it is possibly one of the most popular tourist destinations for our users.",
       "longDescription": "Madrid, the vibrant capital of Spain, is a city where history and modernity blend seamlessly. Known for its grand boulevards, world-class museums like the Prado and Reina Sofia, and the lively atmosphere of neighborhoods such as Malasaña and La Latina, Madrid offers a rich cultural tapestry. Visitors can enjoy traditional Spanish cuisine, admire architectural marvels like the Royal Palace, and immerse themselves in the city's energetic nightlife, making it a dynamic destination for all.",
       "monuments": {
-        "Palacio real": {
+        "Palacio Real": {
           "id": 1,
           "monument": "Royal Palace",
           "shortDescription": "The official residence of the King of Spain and used for state ceremonies and solemn acts, it is the largest royal palace in Western Europe and one of the largest in the world.",
           "longDescription": "The Royal Palace of Madrid is a majestic symbol of Spain's royal heritage and one of the largest palaces in Europe. Built in the 18th century, it boasts over 3,000 lavishly decorated rooms, including the Throne Room, the Royal Armory, and the grand Banquet Hall. Surrounded by manicured gardens and overlooking the picturesque Campo del Moro, this architectural masterpiece offers visitors a glimpse into the opulent lifestyle of Spanish monarchs while serving as an iconic landmark of the city."
         },
-        "Parque del retiro": {
+        "Parque del Retiro": {
           "id": 2,
           "monument": "Retiro Park",
           "shortDescription": "Historic garden considered one of the main tourist attractions of the city for its architectural and landscape figures from the seventeenth to the twenty-first century.",
@@ -86,7 +86,7 @@
       "shortDescription": "Without a doubt, one of the best destinations to visit in Summer, with very diverse cultural events and a very open-minded city.",
       "longDescription": "Barcelona, the jewel of Catalonia, is a city renowned for its unique blend of Gothic and modernist architecture. Home to the legendary works of Antoni Gaudí, such as the Sagrada Família and Park Güell, it captivates visitors with its artistic and historical richness. Strolling along Las Ramblas, relaxing on its golden beaches, and enjoying the vibrant culinary scene are just a few of the many experiences this Mediterranean gem offers.",
       "monuments": {
-        "Sagrada familia": {
+        "Sagrada Familia": {
           "id": 1,
           "monument": "Sagrada familia",
           "shortDescription": "Catholic Basilica designed by the architect Antoni Gaudí, whose construction began in 1882 and, to this day, is still in process. It is considered a masterpiece and an exponent of Catalan modernist architecture.",
@@ -116,9 +116,9 @@
           "shortDescription": "The work of the architect Antoni Gaudí, it is a comprehensive remodelling of a previously existing building on the Solar. A reflection of the artistic plenitude of its author, it offers new structural solutions for regulated geometry.",
           "longDescription": "Casa Batlló is a striking modernist building on Barcelona’s Passeig de Gràcia, celebrated for its dreamlike design by Antoni Gaudí. Its colorful facade resembles a dragon’s scales, while the interior is a marvel of organic shapes, intricate details, and innovative lighting. Every element of the building, from the curved windows to the spiraling rooftop chimneys, reflects Gaudí’s boundless creativity, making it a masterpiece of Art Nouveau and a must-visit destination."
         },
-        "Parc Montjuic": {
+        "Parc Montjuïc": {
           "id": 6,
-          "monument": "Parc Montjuic",
+          "monument": "Parc Montjuïc",
           "shortDescription": "A park located on the mountain of Montjuic, with an area of 5.2 hectares, it has various children's play areas and recreational equipment, as well as a varied collection of sculptures spread over its grounds.",
           "longDescription": "Montjuïc Park is a sprawling cultural and recreational area perched on a hill overlooking Barcelona. It is home to a range of attractions, including the Magic Fountain, the Montjuïc Castle, and the Palau Nacional, which houses the National Art Museum of Catalonia. The park offers lush gardens, walking trails, and panoramic views of the city and the Mediterranean, making it a perfect blend of nature, history, and culture for visitors to explore."
         }
