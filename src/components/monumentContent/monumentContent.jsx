@@ -33,14 +33,14 @@ export default function MonumentContent({
       <Suspense>
         <div className={styleImage.imageWrapper}>
           <Image
-            src={monumentData.image}
+            src={monumentData.image_url}
             alt={tGlobal("MonumentImageAlt", {
               monument: monument,
               city: city,
             })}
             fill
             placeholder="blur"
-            blurDataURL={monumentData.blurDataURL}
+            blurDataURL={monumentData.blur_data_url}
             sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
             style={{ objectFit: "cover", borderRadius: "10px" }}
             className={styleImage.img}
@@ -53,15 +53,17 @@ export default function MonumentContent({
       </p>
       <MapWrapper
         position={[monumentData.latitude, monumentData.longitude]}
-        name={monumentData.monument}
+        name={monumentData.monument_link}
       />
-      {monumentData.link ? (
+      {monumentData.monument_link ? (
         <div className={styles.monumentLink}>
           <p className={`description`}>
             {tGlobal.rich("MonumentLink", {
               br: <br />,
-              link: monumentData.link,
-              website: (chunks) => <a href={monumentData.link}>{chunks}</a>,
+              link: monumentData.monument_link,
+              website: (chunks) => (
+                <a href={monumentData.monument_link}>{chunks}</a>
+              ),
             })}
           </p>
         </div>

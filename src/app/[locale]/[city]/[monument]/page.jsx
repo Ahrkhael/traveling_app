@@ -1,16 +1,21 @@
-import data from "../../../../../data/data.json";
 import styles from "./page.module.css";
 import MonumentContent from "../../../../components/monumentContent/monumentContent";
 
 export async function generateStaticParams() {
-  const data = await import("../../../../../data/data.json");
+  // Llama a tu backend para obtener la lista de monumentos
+  // Asegúrate de que la URL corresponda a tu entorno
+  const res = await fetch("http://localhost:3001/api/v1/monuments/names");
 
-  const staticParams = data.Cities.flatMap((city) =>
-    city.monuments.map((monument) => ({
-      city: city.city.toLowerCase(),
-      monument: monument.monument.toLowerCase(),
-    }))
-  );
+  if (!res.ok) {
+    throw new Error("Error getting cities");
+  }
+
+  const monuments = await res.json();
+
+  // Mapea los monumentos para generar los parámetros necesarios
+  const staticParams = monuments.map((monument) => ({
+    monument: monument,
+  }));
 
   return staticParams;
 }
@@ -19,15 +24,15 @@ async function fetchMonumentData(city, monument) {
   const decodedCity = decodeURIComponent(city);
   const decodedMonument = decodeURIComponent(monument);
 
-  const cityData = data.Cities.find(
-    (item) => item.city.toLowerCase() === decodedCity.toLowerCase()
+  const res = await fetch(
+    `http://localhost:3001/api/v1/monuments/by_name/${decodedMonument}`
   );
 
-  const monumentData = cityData
-    ? cityData.monuments.find(
-        (item) => item.monument.toLowerCase() === decodedMonument.toLowerCase()
-      )
-    : null;
+  if (!res.ok) {
+    return { monumentData: null, decodedCity, decodedMonument };
+  }
+
+  const monumentData = await res.json();
 
   return { monumentData, decodedCity, decodedMonument };
 }

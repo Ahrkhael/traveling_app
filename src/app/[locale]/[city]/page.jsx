@@ -1,16 +1,5 @@
 import styles from "./page.module.css";
 import CityContent from "../../../components/cityContent/CityContent";
-//import data from "../../../../data/data.json";
-
-// export async function generateStaticParams() {
-//   const data = await import("../../../../data/data.json");
-
-//   const staticParams = data.Cities.map((city) => ({
-//     city: city.city.toLowerCase(),
-//   }));
-
-//   return staticParams;
-// }
 
 export async function generateStaticParams() {
   // Llama a tu backend para obtener la lista de ciudades.
@@ -25,7 +14,7 @@ export async function generateStaticParams() {
 
   // Mapea las ciudades para generar los parámetros necesarios
   const staticParams = cities.map((city) => ({
-    city: city.toLowerCase(),
+    city: city,
   }));
 
   return staticParams;
