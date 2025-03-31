@@ -3,7 +3,7 @@ import citiesData from "../../../../data/data.json";
 import styles from "./page.module.css";
 import { useTranslations } from "next-intl";
 
-const CitiesPage = () => {
+export default function CitiesPage() {
   const t = useTranslations("Cities");
   const cities = citiesData.Cities;
 
@@ -21,6 +21,4 @@ const CitiesPage = () => {
       />
     </main>
   );
-};
-
-export default CitiesPage;
+}
