@@ -57,9 +57,10 @@ export default function MonumentContent({
       />
       {monumentData.monument_link ? (
         <div className={styles.monumentLink}>
+          <p className={`description`}>{tGlobal("MonumentLinkTitle")}</p>
+          <p className={`description`}>{tGlobal("MonumentLinkDescription")}</p>
           <p className={`description`}>
             {tGlobal.rich("MonumentLink", {
-              br: <br />,
               link: monumentData.monument_link,
               website: (chunks) => (
                 <a href={monumentData.monument_link}>{chunks}</a>

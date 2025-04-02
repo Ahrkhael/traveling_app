@@ -30,10 +30,10 @@ export default function DropdownMenuCitiesContent({ title, cities }) {
         {cities.map((city) => (
           <Link
             key={city.id}
-            href={`/${city.city}`}
+            href={`/${city.name}`}
             className={styles.dropdownLink}
           >
-            {city.city}
+            {city.name}
           </Link>
         ))}
       </div>

@@ -1,10 +1,10 @@
 import styles from "./page.module.css";
-import data from "../../../data/data.json";
+// import data from "../../../data/data.json";
 import Carousel from "../../components/carousel/Carousel";
 import TestimonySection from "../../components/testimonyList/TestimonySection";
 import { useTranslations } from "next-intl";
 
-const cities = data.Cities;
+// const cities = data.Cities;
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -21,7 +21,6 @@ export default function Home() {
       <Carousel
         title={t("CarrouselTitle")}
         titleDescription={t("CarrouselSubtitle")}
-        cities={cities}
       />
 
       <TestimonySection

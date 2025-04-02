@@ -2,9 +2,9 @@
   "Cities": [
     {
       "id": 1,
-      "city": "Madrid",
-      "image": "/images/madrid/madrid.jpg",
-      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsABUB8JbACdACp5VdU2yAA/UqnYkYnMCi5mAVkTz66nY0JKeEnksBbzWETDxgz4OP4mjD8eRKKCazZ4yLI4Nx0k4jtlbAgHlKlsw1Mx6rj9quiRuITlNLwAA==",
+      "name": "Madrid",
+      "image_url": "/images/madrid/madrid.jpg",
+      "blur_data_url": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsABUB8JbACdACp5VdU2yAA/UqnYkYnMCi5mAVkTz66nY0JKeEnksBbzWETDxgz4OP4mjD8eRKKCazZ4yLI4Nx0k4jtlbAgHlKlsw1Mx6rj9quiRuITlNLwAA==",
       "monuments": [
         {
           "id": 1,
@@ -60,9 +60,9 @@
     },
     {
       "id": 2,
-      "city": "Barcelona",
-      "image": "/images/barcelona/sagrada-familia.jpg",
-      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
+      "name": "Barcelona",
+      "image_url": "/images/barcelona/sagrada-familia.jpg",
+      "blur_data_url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
       "monuments": [
         {
           "id": 1,
@@ -122,9 +122,9 @@
     },
     {
       "id": 3,
-      "city": "Sevilla",
-      "image": "/images/sevilla/plaza-espana.jpg",
-      "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
+      "name": "Sevilla",
+      "image_url": "/images/sevilla/plaza-espana.jpg",
+      "blur_data_url": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA",
       "monuments": [
         {
           "id": 1,
@@ -164,9 +164,9 @@
     },
     {
       "id": 4,
-      "city": "Valencia",
-      "image": "/images/valencia/ciudad-de-las-artes.jpg",
-      "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
+      "name": "Valencia",
+      "image_url": "/images/valencia/ciudad-de-las-artes.jpg",
+      "blur_data_url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
       "monuments": [
         {
           "id": 1,

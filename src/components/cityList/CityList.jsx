@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Suspense } from "react";
 import styles from "./CityList.module.css";
 
-const CityList = ({
+export default function CityList({
   cities,
   listStyles,
   listItemStyles,
@@ -11,36 +11,33 @@ const CityList = ({
   titleStyles,
   descriptionStyles,
   t,
-}) => {
+}) {
   return (
     <ul className={listStyles}>
       {cities.map((city) => (
         <li key={city.id} className={listItemStyles}>
-          <Link href={`/${city.city}`} style={{ height: "100%" }}>
+          <Link href={`/${city.name}`} style={{ height: "100%" }}>
             <Suspense fallback="<p>Loading image...</p>">
               <div className={styles.imageWrapper}>
                 <Image
-                  src={city.image}
-                  alt={`Foto de la ciudad de ${city.city}`}
+                  src={city.image_url}
+                  alt={`Foto de la ciudad de ${city.name}`}
                   fill
                   placeholder="blur"
-                  blurDataURL={city.blurDataURL}
-                  sizes="(max-width: 768px) 100dvw, (max-width: 1200px) 28dvh, 28dvh"
+                  blurDataURL={city.blur_data_url}
+                  sizes="(max-width: 768px) 90dvw, (max-width: 1200px) 28dvh, 28dvh"
                   style={{ objectFit: "cover", borderRadius: "10px" }}
                   className={imgStyles}
                 />
               </div>
             </Suspense>
-            <h2 className={titleStyles}>{city.city}</h2>
+            <h2 className={titleStyles}>{city.name}</h2>
             <p className={descriptionStyles}>
-              {t(`${city.city}.shortDescription`) ||
-                "Una ciudad maravillosa para visitar."}
+              {t(`${city.name}.shortDescription`)}
             </p>
           </Link>
         </li>
       ))}
     </ul>
   );
-};
-
-export default CityList;
+}

@@ -205,7 +205,9 @@
     "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}",
     "CitiesPageTitle": "Elige tu próximo destino",
     "MonumentMapPopUp": "Aquí está {monument}",
-    "MonumentLink": "¿Quieres saber más acerca de este monumento?{br}Visita su web:{br}<website>{link}</website>"
+    "MonumentLinkTitle": "¿Quieres saber más acerca de este monumento?",
+    "MonumentLinkDescription": "Visita su web:",
+    "MonumentLink": "<website>{link}</website>"
   },
   "Testimonies": {
     "1": {
