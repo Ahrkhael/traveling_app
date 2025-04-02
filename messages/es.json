@@ -204,7 +204,8 @@
     "NoMonumentFound": "El monumento {monument} en la ciudad {city} no se ha encontrado",
     "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}",
     "CitiesPageTitle": "Elige tu próximo destino",
-    "MonumentMapPopUp": "Aquí está {monument}"
+    "MonumentMapPopUp": "Aquí está {monument}",
+    "MonumentLink": "¿Quieres saber más acerca de este monumento?{br}Visita su web:{br}<website>{link}</website>"
   },
   "Testimonies": {
     "1": {
@@ -283,5 +284,9 @@
     "UserRightsContact": "Para ejercer tus derechos, puedes contactarnos a través de: ",
     "PolicyChanges": "Cambios en nuestra Política",
     "PolicyChangesDescription": "Podemos actualizar esta Política de Privacidad ocasionalmente. Te recomendamos revisarla periódicamente para estar informado sobre cómo protegemos tu información."
+  },
+  "NotFoundLocalePage": {
+    "Title": "Página no encontrada",
+    "Description": "Por favor, navega a una página válida"
   }
 }
