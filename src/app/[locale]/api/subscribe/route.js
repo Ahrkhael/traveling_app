@@ -30,7 +30,7 @@ export async function POST(request) {
 
     // Mail information
     const mailOptions = {
-      from: `"Viajeros Sin Fronteras" <${process.env.NEXT_PUBLIC_SMTP_USER}>`,
+      from: `"Viajeros Sin Fronteras" <${process.env.SMTP_USER}>`,
       to: email,
       subject: t("Title"),
       html: t.markup("Message", { p: (chunks) => `<p>${chunks}</p>` }),
