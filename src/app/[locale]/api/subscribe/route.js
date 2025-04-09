@@ -19,12 +19,12 @@ export async function POST(request) {
 
     // Configure the SMTP with your env variables
     const transporter = nodemailer.createTransport({
-      host: process.env.NEXT_PUBLIC_SMTP_HOST,
-      port: Number(process.env.NEXT_PUBLIC_SMTP_PORT),
-      secure: Number(process.env.NEXT_PUBLIC_SMTP_PORT) === 465,
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT),
+      secure: Number(process.env.SMTP_PORT) === 465,
       auth: {
-        user: process.env.NEXT_PUBLIC_SMTP_USER,
-        pass: process.env.NEXT_PUBLIC_SMTP_PASS,
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     });
 
