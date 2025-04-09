@@ -12,13 +12,31 @@ export default function SubscribeForm() {
   // Expresión regular para validar el email
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/;
 
-  const handleSubscribe = (event) => {
+  const handleSubscribe = async (event) => {
     event.preventDefault();
     const emailInput = event.target.elements.email.value;
 
     if (emailRegex.test(emailInput)) {
       setModalMessage(t("ModalMessageSuccess"));
     } else {
+      setModalMessage(t("ModalMessageFail"));
+    }
+
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: emailInput }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setModalMessage(t("ModalMessageSuccess"));
+      } else {
+        setModalMessage(t("ModalMessageFail"));
+      }
+    } catch (error) {
       setModalMessage(t("ModalMessageFail"));
     }
 
