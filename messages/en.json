@@ -288,5 +288,9 @@
   "NotFoundLocalePage": {
     "Title": "Page not found",
     "Description": "Please, navigate to an existing page"
+  },
+  "Mail": {
+    "Title": "Thanks for subscribing",
+    "Message": "<p>Welcome to Viajeros Sin Fronteras</p><p>If you are reading this, I can only thank you your interest and time testing my application but I have to disappoint you because you will not recieve any other email from this website (and also do not worry, I will not keep any information about you, I just wanted to add this feature to my app, that's all)</p><p>Have a nice day,</p><p>Viajeros Sin Fronteras Team</p>"
   }
 }

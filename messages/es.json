@@ -288,5 +288,9 @@
   "NotFoundLocalePage": {
     "Title": "Página no encontrada",
     "Description": "Por favor, navega a una página válida"
+  },
+  "Mail": {
+    "Title": "Gracias por subscribirte",
+    "Message": "<p>Bienvenido a Viajeros Sin Fronteras.</p><p> Si has llegado hasta aquí, solo puedo agradecerte tu interés y tu tiempo probando mi aplicación pero lamento comunicarte que no vas a recibir ningún correo adicional aparte de este (y no te preocupes que tampoco estoy recopilando información de dichos correos, simplemente quería añadir esta funcionalidad a mi aplicación)</p><p>Espero que tengas un maravilloso día y un cordial saludo,</p><p>El equipo de Viajeros Sin Fronteras</p>"
   }
 }
