@@ -9,17 +9,17 @@ export default function SubscribeForm() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
 
-  // Expresión regular para validar el email
+  // Regex expresion to validate emails
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/;
 
   const handleSubscribe = async (event) => {
     event.preventDefault();
     const emailInput = event.target.elements.email.value;
 
-    if (emailRegex.test(emailInput)) {
-      setModalMessage(t("ModalMessageSuccess"));
-    } else {
+    if (!emailRegex.test(emailInput)) {
       setModalMessage(t("ModalMessageFail"));
+      setIsModalVisible(true);
+      return;
     }
 
     try {
