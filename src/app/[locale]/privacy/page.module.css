@@ -5,14 +5,9 @@
 
 .description {
   margin: 6px 10dvw;
+  user-select: none;
 }
 
 .description li {
   margin: 6px 15px;
-}
-
-@media (max-width: 768px) {
-  .title {
-    text-align: center;
-  }
 }

@@ -15,7 +15,7 @@ export default function TestimonyList({
       {keys.map((key) => (
         <li key={key} className={listItemStyles}>
           <h2 className={titleStyles}>{t(`${key}.author`)}</h2>
-          <p className={`${styles.description} descriptionStyles`}>
+          <p className={`${styles.description} ${descriptionStyles}`}>
             {t(`${key}.testimony`)}
           </p>
           <p className={styles.rateList}>{t(`${key}.score`)}</p>
