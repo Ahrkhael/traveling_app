@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className={styles.section}>
           <h4>{t("Contact")}</h4>
-          <p>mail@viajerossinfronteras.com</p>
+          <p>webviajerossinfronteras@gmail.com</p>
         </div>
 
         <SubscribeForm />

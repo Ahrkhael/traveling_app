@@ -21,6 +21,7 @@ export default function LangSelector() {
 
   // Supported languages
   const locales = ["en", "es"];
+  const flags = { en: "🇬🇧", es: "🇪🇸" };
 
   return (
     <div
@@ -38,7 +39,6 @@ export default function LangSelector() {
           <Link
             key={locale}
             href={`/${locale}${nonLocalizedPath}`}
-            locale={locale}
             className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
           >
             <span
@@ -46,6 +46,7 @@ export default function LangSelector() {
                 locale === currentLocale ? styles.disabledLink : undefined
               }
             >
+              <span className={styles.flag}>{flags[locale]}</span>
               {locale.toUpperCase()}
             </span>
           </Link>

@@ -1,0 +1,128 @@
+[
+  {
+    "city": "Madrid",
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsABUB8JbACdACp5VdU2yAA/UqnYkYnMCi5mAVkTz66nY0JKeEnksBbzWETDxgz4OP4mjD8eRKKCazZ4yLI4Nx0k4jtlbAgHlKlsw1Mx6rj9quiRuITlNLwAA=="
+  },
+  {
+    "city": "Madrid",
+    "monument": "Palacio real",
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA="
+  },
+  {
+    "city": "Madrid",
+    "monument": "Parque del retiro",
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAwABUB8JbACdAD1kF+jsWcAAPHoh+pSXD0dQhVnKXFQuCYsMqYZneDFov2W6pDVaxSpshtYwAAA"
+  },
+  {
+    "city": "Madrid",
+    "monument": "Puerta del Sol",
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsABUB8JbACdAD0JP/3FgAA/u7hqR/e8Nc23JNk/P26evcl3901S6mBWnHsVnfhqYhqtBMCTGilVMAAAA=="
+  },
+  {
+    "city": "Madrid",
+    "monument": "Plaza Mayor",
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAwABUB8JbACdAC9PDUl8YAAhot4eCKAqaqdyeimwl109gFmhb5Ot+Z5hmzN9Ei0AAAA"
+  },
+  {
+    "city": "Madrid",
+    "monument": "Museo del Prado",
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA"
+  },
+  {
+    "city": "Madrid",
+    "monument": "Gran Vía",
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAsABUB8JbACdABUyAAAyqO6UPWySPi42bzg9/G9EbzVDcPgr4g8s71938msO9inAkUEk5zqt/PDot807j9GSAA="
+  },
+  {
+    "city": "Barcelona",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA"
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Sagrada familia",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA"
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Catedral",
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA="
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Liceu",
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA=="
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Parc Güell",
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA="
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Casa Batllo",
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA=="
+  },
+  {
+    "city": "Barcelona",
+    "monument": "Parc Montjuic",
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA=="
+  },
+  {
+    "city": "Sevilla",
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA"
+  },
+  {
+    "city": "Sevilla",
+    "monument": "Giralda",
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA="
+  },
+  {
+    "city": "Sevilla",
+    "monument": "Alcázar",
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA="
+  },
+  {
+    "city": "Sevilla",
+    "monument": "Plaza de España",
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsABUB8JbACdIExEqgzpQAA/rXu7Uxji6VE9t4XCsEVmF1ibEmbURVbv3RyA098BBSuo49txwiiUqLo9gAA"
+  },
+  {
+    "city": "Sevilla",
+    "monument": "Barrio de Triana",
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAsABUB8JbACdAEPAfIseRqp+AD+wCDxRV9iwECbbbUe47+6+LE21S2mZG5DwNoSYUhJSPm3wGyXgAA="
+  },
+  {
+    "city": "Valencia",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA=="
+  },
+  {
+    "city": "Valencia",
+    "monument": "Ciudad de las Artes",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA=="
+  },
+  {
+    "city": "Valencia",
+    "monument": "Lonja de la Seda",
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAoABUB8JYgCdADyf26IAP7acdUaTtvKYLOLEmcIdrNDTGs2aJPBqkPBoiqIwA1lDyAsAAA="
+  },
+  {
+    "city": "Valencia",
+    "monument": "Torres de Serranos",
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdH8AFV6x9AAA96J+jBt1h5aW8lG3raSxQyXyoVxXbN20upEq2Z+Kk+S8ouUpgr42isU42uXau2MigKf2AAA="
+  },
+  {
+    "city": "Valencia",
+    "monument": "Torres de Quart",
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsABUB8JQBdgCPNTZrxMtAA/sns9T82F+NEpT2cULdY/HUPHPX53gmnWosomlJwx8usLQzJc38PpexffTXg8tR6gAAA"
+  },
+  {
+    "city": "Valencia",
+    "monument": "El Miguelete",
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA="
+  },
+  {
+    "city": "Valencia",
+    "monument": "Mercado Central",
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA=="
+  }
+]
