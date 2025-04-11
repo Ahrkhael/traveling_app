@@ -4,7 +4,9 @@
       "dev_branch": false,
       "feature/add_maps": false,
       "feature/add_i18n": false,
-      "feature/add_mails": false
+      "feature/add_mails": false,
+      "feature/styles": false,
+      "update_next": false
     }
   }
 }
