@@ -16,8 +16,8 @@ export async function generateStaticParams() {
 }
 
 async function fetchMonumentData(city, monument) {
-  const decodedCity = decodeURIComponent(city);
-  const decodedMonument = decodeURIComponent(monument);
+  const decodedCity = decodeURIComponent(city).toLowerCase();
+  const decodedMonument = decodeURIComponent(monument).toLowerCase();
 
   const cityData = data.Cities.find(
     (item) => item.city.toLowerCase() === decodedCity.toLowerCase()
@@ -41,7 +41,6 @@ export default async function MonumentPage({ params }) {
     <MonumentContent
       monumentData={monumentData}
       city={decodedCity}
-      monument={decodedMonument}
       styles={styles}
     />
   );

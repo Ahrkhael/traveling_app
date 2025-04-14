@@ -36,7 +36,7 @@
   },
   "Cities": {
     "MonumentsInCity": "Monumentos en {city}",
-    "Madrid": {
+    "madrid": {
       "id": 1,
       "city": "Madrid",
       "shortDescription": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios.",
@@ -80,7 +80,7 @@
         }
       }
     },
-    "Barcelona": {
+    "barcelona": {
       "id": 2,
       "city": "Barcelona",
       "shortDescription": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente.",
@@ -124,7 +124,7 @@
         }
       }
     },
-    "Sevilla": {
+    "sevilla": {
       "id": 3,
       "city": "Sevilla",
       "shortDescription": "\"Sevilla tiene un color especial\" o eso dicen Los Del Río, ciudad culturalmente muy rica por ser un centro histórico musulmán y cristiano, con unos monumentos que son un claro reflejo de ello.",
@@ -156,7 +156,7 @@
         }
       }
     },
-    "Valencia": {
+    "valencia": {
       "id": 4,
       "city": "Valencia",
       "shortDescription": "Históricamente conocida como \"La ciudad del Cid\", aún podemos visitar sus amplio patrimonio histórico y cultural medieval y moderno.",
@@ -205,7 +205,9 @@
     "MonumentImageAlt": "Foto del monumento {monument} en la ciudad {city}",
     "CitiesPageTitle": "Elige tu próximo destino",
     "MonumentMapPopUp": "Aquí está {monument}",
-    "MonumentLink": "¿Quieres saber más acerca de este monumento?{br}Visita su web:{br}<website>{link}</website>"
+    "MonumentLinkTitle": "¿Quieres saber más acerca de este monumento?",
+    "MonumentLinkDescription": "Visita su web:",
+    "MonumentLink": "<website>{link}</website>"
   },
   "Testimonies": {
     "1": {

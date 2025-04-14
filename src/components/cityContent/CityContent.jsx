@@ -17,11 +17,13 @@ export default function CityContent({ cityData, city, styles }) {
   return (
     <main className={`main ${styles.main}`}>
       <div className={styles.divCity}>
-        <h1 className="title">{city}</h1>
+        <h1 className="title">{t(`${city}.city`)}</h1>
         <h2 className={`description`}>{t(`${city}.longDescription`)}</h2>
       </div>
       <div className={styles.divMonuments}>
-        <h1 className="title">{t("MonumentsInCity", { city: city })}</h1>
+        <h1 className="title">
+          {t("MonumentsInCity", { city: t(`${city}.city`) })}
+        </h1>
         <MonumentList
           city={city}
           monuments={monuments}
