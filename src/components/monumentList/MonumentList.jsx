@@ -41,10 +41,10 @@ export default function MonumentList({
                 />
               </div>
               <h2 className={titleStyles}>
-                {t(`${monument.monument}.monument`)}
+                {t(`${monument.monument.toLowerCase()}.monument`)}
               </h2>
               <p className={descriptionStyles}>
-                {t(`${monument.monument}.shortDescription`)}
+                {t(`${monument.monument.toLowerCase()}.shortDescription`)}
               </p>
             </Suspense>
           </Link>{" "}
