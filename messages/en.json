@@ -36,7 +36,7 @@
   },
   "Cities": {
     "MonumentsInCity": "Monuments in {city}",
-    "Madrid": {
+    "madrid": {
       "id": 1,
       "city": "Madrid",
       "shortDescription": "With more than 3 million inhabitants and being the capital of Spain, it is possibly one of the most popular tourist destinations for our users.",
@@ -80,7 +80,7 @@
         }
       }
     },
-    "Barcelona": {
+    "barcelona": {
       "id": 2,
       "city": "Barcelona",
       "shortDescription": "Without a doubt, one of the best destinations to visit in Summer, with very diverse cultural events and a very open-minded city.",
@@ -124,7 +124,7 @@
         }
       }
     },
-    "Sevilla": {
+    "sevilla": {
       "id": 3,
       "city": "Sevilla",
       "shortDescription": "\"Sevilla has a special color\" or so say Los Del Río, a culturally very rich city for being a Muslim and Christian historic center, with monuments that are a clear reflection of this.",
@@ -156,7 +156,7 @@
         }
       }
     },
-    "Valencia": {
+    "valencia": {
       "id": 4,
       "city": "Valencia",
       "shortDescription": "Historically known as \"The City of El Cid\", we can still visit its extensive medieval and modern historical and cultural heritage.",
@@ -205,7 +205,9 @@
     "MonumentImageAlt": "Photo of the monument {monument} in the city {city}",
     "CitiesPageTitle": "Choose your next destination",
     "MonumentMapPopUp": "Here is {monument}",
-    "MonumentLink": "Do you want to know more about this monument?{br}Visit this website:{br}<website>{link}</website>"
+    "MonumentLinkTitle": "Do you want to know more about this monument?",
+    "MonumentLinkDescription": "Visit this website:",
+    "MonumentLink": "<website>{link}</website>"
   },
   "Testimonies": {
     "1": {

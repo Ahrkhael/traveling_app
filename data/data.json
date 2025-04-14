@@ -13,7 +13,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsABUB8JbACdACyU97KwAD9TDA/6129UzcpjNBtDEPCY+y2r0OpVi9pfHjREgDe3V1fLyFFIf/K/iBeWKCDorLSYO+BwzO0V4+g7RXWCxRPHXIzQ1zZYAA=",
           "latitude": 40.41833,
           "longitude": -3.71442,
-          "link": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
+          "monument_link": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
         },
         {
           "id": 2,
@@ -46,7 +46,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAsABUB8JbACdACpQhQAAPdM2oxB1J159tgzt5sTTgnGL3LATc0esRemE4njUiS8QhrWEp/cHDQA",
           "latitude": 40.41392,
           "longitude": -3.69213,
-          "link": "https://www.museodelprado.es/"
+          "monument_link": "https://www.museodelprado.es/"
         },
         {
           "id": 6,
@@ -71,7 +71,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsABUB8JbACdDiAATsc258jAAD6k9To9/jzTgUiiJaacTHTIydGmzXq94VD96IENpdm6rw82jnRNXp0Eidk4L55fEjW7Au/dzIlMgYiR9y0i9jQAAAA",
           "latitude": 41.40386,
           "longitude": 2.17429,
-          "link": "https://sagradafamilia.org/"
+          "monument_link": "https://sagradafamilia.org/"
         },
         {
           "id": 2,
@@ -80,7 +80,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAA0ABUB8JbACdAEO9KKYgAAA/s1Cs8Xu8j8e98Zv5Zq/MmLfdbkyw+2MXb9C/1213boeMfHB0NyVcTb9sLc0k0jlIAITEAA=",
           "latitude": 41.38409,
           "longitude": 2.17619,
-          "link": "https://catedralbcn.org/es/"
+          "monument_link": "https://catedralbcn.org/es/"
         },
         {
           "id": 3,
@@ -89,7 +89,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQAAkABUB8JbACdAC2mLHkAP6768fb5S8Kl4bFSHNj367GMMrhHmWBPcbzhzfzqvvoFaGRzO1aRQhXMDQAAA==",
           "latitude": 41.38033,
           "longitude": 2.17327,
-          "link": "https://www.liceubarcelona.cat/"
+          "monument_link": "https://www.liceubarcelona.cat/"
         },
         {
           "id": 4,
@@ -98,7 +98,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAsABUB8JaACdAEU1aDKYAD+xgMG6b/1NAO/qQNUYA5Fr1pwyYeJqsl/KX2xTmVd/Ky9IkuAfgSATKV4uIdkHpusWIKTKeDPGHsAAAA=",
           "latitude": 41.41475,
           "longitude": 2.15265,
-          "link": "https://parkguell.barcelona/es"
+          "monument_link": "https://parkguell.barcelona/es"
         },
         {
           "id": 5,
@@ -107,7 +107,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoQAAkABUB8JYwAAivkcoAA/t6+0+TuPEm3obJzk64NSNRHStTneEC9cAoAAA==",
           "latitude": 41.39186,
           "longitude": 2.16489,
-          "link": "https://www.casabatllo.es/"
+          "monument_link": "https://www.casabatllo.es/"
         },
         {
           "id": 6,
@@ -116,7 +116,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQAAsABUB8JbACdAEWP6UT58c0AAD+0G3Z1qeQ1csd03rwftOW6Z4WVkN/E5maZ/WvOGjxSH8AAA==",
           "latitude": 41.37016,
           "longitude": 2.16953,
-          "link": "https://www.barcelona.cat/es/que-hacer-en-bcn/parque-montjuic"
+          "monument_link": "https://www.barcelona.cat/es/que-hacer-en-bcn/parque-montjuic"
         }
       ]
     },
@@ -133,7 +133,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAwABUB8JbACdAEPCG5DV8FAAP7tRwCChP9k3Eu35DQXsld6DW2ZhdyOwUDyuh7wroAAAAA=",
           "latitude": 37.38635,
           "longitude": -5.99264,
-          "link": "https://www.catedraldesevilla.es/la-catedral/edificio/la-giralda/"
+          "monument_link": "https://www.catedraldesevilla.es/la-catedral/edificio/la-giralda/"
         },
         {
           "id": 2,
@@ -142,7 +142,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAsABUB8JaACdADViegAAP7kQd4vFVvsUynOgt6wD3rOkNwbhTbS/FHn44Qzwyw1mXRU7KWKRM1wMZZMDwqigAA=",
           "latitude": 37.38327,
           "longitude": -5.99023,
-          "link": "https://alcazarsevilla.org/"
+          "monument_link": "https://alcazarsevilla.org/"
         },
         {
           "id": 3,
@@ -175,7 +175,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAgCdASoQAAsABUB8JbACdGuAAtCKitIFfUwAAPYsVeP9/qYj+ZAiIHwe6wvcYkytDRiMbJQzaNgRZof4OIE9KIfWmmPjfzn31IzmQxjl+nQY0CgAAA==",
           "latitude": 39.45503,
           "longitude": -0.35045,
-          "link": "https://tickets.cac.es/internetCAC/home.do?language=es"
+          "monument_link": "https://tickets.cac.es/internetCAC/home.do?language=es"
         },
         {
           "id": 2,
@@ -208,7 +208,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAsABUB8JagCdADwgEVQkAD6bzIEdVefgn2f/piqRl04595hUolxzEosqTwAAAA=",
           "latitude": 39.47546,
           "longitude": -0.37563,
-          "link": "https://catedraldevalencia.es/el-miguelete/"
+          "monument_link": "https://catedraldevalencia.es/el-miguelete/"
         },
         {
           "id": 6,
@@ -217,7 +217,7 @@
           "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAoABUB8JagCdABsUkgAAP7N8RoJE2GYJHTQlYaIj03IP8qNA2KakcYe4Pdf9I/UoUwk1t6VWJ1b7US7Fb+82MAAAA==",
           "latitude": 39.47363,
           "longitude": -0.37905,
-          "link": "https://www.mercadocentralvalencia.es/"
+          "monument_link": "https://www.mercadocentralvalencia.es/"
         }
       ]
     }
