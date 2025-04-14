@@ -33,7 +33,7 @@ const CityList = ({
             </Suspense>
             <h2 className={titleStyles}>{city.city}</h2>
             <p className={descriptionStyles}>
-              {t(`${city.city}.shortDescription`) ||
+              {t(`${city.city.toLowerCase()}.shortDescription`) ||
                 "Una ciudad maravillosa para visitar."}
             </p>
           </Link>

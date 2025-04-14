@@ -4,12 +4,8 @@ import styleImage from "./MonumentContent.module.css";
 import Image from "next/image";
 import MapWrapper from "../map/Map.jsx";
 
-export default function MonumentContent({
-  monumentData,
-  city,
-  monument,
-  styles,
-}) {
+export default function MonumentContent({ monumentData, city, styles }) {
+  const monument = monumentData.monument;
   const tGlobal = useTranslations("Cities");
   const tMonument = useTranslations(
     monumentData ? `Cities.${city}.monuments.${monument}` : "Cities"
@@ -47,7 +43,7 @@ export default function MonumentContent({
           />
         </div>
       </Suspense>
-      <h1 className="title">{tMonument("monument")}</h1>
+      <h1 className="title">{monument}</h1>
       <p className={`description ${styles.monumentDescription}`}>
         {tMonument("longDescription")}
       </p>
@@ -55,13 +51,16 @@ export default function MonumentContent({
         position={[monumentData.latitude, monumentData.longitude]}
         name={monumentData.monument}
       />
-      {monumentData.link ? (
+      {monumentData.monument_link ? (
         <div className={styles.monumentLink}>
+          <p className={`description`}>{tGlobal("MonumentLinkTitle")}</p>
+          <p className={`description`}>{tGlobal("MonumentLinkDescription")}</p>
           <p className={`description`}>
             {tGlobal.rich("MonumentLink", {
-              br: <br />,
-              link: monumentData.link,
-              website: (chunks) => <a href={monumentData.link}>{chunks}</a>,
+              link: monumentData.monument_link,
+              website: (chunks) => (
+                <a href={monumentData.monument_link}>{chunks}</a>
+              ),
             })}
           </p>
         </div>

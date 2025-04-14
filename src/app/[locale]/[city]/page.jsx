@@ -14,9 +14,11 @@ export async function generateStaticParams() {
 
 // Función para obtener los datos de la ciudad en el servidor
 async function fetchCityData(city) {
-  const decodedCity = decodeURIComponent(city);
+  const decodedCity = decodeURIComponent(city).toLowerCase();
 
-  const cityData = data.Cities.find((item) => item.city === decodedCity);
+  const cityData = data.Cities.find(
+    (item) => item.city.toLowerCase() === decodedCity
+  );
 
   return { cityData, decodedCity };
 }
