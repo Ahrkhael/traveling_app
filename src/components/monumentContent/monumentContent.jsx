@@ -4,11 +4,17 @@ import styleImage from "./MonumentContent.module.css";
 import Image from "next/image";
 import MapWrapper from "../map/Map.jsx";
 
-export default function MonumentContent({ monumentData, city, styles }) {
-  const monument = monumentData.monument;
+export default function MonumentContent({
+  monumentData,
+  city,
+  decodedMonument,
+  styles,
+}) {
   const tGlobal = useTranslations("Cities");
   const tMonument = useTranslations(
-    monumentData ? `Cities.${city}.monuments.${monument}` : "Cities"
+    monumentData
+      ? `Cities.${city.toLowerCase()}.monuments.${monumentData.monument.toLowerCase()}`
+      : "Cities"
   );
 
   if (!monumentData) {
@@ -16,13 +22,15 @@ export default function MonumentContent({ monumentData, city, styles }) {
       <main className="main">
         <p className="description">
           {tGlobal("NoMonumentFound", {
-            monument: monument,
+            monument: decodedMonument,
             city: city,
           })}
         </p>
       </main>
     );
   }
+
+  const monument = monumentData.monument;
 
   return (
     <main className={`main ${styles.main}`}>
