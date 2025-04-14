@@ -51,7 +51,7 @@ export default function MonumentContent({
           />
         </div>
       </Suspense>
-      <h1 className="title">{monument}</h1>
+      <h1 className="title">{tMonument(`monument`)}</h1>
       <p className={`description ${styles.monumentDescription}`}>
         {tMonument("longDescription")}
       </p>
