@@ -1,7 +1,7 @@
 .dropdown {
   display: flex;
   position: relative;
-  width: 60px;
+  width: 80px;
   height: 100%;
 }
 
@@ -20,7 +20,7 @@
   background-color: rgb(var(--background-navbar-rgb));
   position: absolute;
   top: 100%;
-  width: 60px;
+  width: 80px;
   transform: translateY(-10%);
   opacity: 0;
   visibility: hidden;
@@ -42,7 +42,7 @@
 
 .dropdownLink {
   display: block;
-  padding: 1rem;
+  padding: 1rem 0;
   font-weight: bold;
   color: var(--font-color-secondary);
   text-align: center;
@@ -54,6 +54,10 @@
 .dropdownLink:hover {
   background-color: rgb(var(--background-navbar-hover-rgb));
   color: var(--font-color-menu-secondary);
+}
+
+.flag {
+  margin-right: 7px;
 }
 
 .disabledLink {

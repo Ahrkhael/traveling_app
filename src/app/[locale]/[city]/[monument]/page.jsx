@@ -41,7 +41,7 @@ export default async function MonumentPage({ params }) {
     <MonumentContent
       monumentData={monumentData}
       city={decodedCity}
-      monument={decodedMonument}
+      decodedMonument={decodedMonument}
       styles={styles}
     />
   );

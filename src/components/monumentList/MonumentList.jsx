@@ -21,7 +21,7 @@ export default function MonumentList({
       {monuments.map((monument) => (
         <li key={monument.id} className={listItemStyles}>
           <Link
-            href={`/${city}/${monument.monument}`}
+            href={`/${tGlobal(`${city}.city`)}/${monument.monument}`}
             style={{ height: "100%" }}
           >
             <Suspense>
@@ -30,7 +30,7 @@ export default function MonumentList({
                   src={monument.image}
                   alt={tGlobal("MonumentImageAlt", {
                     monument: monument.monument,
-                    city: city,
+                    city: tGlobal(`${city}.city`),
                   })}
                   fill
                   placeholder="blur"
@@ -41,10 +41,10 @@ export default function MonumentList({
                 />
               </div>
               <h2 className={titleStyles}>
-                {t(`${monument.monument}.monument`)}
+                {t(`${monument.monument.toLowerCase()}.monument`)}
               </h2>
               <p className={descriptionStyles}>
-                {t(`${monument.monument}.shortDescription`)}
+                {t(`${monument.monument.toLowerCase()}.shortDescription`)}
               </p>
             </Suspense>
           </Link>{" "}
