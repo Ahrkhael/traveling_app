@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 import styles from "./MonumentList.module.css";
 
+// Prueba
 export default function MonumentList({
   city,
   monuments,
