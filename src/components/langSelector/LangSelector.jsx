@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./LangSelector.module.css";
 import useDropdown from "../../hooks/useDropdown";
 import { usePathname } from "next/navigation";
@@ -21,7 +22,7 @@ export default function LangSelector() {
 
   // Supported languages
   const locales = ["en", "es"];
-  const flags = { en: "🇬🇧", es: "🇪🇸" };
+  const flags = { en: "flags/en.svg", es: "flags/es.svg" };
 
   return (
     <div
@@ -41,14 +42,20 @@ export default function LangSelector() {
             href={`/${locale}${nonLocalizedPath}`}
             className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
           >
-            <span
-              className={
-                locale === currentLocale ? styles.disabledLink : undefined
-              }
-            >
-              <span className={styles.flag}>{flags[locale]}</span>
-              {locale.toUpperCase()}
-            </span>
+            <div className={styles.flag}>
+              <Image
+                src={flags[locale]}
+                alt={locale}
+                fill
+                className={
+                  locale === currentLocale
+                    ? styles.disabledLink
+                    : styles.enabledLink
+                }
+                sizes="20px"
+              />
+            </div>
+            {locale.toUpperCase()}
           </Link>
         ))}
       </div>
