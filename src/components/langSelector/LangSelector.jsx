@@ -22,7 +22,7 @@ export default function LangSelector() {
 
   // Supported languages
   const locales = ["en", "es"];
-  const flags = { en: "flags/en.svg", es: "flags/es.svg" };
+  const flags = { en: "/flags/en.svg", es: "/flags/es.svg" };
 
   return (
     <div
