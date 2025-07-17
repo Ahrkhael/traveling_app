@@ -41,6 +41,7 @@ export default function LangSelector() {
             key={locale}
             href={`/${locale}${nonLocalizedPath}`}
             className={`${styles.dropdownLink} ${locale === currentLocale ? styles.disabledLink : ""}`}
+            scroll={false}
           >
             <div className={styles.flag}>
               <Image
