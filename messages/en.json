@@ -22,6 +22,10 @@
       "Accept": "Accept"
     }
   },
+  "Metadata": {
+    "Title": "Viajeros Sin Fronteras",
+    "Description": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations."
+  },
   "HomePage": {
     "WelcomeTitle": "Welcome to Travelers without borders",
     "WelcomeDescription": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations. Here we connect you with vibrant cities, historic monuments, and natural wonders waiting to be explored. Whether you're an adventurer looking for new experiences or a curious person wanting to see unique corners of the planet, this is your gateway to the trip of your dreams. Get ready to get inspired, plan and explore without limits!",
