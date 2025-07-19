@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="main">
       <div className={styles.div}>
-        <h2 className="title">{t("WelcomeTitle")}</h2>
+        <h1 className="title">{t("WelcomeTitle")}</h1>
         <p className={`description ${styles.description}`}>
           {t("WelcomeDescription")}
         </p>
