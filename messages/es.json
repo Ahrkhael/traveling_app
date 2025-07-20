@@ -24,7 +24,119 @@
   },
   "Metadata": {
     "Title": "Viajeros Sin Fronteras",
-    "Description": "Tu web de viajes de confianza. Explora el mundo desde la comodidad de tu pantalla y descubre destinos inolvidables."
+    "Description": "Tu web de viajes de confianza. Explora el mundo desde la comodidad de tu pantalla y descubre destinos inolvidables.",
+    "AboutTitle": "Sobre Nosotros",
+    "AboutDescription": "Conoce nuestro propósito y nuestra filosofía y aprende de la experiencia de otros usuarios al utilizar nuestra web.",
+    "CitiesTitle": "Ciudades",
+    "CitiesDescription": "Descubre las ciudades más visitadas por nuestros usuarios y no te pierdas sus maravillosos monumentos.",
+    "Cities": {
+      "Madrid": {
+        "Name": "Madrid",
+        "Description": "Con más de 3 millones de habitantes y siendo la capital de España es, posiblemente, uno de los destinos turísticos más demandados por nuestros usuarios."
+      },
+      "Barcelona": {
+        "Name": "Barcelona",
+        "Description": "Sin duda, uno de los mejores destinos para visitar en Verano, con eventos culturales muy diversos y una ciudad muy abierta de mente."
+      },
+      "Sevilla": {
+        "Name": "Sevilla",
+        "Description": "\"Sevilla tiene un color especial\" o eso dicen Los Del Río, ciudad culturalmente muy rica por ser un centro histórico musulmán y cristiano, con unos monumentos que son un claro reflejo de ello."
+      },
+      "Valencia": {
+        "Name": "Valencia",
+        "Description": "Históricamente conocida como \"La ciudad del Cid\", aún podemos visitar sus amplio patrimonio histórico y cultural medieval y moderno."
+      }
+    },
+    "Monuments": {
+      "Palacio real": {
+        "Name": "Palacio Real",
+        "Description": "Residencia oficial del Rey de España y utilizado para ceremonias de Estado y actos solemnes, es el palacio real más grande de Europa Occidental y uno de los más grandes del mundo."
+      },
+      "Parque del retiro": {
+        "Name": "Parque del Retiro",
+        "Description": "Jardín histórico considerado una de las principales atracciones turísticas de la ciudad por sus figuras arquitectónicas y paisajísticas desde el Siglo XVII al Siglo XXI."
+      },
+      "Puerta del Sol": {
+        "Name": "Puerta del Sol",
+        "Description": "La Puerta del Sol es el corazón de Madrid y uno de los puntos más emblemáticos de la ciudad, famosa por albergar el \"kilómetro 0\" de las carreteras españolas."
+      },
+      "Plaza Mayor": {
+        "Name": "Plaza Mayor",
+        "Description": "La Plaza Mayor es una de las plazas más históricas de Madrid, conocida por su arquitectura de estilo herreriano y por haber sido escenario de importantes eventos a lo largo de los siglos."
+      },
+      "Museo del Prado": {
+        "Name": "Museo del Prado",
+        "Description": "El Museo del Prado es uno de los museos más importantes del mundo, conocido por su vasta colección de arte europeo, que incluye obras maestras de Goya, Velázquez y El Greco."
+      },
+      "Gran Vía": {
+        "Name": "Gran Vía",
+        "Description": "La Gran Vía es una de las principales avenidas comerciales y de ocio de Madrid, conocida por su animada vida nocturna, teatros y tiendas."
+      },
+      "Sagrada familia": {
+        "Name": "Sagrada Familia",
+        "Description": "Basílica católica diseñada por el arquitecto Antoni Gaudí, cuya construcción se inició en 1882 y, a día de hoy, sigue en proceso. Es considerada una obra maestra y un exponente de la arquitectura modernista catalana."
+      },
+      "Catedral": {
+        "Name": "Catedral Barcelona",
+        "Description": "Catedral de estilo gótico sede de la archidiócesis de Barcelona, dedicada a la Santa Cruz y a Santa Eulalia, patrona de la ciudad de Barcelona y que cuenta con un claustro en el que viven trece ocas blancas."
+      },
+      "Liceu": {
+        "Name": "Liceu",
+        "Description": "Situado en La Rambla, es el teatro de opera en activo más antiguo de la ciudad y desde 1847 hasta 1989 ha sido el más grande de Europa por capacidad."
+      },
+      "Parc Güell": {
+        "Name": "Parc Güell",
+        "Description": "Parque público con jardines y elementos arquitectónicos situado en la parte superior de la ciudad, en las estribaciones de la sierra de Collserola."
+      },
+      "Casa Batllo": {
+        "Name": "Casa Batllo",
+        "Description": "Obra del arquitecto Antoni Gaudí, se trata de una remodelación integral de un edificio previamente existente en el Solar. Reflejo de la plenitud artística de su autor, ofrece nuevas soluciones estructurales de la geometría reglada."
+      },
+      "Parc Montjuic": {
+        "Name": "Parc Montjuic",
+        "Description": "Parque situado en la montaña de Montjuic, con una superficie de 5,2 hectáreas, cuenta con diversas zonas de juegos infantiles y equipación lúdica, así como una variada colección de esculturas repartidas entre sus terrenos."
+      },
+      "Giralda": {
+        "Name": "Giralda",
+        "Description": "Siendo la torre campanario de la catedral de Sevilla, es uno de los monumentos más emblemáticos de la ciudad. La parte inferior corresponde al alminar de la antigua mezquita y la superior pertenece a una construcción de época cristiana, siendo así una mezcla entre ambas religiones y culturas que es representativo del espíritu de la ciudad."
+      },
+      "Alcázar": {
+        "Name": "Alcázar",
+        "Description": "Conjunto palaciego amurallado construido en diferentes etapas históricas, combinando arte islámico, mudéjar, gótico, renacentista, manierista y barroco. Es la residencia de la familia real española cuando visitan Sevilla, siendo así, el palacio real en uso más antiguo de Europa y uno de los monumentos más visitados de la ciudad."
+      },
+      "Plaza de España": {
+        "Name": "Plaza de España",
+        "Description": "Ubicado en el precioso parque de María Luisa, este conjunto arquitectónico es la construcción más grande de la exposición Iberoamericana de 1929 y está decorada con cuarenta y ocho bancos dedicados a las provincias españolas."
+      },
+      "Barrio de Triana": {
+        "Name": "Barrio de Triana",
+        "Description": "Según la mitología, la diosa Astarté, huyendo de la persecución amorosa de Hércules, fundador mitológico de la ciudad de Sevilla, fue a refugiarse a la orilla occidental del Guadalquivir fundando así, este famoso barrio."
+      },
+      "Ciudad de las Artes": {
+        "Name": "Ciudad de las Artes",
+        "Description": "Complejo arquitectónico, cultural y de entretenimiento de la ciudad, cuenta con una gran variedad de edificios entre los que cabe destacar el Hemisfèric, el Museu de les Ciències y el Oceanográfico, cada uno con una arquitectura peculiar y en cuyo interior os espera una gran cantidad de conocimiento."
+      },
+      "Lonja de la Seda": {
+        "Name": "Lonja de la Seda",
+        "Description": "Situada en el centro histórico de la ciudad, es una obra del gótico civil valenciano, declarada en 1996 por la UNESCO como Patromonio de la Humanidad."
+      },
+      "Torres de Serranos": {
+        "Name": "Torres de Serranos",
+        "Description": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres poligonales unidas por un cuerpo central, donde se abre la puerta propiamente dicha y rematada en arco de medio punto."
+      },
+      "Torres de Quart": {
+        "Name": "Torres de Quart",
+        "Description": "Perteneciendo a una de las dos puertas fortificadas de la muralla medieval de Valencia, consta de dos torres semicilíndricas unidas por un cuerpo central, donde se abre la puerta propiamente dicha, con forma de arco de medio punto."
+      },
+      "El Miguelete": {
+        "Name": "Miguelete",
+        "Description": "De estilo gótico valenciano, el Miguelete (o Torre del Micalet en valenciano), es la torre campanario de la catedral de Valencia. Tiene 51 metros de altura hasta la terraza, que son los mismos metros que tiene de perímetro y 63 metros de altura en total."
+      },
+      "Mercado Central": {
+        "Name": "Mercado Central",
+        "Description": "Ubicado en la plaza Ciudad de Brujas, está considerado como una de las obras maestras del modernismo valenciano. Cuenta con 1200 puestos alimenticios y lleva abasteciendo a la población valenciana desde hace casi un siglo."
+      }
+    }
   },
   "HomePage": {
     "WelcomeTitle": "Bienvenidos a la web de Viajeros sin fronteras",
