@@ -23,8 +23,120 @@
     }
   },
   "Metadata": {
-    "Title": "Viajeros Sin Fronteras",
-    "Description": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations."
+    "Title": "Travelers Without Borders",
+    "Description": "Your trusted travel website. Explore the world from the comfort of your screen and discover unforgettable destinations.",
+    "AboutTitle": "About",
+    "AboutDescription": "Learn about our purpose and philosophy and also learn from other users' experiences using our website.",
+    "CitiesTitle": "Cities",
+    "CitiesDescription": "Discover the cities most visited by our users and don't miss their wonderful monuments.",
+    "Cities": {
+      "Madrid": {
+        "Name": "Madrid",
+        "Description": "With more than 3 million inhabitants and being the capital of Spain, it is possibly one of the most popular tourist destinations for our users."
+      },
+      "Barcelona": {
+        "Name": "Barcelona",
+        "Description": "Without a doubt, one of the best destinations to visit in Summer, with very diverse cultural events and a very open-minded city."
+      },
+      "Sevilla": {
+        "Name": "Sevilla",
+        "Description": "\"Sevilla has a special color\" or so say Los Del Río, a culturally very rich city for being a Muslim and Christian historic center, with monuments that are a clear reflection of this."
+      },
+      "Valencia": {
+        "Name": "Valencia",
+        "Description": "Historically known as \"The City of El Cid\", we can still visit its extensive medieval and modern historical and cultural heritage."
+      }
+    },
+    "Monuments": {
+      "Palacio real": {
+        "Name": "Royal Palace",
+        "Description": "The official residence of the King of Spain and used for state ceremonies and solemn acts, it is the largest royal palace in Western Europe and one of the largest in the world."
+      },
+      "Parque del retiro": {
+        "Name": "Retiro Park",
+        "Description": "Historic garden considered one of the main tourist attractions of the city for its architectural and landscape figures from the seventeenth to the twenty-first century."
+      },
+      "Puerta del Sol": {
+        "Name": "Puerta del Sol",
+        "Description": "The Puerta del Sol is the heart of Madrid and one of the most emblematic points of the city, famous for being home to the \"kilometre 0\" of Spanish roads."
+      },
+      "Plaza Mayor": {
+        "Name": "Plaza Mayor",
+        "Description": "The Plaza Mayor is one of the most historic squares in Madrid, known for its Herrerian-style architecture and for having been the scene of important events over the centuries."
+      },
+      "Museo del Prado": {
+        "Name": "Prado Museum",
+        "Description": "The Prado Museum is one of the most important museums in the world, known for its vast collection of European art, including masterpieces by Goya, Velázquez, and El Greco."
+      },
+      "Gran Vía": {
+        "Name": "Gran Vía",
+        "Description": "Gran Vía is one of Madrid's main shopping and entertainment avenues, known for its lively nightlife, theaters, and shops."
+      },
+      "Sagrada familia": {
+        "Name": "Sagrada Familia",
+        "Description": "Catholic Basilica designed by the architect Antoni Gaudí, whose construction began in 1882 and, to this day, is still in process. It is considered a masterpiece and an exponent of Catalan modernist architecture."
+      },
+      "Catedral": {
+        "Name": "Cathedral Barcelona",
+        "Description": "Gothic-style cathedral seat of the Archdiocese of Barcelona, dedicated to the Holy Cross and Saint Eulalia, patron saint of the city of Barcelona and which has a cloister in which thirteen white geese live."
+      },
+      "Liceu": {
+        "Name": "Liceu",
+        "Description": "Located on La Rambla, it is the oldest active opera house in the city and from 1847 to 1989 it was the largest in Europe by capacity."
+      },
+      "Parc Güell": {
+        "Name": "Parc Güell",
+        "Description": "Public park with gardens and architectural elements located in the upper part of the city, in the foothills of the Collserola mountain range."
+      },
+      "Casa Batllo": {
+        "Name": "Casa Batllo",
+        "Description": "The work of the architect Antoni Gaudí, it is a comprehensive remodelling of a previously existing building on the Solar. A reflection of the artistic plenitude of its author, it offers new structural solutions for regulated geometry."
+      },
+      "Parc Montjuic": {
+        "Name": "Parc Montjuic",
+        "Description": "A park located on the mountain of Montjuic, with an area of 5.2 hectares, it has various children's play areas and recreational equipment, as well as a varied collection of sculptures spread over its grounds."
+      },
+      "Giralda": {
+        "Name": "Giralda",
+        "Description": "Being the bell tower of Seville Cathedral, it is one of the most emblematic monuments of the city. The lower part corresponds to the minaret of the old mosque and the upper part belongs to a construction from the Christian period, thus being a mixture between both religions and cultures that is representative of the spirit of the city."
+      },
+      "Alcázar": {
+        "Name": "Alcázar",
+        "Description": "Walled palace complex built in different historical periods, combining Islamic, Mudejar, Gothic, Renaissance, Mannerist and Baroque art. It is the residence of the Spanish royal family when they visit Seville, being the oldest royal palace in use in Europe and one of the most visited monuments in the city."
+      },
+      "Plaza de España": {
+        "Name": "Plaza de España",
+        "Description": "Located in the beautiful María Luisa Park, this architectural complex is the largest construction of the Ibero-American Exhibition of 1929 and is decorated with forty-eight benches dedicated to the Spanish provinces."
+      },
+      "Barrio de Triana": {
+        "Name": "Barrio de Triana",
+        "Description": "According to mythology, the goddess Astarte, fleeing from the amorous persecution of Hercules, mythological founder of the city of Seville, went to take refuge on the western bank of the Guadalquivir, thus founding this famous neighborhood."
+      },
+      "Ciudad de las Artes": {
+        "Name": "Ciudad de las Artes",
+        "Description": "An architectural, cultural and entertainment complex of the city, it has a wide variety of buildings including the Hemisfèric, the Museu de les Ciències and the Oceanográfico, each with a peculiar architecture and inside which a great deal of knowledge awaits you."
+      },
+      "Lonja de la Seda": {
+        "Name": "Lonja de la Seda",
+        "Description": "Located in the historic centre of the city, it is a work of Valencian civil Gothic, declared in 1996 by UNESCO as a Heritage of Humanity."
+      },
+      "Torres de Serranos": {
+        "Name": "Torres de Serranos",
+        "Description": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two polygonal towers joined by a central body, where the gate itself opens and is topped with a semicircular arch."
+      },
+      "Torres de Quart": {
+        "Name": "Torres de Quart",
+        "Description": "Belonging to one of the two fortified gates of the medieval wall of Valencia, it consists of two semi-cylindrical towers joined by a central body, where the gate itself opens, in the shape of a semicircular arch."
+      },
+      "El Miguelete": {
+        "Name": "Miguelete",
+        "Description": "In Valencian Gothic style, the Miguelete (or Torre del Micalet in Valencian), is the bell tower of the cathedral of Valencia. It is 51 meters high up to the terrace, which is the same meters as its perimeter and 63 meters high in total."
+      },
+      "Mercado Central": {
+        "Name": "Mercado Central",
+        "Description": "Located in the City of Bruges square, it is considered one of the masterpieces of Valencian modernism. It has 1200 food stalls and has been supplying the Valencian population for almost a century."
+      }
+    }
   },
   "HomePage": {
     "WelcomeTitle": "Welcome to Travelers without borders",
