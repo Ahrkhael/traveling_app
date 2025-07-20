@@ -9,8 +9,8 @@ export async function generateStaticParams() {
   return ["en", "es"].map((locale) => ({ locale }));
 }
 
-export async function generateMetadata(params) {
-  const locale = (await params).locale;
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
 
   const t = await getTranslations({
     locale: locale,
